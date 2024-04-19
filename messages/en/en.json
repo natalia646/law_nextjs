@@ -1,4 +1,11 @@
 {
+    "Header": {
+        "about": "About Us",
+        "seveces": "Serveces",
+        "cases": "Cases",
+        "contacts": "Conntacts",
+        "news": "News"
+    },
     "Index": {
         "title": "Let's make your business better together with us"
     },
