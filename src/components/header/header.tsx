@@ -1,6 +1,6 @@
 import { useTranslations, useMessages } from "next-intl";
 import { Link } from "@/navigation";
-// import LangSwitcher from "./local";
+import LangSwitcher from "./local";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -12,7 +12,7 @@ export default function Header() {
       {keys.map((link, i) => (
         <Link href={`/${link}`} key={i}>{t(`${link}`)}</Link>
       ))}
-      {/* <LangSwitcher/> */}
+      <LangSwitcher/>
     </header>
   );
 }
