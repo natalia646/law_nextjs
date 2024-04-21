@@ -1,10 +1,10 @@
 {
     "Team": {
         "id": 0,
-        "name": "Iryna",
+        "name": "Іра",
         "image": "",
         "description" : {
-            "position": "Progect Menager"
+            "position": "Керівник Проекту"
         }
     }
 }

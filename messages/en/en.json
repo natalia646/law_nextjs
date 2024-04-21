@@ -1,0 +1,15 @@
+{
+    "Header": {
+        "about": "About Us",
+        "services": "Services",
+        "cases": "Cases",
+        "contacts": "Conntacts",
+        "news": "News"
+    },
+    "Index": {
+        "title": "Let's make your business better together with us"
+    },
+    "About": {
+        "title": "We are an innovative company that promotes business development"
+    }
+}
