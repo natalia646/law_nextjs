@@ -1,12 +1,18 @@
-import { useMessages } from "next-intl";
+import ServicesMessages from "@/components/servises/servicesMessages";
+import { Link } from "@/navigation";
+import styled from "./services.module.css";
+import { ServicesInterface } from "@/components/servises/servicesMessages";
 
 export default function Services() {
-  const message = useMessages();
-  const services = Object.values(message.Services);
+  const services = ServicesMessages();
 
   return (
-    <ul>
-      serv
-    </ul>
+    <nav className={styled.links}>
+      {services.map((item :any) => (
+        <Link href={`/services/${item.id}`} key={item.id}>
+          {item.title}
+        </Link>
+      ))}
+    </nav>
   );
 }
