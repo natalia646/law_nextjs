@@ -1,71 +1,71 @@
 {
     "Services": [
         {
-            "id": "01",
+            "id": 0,
             "title": "Legal support for business owners"
         },
         {
-            "id": "02",
+            "id": 1,
             "title": "Contract drafting of agreements between shareholders, joint ventures, and transaction support, including based on English law."
         },
         {
-            "id": "03",
+            "id": 2,
             "title": "Protection of client interests in corporate conflicts"
         },
         {
-            "id": "04",
+            "id": 3,
             "title": "Business restructuring support. Acquisition of companies, assets. M&A"
         },
         {
-            "id": "05",
+            "id": 4,
             "title": "Legal support for protecting business owner's rights"
         },
         {
-            "id": "06",
+            "id": 5,
             "title": "Real estate transactions abroad support"
         },
         {
-            "id": "07",
+            "id": 6,
             "title": "Legal due diligence of companies"
         },
         {
-            "id": "08",
+            "id": 7,
             "title": "FinTech and investment companies"
         },
         {
-            "id": "09",
+            "id": 8,
             "title": "Opening bank accounts, company registration: the UK, Cyprus, UAE"
         },
         {
-            "id": "10",
+            "id": 9,
             "title": "Tax disputes in Cyprus"
         },
         {
-            "id": "11",
+            "id": 10,
             "title": "IT project support"
         },
         {
-            "id": "12",
+            "id": 11,
             "title": "Project development"
         },
         {
-            "id": "13",
+            "id": 12,
             "title": "Project management"
         },
         {
-            "id": "14",
+            "id": 13,
             "title": "Legal assistance"
         },
         {
-            "id": "15",
+            "id": 14,
             "title": "Financial analysis and business planning"
         },
         {
-            "id": "16",
+            "id": 15,
             "title": "Marketing research"
         },
         {
-            "id": "17",
+            "id": 16,
             "title": "Support for startups in Cyprus"
         }
     ]
