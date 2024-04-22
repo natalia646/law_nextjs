@@ -1,13 +1,10 @@
-import ServicesMessages from "@/components/servises/servicesMessages"
+import getServeresList from "@/functions/getServercesList";
 
-export default function SpecificService({ params }: { params: { id: number } }) {
-
-  const services = ServicesMessages()
-  const service = services.find((item : any) => item.id === params.id)
-
-  return (
-    <div>
-
-    </div>
-  )
+export default function SpecificServicePage({
+  params,
+}: {
+  params: { id: number };
+}) {
+  const services = getServeresList();
+  return <div>{services[params.id].title}</div>;
 }
