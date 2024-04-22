@@ -7,6 +7,6 @@ export default function SpecificServicePage({
   params: { id: number };
 }) {
   const services = getServeresList();
-  const t = useTranslations()
-  return <div>{t(`${services[params.id].title}`)}</div>;
+  const t = useTranslations();
+  return <p>{t(`${services[params.id].title}`)}</p>;
 }
