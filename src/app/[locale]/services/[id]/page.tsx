@@ -1,4 +1,5 @@
 import getServeresList from "@/functions/getServercesList";
+import { useTranslations } from "next-intl";
 
 export default function SpecificServicePage({
   params,
@@ -6,5 +7,6 @@ export default function SpecificServicePage({
   params: { id: number };
 }) {
   const services = getServeresList();
-  return <div>{services[params.id].title}</div>;
+  const t = useTranslations()
+  return <div>{t(`${services[params.id].title}`)}</div>;
 }
