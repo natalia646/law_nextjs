@@ -1,5 +1,6 @@
 import Header from "@/components/header/header";
 import { Metadata } from "next";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -7,18 +8,21 @@ export const metadata: Metadata = {
 };
 
 
+
 export default function LocaleLayout({
-    children,
-    params: {locale}
-  }: {
-    children: React.ReactNode;
-    params: {locale: string};
-  }) {
-    return (
-      <html lang={locale}>
-        <body>
-          <Header/>
-          {children}</body>
-      </html>
-    );
-  }
+  children,
+  params: { locale },
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+
+  return (
+    <html lang={locale}>
+      <body>
+          <Header />
+          {children}
+      </body>
+    </html>
+  );
+}

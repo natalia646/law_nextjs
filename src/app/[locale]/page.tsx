@@ -1,6 +1,9 @@
+import { AbstractIntlMessages } from "next-intl";
+
+export default function HomePage({messages} : AbstractIntlMessages  ) {
 
 
-export default function page() {
+
   return (
     <>
       Main Page
