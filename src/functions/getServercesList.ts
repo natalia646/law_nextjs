@@ -5,9 +5,9 @@ export interface ServicesType {
   title: string;
 }
 
-export default function getServeresList() {
-  const messages = useMessages();
-  const services: ServicesType[] = JSON.parse(
+export default async function getServeresList() {
+  const messages =  useMessages();
+  const services: ServicesType[] = await JSON.parse(
     JSON.stringify(messages.Services)
   );
   return services;
