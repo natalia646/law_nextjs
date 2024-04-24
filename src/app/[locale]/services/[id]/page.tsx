@@ -1,10 +1,8 @@
+import getServerList from "@/functions/getServicesList";
 
+export default function ServicePage({ params }: { params: { id: number } }) {
+  const services = getServerList();
+  const { id } = params;
 
-export default function Service({ params }: { params: { id: number } }) {
-  return (
-    <div>
-      {params.id}
-    </div>
-  )
+  return <p>{services[id].title}</p>;
 }
-
