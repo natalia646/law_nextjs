@@ -1,10 +1,19 @@
 {
-    "Team": {
-        "id": 0,
-        "name": "Iryna",
-        "image": "",
-        "description" : {
-            "position": "Progect Menager"
+    "Team": [
+        {
+            "id": 1,
+            "name": "Iryna Azarova",
+            "image": "john_doe.jpg",
+            "position": "Software Engineer",
+            "description": "Experienced software engineer with expertise in web development and database management.",
+            "network": {
+                "linkedin": "https://www.linkedin.com/in/johndoe",
+                "github": "https://github.com/johndoe"
+            },
+            "certificates": [
+                "AWS Certified Developer",
+                "Microsoft Certified: Azure Fundamentals"
+            ]
         }
-    }
+    ]
 }
