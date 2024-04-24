@@ -8,7 +8,6 @@ export default function About() {
   return (
     <div>
       <h1>{t("About.title")}</h1>
-      <h2>{t("Team.description.position")}</h2>
     </div>
   );
 }

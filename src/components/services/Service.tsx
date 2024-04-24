@@ -8,7 +8,7 @@ interface Props {
 
 export default function Service({ item }: Props) {
   return (
-    <Link href={`/services/${item.id}`} key={item.id} className={styled.link}>
+    <Link href={`/services/${item.id}`} className={styled.link}>
       {item.title}
     </Link>
   );

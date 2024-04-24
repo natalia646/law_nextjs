@@ -7,9 +7,8 @@ export default function ServicesPage() {
 
   return (
     <div className={styled.links}>
-
       {services.map((item) => (
-        <Service item={item}/>
+        <Service item={item} key={item.id}/>
       ))}
     </div>
   );
