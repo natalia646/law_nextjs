@@ -1,10 +1,16 @@
 {
-    "Team": {
-        "id": 0,
-        "name": "Іра",
-        "image": "",
-        "description" : {
-            "position": "Керівник Проекту"
+    "Team": [
+        {
+            "id": 0,
+            "name": "Олена Олешко",
+            "position": "Software Engineer",
+            "description": "Experienced software engineer with expertise in web development and database management."
+        },
+        {
+            "id": 1,
+            "name": "Ірина Азарова",
+            "position": "Software Engineer",
+            "description": "Experienced software engineer with expertise in web development and database management."
         }
-    }
+    ]
 }

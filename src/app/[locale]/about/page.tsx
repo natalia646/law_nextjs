@@ -1,13 +1,15 @@
 import { useTranslations } from "next-intl";
-
-import React from "react";
+import TeamPage from "../team/page";
+import { Link } from "@/navigation";
 
 export default function About() {
-  const t = useTranslations();
+  const t = useTranslations("About");
 
   return (
     <div>
-      <h1>{t("About.title")}</h1>
+      <h1>{t("title")}</h1>
+      <TeamPage/>
+      <Link href={`/team`}>{t("all-team")}</Link>
     </div>
   );
 }
