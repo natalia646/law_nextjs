@@ -10,7 +10,7 @@ export interface MemberType {
   position: string;
   description: string;
   networks: NetworsType[];
-  whatsApp: string;
+  whatsapp: string;
   certificates: string[];
 }
 export interface NetworsType {
