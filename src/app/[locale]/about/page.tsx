@@ -10,6 +10,7 @@ export default function About() {
       <h1>{t("title")}</h1>
       <TeamPage/>
       <Link href={`/team`}>{t("all-team")}</Link>
+      <Link href={`/certificates`}>certificates</Link>
     </div>
   );
 }
