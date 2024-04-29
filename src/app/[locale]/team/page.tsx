@@ -6,7 +6,7 @@ export default function TeamPage() {
   return (
     <div>
       {team.map((item) => (
-        <MemberOfTeam item={item} key={item.id}/>
+        <MemberOfTeam item={item} key={item.id} />
       ))}
     </div>
   );
