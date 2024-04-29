@@ -6,17 +6,14 @@ export interface ServiceType {
 export interface MemberType {
   id: number;
   name: string;
+  image: string;
   position: string;
   description: string;
-}
-export interface CommonInMembersType {
-  id:           number;
-  image:        string;
-  network:      NetworkOfMember;
+  networks: NetworsType[];
+  whatsapp: string;
   certificates: string[];
 }
-
-export interface NetworkOfMember {
-  linkedin: string;
-  github:   string;
+export interface NetworsType {
+  link: string;
+  icon: string;
 }

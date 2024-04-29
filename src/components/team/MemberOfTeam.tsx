@@ -1,5 +1,6 @@
 import { Link } from "@/navigation";
 import {MemberType} from '../../global'
+import Image from "next/image";
 
 interface Props {
     item: MemberType;
