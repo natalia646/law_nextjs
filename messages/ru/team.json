@@ -2,15 +2,69 @@
     "Team": [
         {
             "id": 0,
-            "name": "Альона",
-            "position": "Software Engineer",
-            "description": "Experienced software engineer with expertise in web development and database management."
+            "name": "Oлешко Олена",
+            "image": "oleshko.webp",
+            "position": "Фінансовий аналітик, Фінансовий менеджер, Головний бухгалтер, Фінансовий консультант",
+            "description": "Понад 17 років досвіду роботи у сфері  фінансів, бухгалтерського, податкового обліку та консалтингу. Розробляла фінансові моделі для fintech та gambling проектів в понад 20 країнах.</b> Керувала фінансовим обліком комерційних компаній в України у галузях: медицина, оптова торгівля, зовнішньоекономічна діяльность, фінансові послуги. Координувала бюджетування в Міжнародному проекті технічної допомоги UHBDP. Дипломований фінансовий менеджер з фінансової кваліфікації IFA (Великобританія).",
+            "networks": [],
+            "WhatsApp": "+380 97 878 0688",
+            "certificates": []
         },
         {
             "id": 1,
-            "name": "Ірина",
-            "position": "Software Engineer",
-            "description": "Experienced software engineer with expertise in web development and database management."
+            "name": "Азарова Ірина",
+            "image": "azarova.webp",
+            "position": "Project Manager, PMP, CPC, D.Sc.",
+            "description": "Ірина – керівник проєктів та програми з Одеси (Україна), яка більш, ніж 20 років майстерно втілює в життя найрізноманітніші ідеї – від торгових центрів до платіжних систем та мобільних додатків. </b>Ірина володіє глибокими знаннями та навичками у плануванні, управлінні та успішному завершенні різноманітних проектів. Її експертиза, що підтверджена визнаними міжнародними сертифікатами з її фаху, дозволяє забезпечити ефективне виконання завдань та досягнення поставлених цілей проєктів. Ірина цінує командну роботу та прагне досягнення оптимальних результатів у співпраці з командою та іншими учасниками.",
+            "networks": [
+                {
+                    "link": " https://www.linkedin.com/in/azarovairene/",
+                    "icon": "../../public/icons/network/linkedin"
+                },
+                {
+                    "link": "https://t.me/Partisia ",
+                    "icon": "../../public/icons/network/telegram"
+                }
+            ],
+            "WhatsApp": "+38 067 7227 327",
+            "certificates": [
+                "../../public/certificates/azarova_1.webp",
+                "../../public/certificates/azarova_2.webp",
+                "../../public/certificates/azarova_3.webp",
+                "../../public/certificates/azarova_4.webp",
+                "../../public/certificates/azarova_5.webp",
+                "../../public/certificates/azarova_6.webp"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Лінецький Ігор",
+            "image": "linetskiy.webp",
+            "position": "M&A/Corporate",
+            "description": "Досвідчений партнер із підтвердженим досвідом роботи у сфері юридичної практики. Має навички нормативного аналізу, юридичного листа, злиття та поглинання, міжнародних угод, контрактів та корпоративного права. </b>Сильний професіонал у галузі підприємництва зі ступенем магістра права (LLM), що спеціалізується на міжнародному бізнесі/торгівлі/комерції, отриманій у юридичному коледжі Гастінгса Каліфорнійського університету.",
+            "networks": [
+                {
+                    "link": "https://www.linkedin.com/in/igor-linetsky-0a4b74132/ ",
+                    "icon": "../../public/icons/network/linkedin"
+                }
+            ],
+            "WhatsApp": "+34 627 23 49 52",
+            "certificates": []
+        },
+        {
+            "id": 3,
+            "name": "Кузнецов Євген",
+            "image": "kuznetsov.webp",
+            "position": "CEO, Financial Consultant, Lawer",
+            "description": "Динамічний фахівець у галузі права та фінансів із великим досвідом у сфері комерційного права, корпоративного права та фінансових послуг. Перевірений досвід успішного управління складними фінансовими організаціями, розробки операційних процесів і просування фінансових ініціатив. Вправність у забезпеченні дотримання законодавства та оптимізації фінансових показників.",
+            "networks": [
+                {
+                    "link": "https://t.me/EvgenKuznecov",
+                    "icon": "../../public/icons/network/telegram"
+                }
+            ],
+            "WhatsApp": "+380 67 559 0562",
+            "certificates": []
         }
     ]
 }
