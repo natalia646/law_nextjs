@@ -1,5 +1,8 @@
-.button{
-    border: 2px solid var(--blue);
-    color: var(--blue);
-    background-color: beige;
+.button {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  font-size: 1.1vw;
+  font-weight: 500;
+  background-color: var(--top-backgr-color);
+  padding: 7% 14%;
 }
