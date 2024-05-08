@@ -3,7 +3,7 @@ import { Link } from "@/navigation";
 import LangSwitcher from "./local";
 import styled from "./header.module.css";
 import TedaliniLogo from "../tedaliniLogo/TedaliniLogo";
-import ContactButton from "../contactButton/contactButton";
+import ContactButton from "../contactButton/ContactButton"
 
 export default function Header() {
   const t = useTranslations("Header");
