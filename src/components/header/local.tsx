@@ -1,12 +1,11 @@
-'use client'
+"use client";
 
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { ChangeEvent, useTransition } from "react";
-
+import styled from "./local.module.css";
 
 export default function LangSwitcher() {
-
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   const localActive = useLocale();
@@ -18,10 +17,19 @@ export default function LangSwitcher() {
   };
 
   return (
-    <select defaultValue={localActive} onChange={changeSelect} disabled={isPending}>
-      <option value="en">EN</option>
-      <option value="uk">UA</option>
-      <option value="ru">RU</option>
-    </select>
+    <>
+      <label htmlFor="language"></label>
+      <select
+        id="language"
+        defaultValue={localActive}
+        onChange={changeSelect}
+        disabled={isPending}
+        className={styled.select}
+      >
+        <option value="en">EN</option>
+        <option value="uk">UA</option>
+        <option value="ru">RU</option>
+      </select>
+    </>
   );
 }

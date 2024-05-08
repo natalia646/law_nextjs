@@ -1,0 +1,14 @@
+.header {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 0.9fr) 3fr 1fr 0fr 0.4fr;
+  align-items: center;
+  margin: 1.5% auto;
+}
+.link{
+  color: var(--gray-color);
+  text-decoration: none;
+  font-size: 1.1vw;
+  font-weight: 500;
+}
