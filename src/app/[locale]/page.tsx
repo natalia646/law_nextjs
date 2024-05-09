@@ -1,11 +1,10 @@
+import { useTranslations } from "next-intl";
+import ServicesForMain from "@/components/services/PartServicesForMain";
 
 export default function HomePage() {
-
-
-
   return (
-    <>
-      Main Page
-    </>
-  )
+    <main>
+      <ServicesForMain />
+    </main>
+  );
 }
