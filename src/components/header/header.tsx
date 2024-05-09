@@ -1,9 +1,9 @@
 import { useTranslations, useMessages } from "next-intl";
-import { Link } from "@/navigation";
 import LangSwitcher from "./local";
 import styled from "./header.module.css";
 import TedaliniLogo from "../tedaliniLogo/TedaliniLogo";
-import ContactButton from "../contactButton/ContactButton"
+import ContactButton from "../contactButton/ContactButton";
+import NavigationInHeader from "./navigation";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -12,15 +12,14 @@ export default function Header() {
 
   return (
     <header className={styled.header}>
-        <TedaliniLogo />
-        {keys.map((link, i) => (
-          <Link href={`/${link}`} key={i} className={styled.link}>
-            {t(`${link}`)}
-          </Link>
-        ))}
-        <ContactButton />
-        <LangSwitcher />
-      
+      <TedaliniLogo />
+      {keys.map((link, i) => (
+        <NavigationInHeader link={link} i={i}>
+          {t(`${link}`)}
+        </NavigationInHeader>
+      ))}
+      <ContactButton />
+      <LangSwitcher />
     </header>
   );
 }

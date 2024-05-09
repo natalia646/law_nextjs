@@ -6,9 +6,3 @@
   align-items: center;
   margin: 1.5% auto;
 }
-.link{
-  color: var(--gray-color);
-  text-decoration: none;
-  font-size: 1.1vw;
-  font-weight: 500;
-}
