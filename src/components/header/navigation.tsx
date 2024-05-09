@@ -1,6 +1,7 @@
 "use client";
 import { Link } from "@/navigation";
 import styled from "./navigation.module.css";
+import { usePathname } from "next/navigation";
 
 export default function NavigationInHeader({
   link,
@@ -11,8 +12,15 @@ export default function NavigationInHeader({
   i: number;
   children: string;
 }) {
+  const path = usePathname();
+  const acticvePath = path.slice(4);
+
   return (
-    <Link href={`/${link}`} key={i} className={styled.link}>
+    <Link
+      href={`/${link}`}
+      key={i}
+      className={`${styled.link} ${acticvePath === link ? styled.active : ""}`}
+    >
       {children}
     </Link>
   );

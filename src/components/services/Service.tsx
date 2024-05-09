@@ -7,16 +7,13 @@ interface Props {
   item: ServiceType;
 }
 
-
 export default function Service({ item }: Props) {
   const { id, title } = item;
 
   return (
-    <section className={styled.block}>
-      <p>{getCorrectNumber(item)}</p>
-      <Link href={`/services/${id}`} className={styled.link}>
-        {title}
-      </Link>
-    </section>
+    <Link href={`/services/${id}`} className={styled.block}>
+      <p className={styled.number}>{getCorrectNumber(item)}</p>
+      <p className={styled.link}>{title}</p>
+    </Link>
   );
 }

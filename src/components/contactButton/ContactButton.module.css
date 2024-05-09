@@ -3,7 +3,8 @@
   color: var(--blue);
   font-size: 1.1vw;
   font-weight: 500;
-  background-color: var(--top-backgr-color);
+  background-color: var(--backgr-color);
   padding: 7% 14%;
   text-decoration: none;
+  text-align: center;
 }

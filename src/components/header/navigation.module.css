@@ -4,6 +4,6 @@
   font-size: 1.1vw;
   font-weight: 500;
 }
-/* .active {
-  color: var(--dark-blue);
-} */
+.active {
+  color: var(--black-color);
+}

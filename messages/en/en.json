@@ -13,5 +13,11 @@
         "title": "We are an innovative company that promotes business development",
         "all-team": "All team"
     },
-    "ContactUs": "Contact us"
+    "ContactUs": "Contact us",
+    "Main": {
+        "OurServices": {
+            "title": "Our services",
+            "text": "Not sure which service is right for you? Contact us by describing your question."
+        }
+    }
 }
