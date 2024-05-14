@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import styled from './allHeader.module.css'
 
 export default function BurgerMenu() {
   const [closed, setClosed] = useState(true);
@@ -13,6 +14,7 @@ export default function BurgerMenu() {
       width={45}
       height={45}
       onClick={() => setClosed(!closed)}
+      className={styled.burger_icon}
     ></Image>
   );
 }
