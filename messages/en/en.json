@@ -17,7 +17,15 @@
     "Main": {
         "OurServices": {
             "title": "Our services",
-            "text": "Not sure which service is right for you? Contact us by describing your question."
+            "text": "Not sure which service is right for you? Contact us by describing your question.",
+            "all-services" : "All services"
         }
+    },
+    "Team": {
+        "our-team": "Our team", 
+        "name": "Name",
+        "position": "Position",
+        "description": "Description",
+        "networks": "Networks"
     }
 }

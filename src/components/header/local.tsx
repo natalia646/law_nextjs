@@ -17,19 +17,16 @@ export default function LangSwitcher() {
   };
 
   return (
-    <>
-      <label htmlFor="language"></label>
-      <select
-        id="language"
-        defaultValue={localActive}
-        onChange={changeSelect}
-        disabled={isPending}
-        className={styled.select}
-      >
-        <option value="en">EN</option>
-        <option value="uk">UA</option>
-        <option value="ru">RU</option>
-      </select>
-    </>
+    <select
+      id="language"
+      defaultValue={localActive}
+      onChange={changeSelect}
+      disabled={isPending}
+      className={styled.select}
+    >
+      <option value="en">EN</option>
+      <option value="uk">UA</option>
+      <option value="ru">RU</option>
+    </select>
   );
 }
