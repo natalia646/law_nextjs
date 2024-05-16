@@ -9,11 +9,6 @@
     "Index": {
         "title": "Let's make your business better together with us"
     },
-    "About": {
-        "title": "We are an innovative company that promotes business development",
-        "all-team": "All team"
-    },
-    "ContactUs": "Contact us",
     "Main": {
         "OurServices": {
             "title": "Our services",
@@ -21,8 +16,18 @@
             "all-services" : "All services"
         }
     },
-    "MemberPage": {
+
+    ".":"......................................................................................",
+    "AboutPage": {
+        "title": "We are an innovative company that promotes business development",
+        "all-team": "All team"
+    },
+    "ContactPage": "Contact us",
+    "TeamPage": {
         "our-team": "Our team", 
+        "description": "You can get acquainted with our experienced and talented team of specialists."
+    },
+    "MemberPage": {
         "name": "Name",
         "position": "Position",
         "description": "Description",
