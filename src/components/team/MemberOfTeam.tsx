@@ -9,6 +9,6 @@ interface Props {
 export default function MemberOfTeam({item} : Props) {
 
   return (
-    <Link href={`/team/${item.id}`}>{item.name} </Link>
+    <Link href={`/team/${item.id}`}> {item.name} </Link>
   )
 }

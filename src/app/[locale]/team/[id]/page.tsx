@@ -9,14 +9,12 @@ import { useTranslations } from "next-intl";
 export default function MemberPage({ params }: { params: { id: number } }) {
   const team = getMembersList();
   const { id } = params;
-  const t = useTranslations("Team");
+  const t = useTranslations("MemberPage");
   const { name, position, description, image, certificates, networks } =
     team[id];
 
   return (
     <div>
-      <h2>{t("our-team")}</h2>
-
       <p>{t("name")}</p>
       <p>{name}</p>
 
