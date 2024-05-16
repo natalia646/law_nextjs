@@ -21,7 +21,7 @@
             "all-services": "Все услуги"
         }
     },
-    "Team": {
+    "MemberPage": {
         "our-team": "Наша команда", 
         "name": "Имя",
         "position": "Описание",

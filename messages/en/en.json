@@ -21,7 +21,7 @@
             "all-services" : "All services"
         }
     },
-    "Team": {
+    "MemberPage": {
         "our-team": "Our team", 
         "name": "Name",
         "position": "Position",
