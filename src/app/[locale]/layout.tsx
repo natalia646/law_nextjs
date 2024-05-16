@@ -28,7 +28,7 @@ export default function LocaleLayout({
     <html lang={locale} className={inter.className}>
       <body >
         <Header />
-        <main className={style.main}>
+        <main>
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>
