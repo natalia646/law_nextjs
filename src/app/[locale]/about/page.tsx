@@ -3,7 +3,7 @@ import TeamPage from "../team/page";
 import { Link } from "@/navigation";
 
 export default function About() {
-  const t = useTranslations("About");
+  const t = useTranslations("AboutPage");
 
   return (
     <div>

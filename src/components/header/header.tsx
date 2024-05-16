@@ -23,7 +23,7 @@ export default function Header() {
         ))}
       </nav>
       <Link href={`/contacts`} className={styled.button}>
-        {t("ContactUs")}
+        {t("ContactPage")}
       </Link>
       <BurgerMenu />
       <LangSwitcher />
