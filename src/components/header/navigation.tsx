@@ -1,6 +1,7 @@
 "use client";
 import { Link } from "@/navigation";
-import styled from "./navigation.module.css";
+// import styled from "./navigation.module.css";
+import styled from './allHeader.module.css'
 import { usePathname } from "next/navigation";
 
 export default function Navigation({

@@ -1,0 +1,26 @@
+.image_block {
+  z-index: 1;
+  position: relative;
+}
+
+.card {
+  transition: padding 0.7s;
+  text-align: center;
+  width: 100%;
+
+  .p {
+    position: relative;
+    padding: 2% 9% 0 9%;
+    bottom: 130px;
+    transition: bottom 0.7s;
+  }
+
+  &:hover {
+    background-color: var(--white-color);
+    padding: 9% 9% 0 9%;
+    margin: auto;
+    .p {
+      bottom: 0px;
+    }
+  }
+}
