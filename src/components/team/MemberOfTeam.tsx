@@ -1,15 +1,15 @@
 import { Link } from "@/navigation";
 import { MemberType } from "../../global";
-import Image from "next/image";
 
 import style from "./memberOfTeam.module.scss";
+import NetworksOfMember from "./networksOfMember";
 
 interface Props {
   item: MemberType;
 }
 
 export default function MemberOfTeam({ item }: Props) {
-  const { id, name, position, image, networks } = item;
+  const { id, name, position, image} = item;
 
   return (
     <div className={style.card}>
@@ -28,17 +28,11 @@ export default function MemberOfTeam({ item }: Props) {
           ></section>
         </Link>
       </div>
-   <div className={style.p}>
+      <div className={style.p}>
         <p>{name}</p>
         <p>{position}</p>
-        <div>
-          {networks.map((val) => (
-            <Link href={val.link}>
-              <Image src={`/icons/networks/${val.icon}.svg`} alt="netvork" width={30} height={30}></Image>
-            </Link>
-          ))}
-        </div>
-   </div>
+        <NetworksOfMember item={item} />
+      </div>
     </div>
   );
 }

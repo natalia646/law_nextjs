@@ -1,17 +1,14 @@
-// 'use client'
-
 import getMembersList from "@/functions/getMembersList";
 import Image from "next/image";
 import styled from "./member.module.css";
-import { Link } from "@/navigation";
+import NetworksOfMember from "@/components/team/networksOfMember";
 import { useTranslations } from "next-intl";
 
 export default function MemberPage({ params }: { params: { id: number } }) {
   const team = getMembersList();
   const { id } = params;
   const t = useTranslations("MemberPage");
-  const { name, position, description, image, certificates, networks } =
-    team[id];
+  const { name, position, description, image, certificates } = team[id];
 
   return (
     <div>
@@ -25,29 +22,7 @@ export default function MemberPage({ params }: { params: { id: number } }) {
       <p>{description}</p>
 
       <p>{t("networks")}</p>
-      <div>
-        {networks.map((item) => (
-          <Link href={item.link} target="_blank">
-            <Image
-              src={`/icons/networks/${item.icon}.svg`}
-              alt="network"
-              width={40}
-              height={40}
-            ></Image>
-          </Link>
-        ))}
-        {team[id].whatsapp === "" ? (
-          ""
-        ) : (
-          <Image
-            src={`/icons/networks/whatsapp.svg`}
-            alt="network"
-            width={40}
-            height={40}
-          ></Image>
-        )}
-      </div>
-
+      <NetworksOfMember item={team[id]} />
       <Image
         src={`/team/${image}`}
         alt={name}
@@ -55,16 +30,6 @@ export default function MemberPage({ params }: { params: { id: number } }) {
         width="700"
         height="700"
       />
-      {/* <div>
-        {certificates.map((item) => (
-          <Image
-            src={`/certificates/${item}`}
-            alt="Certificate"
-            width={500}
-            height={300}
-          />
-        ))}
-      </div> */}
     </div>
   );
 }
