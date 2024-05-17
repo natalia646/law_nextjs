@@ -14,7 +14,7 @@ export default function MemberOfTeam({ item }: Props) {
   return (
     <div className={style.card}>
       <div className={style.image_block}>
-        <Link href={`/team/${id}`}>
+        <Link href={`/team/${id}`} aria-label="Read more about member of team">
           <section
             className={style.section}
             style={{
