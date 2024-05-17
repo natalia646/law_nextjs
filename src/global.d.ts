@@ -17,3 +17,7 @@ export interface NetworsType {
   link: string;
   icon: string;
 }
+export interface BlocksType {
+  title:       string;
+  description: string;
+}
