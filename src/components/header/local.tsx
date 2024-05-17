@@ -3,8 +3,7 @@
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { ChangeEvent, useTransition } from "react";
-// import styled from "./local.module.css";
-import styled from "./allHeader.module.css";
+import styled from "./allHeader.module.scss";
 
 export default function LangSwitcher() {
   const [isPending, startTransition] = useTransition();

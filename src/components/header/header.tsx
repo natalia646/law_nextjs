@@ -1,6 +1,6 @@
 import { useTranslations, useMessages } from "next-intl";
 import LangSwitcher from "./local";
-import styled from "./allHeader.module.css";
+import styled from "./allHeader.module.scss";
 import TedaliniLogo from "../tedaliniLogo/TedaliniLogo";
 import Navigation from "./navigation";
 import { Link } from "@/navigation";
@@ -15,18 +15,22 @@ export default function Header() {
     <header className={styled.header}>
       <TedaliniLogo />
 
-      <nav className={styled.navigation}>
-        {keys.map((link, i) => (
-          <Navigation link={link} i={i}>
-            {t(`Header.${link}`)}
-          </Navigation>
-        ))}
-      </nav>
-      <Link href={`/contacts`} className={styled.button}>
-        {t("ContactPage")}
-      </Link>
-      <BurgerMenu />
+      <div className={styled.navigation}>
+        <nav className={styled.links}>
+          {keys.map((link, i) => (
+            <Navigation link={link} i={i}>
+              {t(`Header.${link}`)}
+            </Navigation>
+          ))}
+        </nav>
+        <Link href={`/contacts`} className={styled.button}>
+          {t("ContactPage")}
+        </Link>
+      </div>
+
       <LangSwitcher />
+
+      <BurgerMenu />
     </header>
   );
 }
