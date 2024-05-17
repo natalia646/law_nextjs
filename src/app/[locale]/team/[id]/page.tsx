@@ -1,7 +1,7 @@
 import getMembersList from "@/functions/getMembersList";
 import Image from "next/image";
 import styled from "./member.module.css";
-import NetworksOfMember from "@/components/team/networksOfMember";
+import NetworksOfMember from "@/components/team/NetworksOfMember";
 import { useTranslations } from "next-intl";
 
 export default function MemberPage({ params }: { params: { id: number } }) {

@@ -2,7 +2,7 @@ import { Link } from "@/navigation";
 import { MemberType } from "../../global";
 
 import style from "./memberOfTeam.module.scss";
-import NetworksOfMember from "./networksOfMember";
+import NetworksOfMember from "./NetworksOfMember";
 
 interface Props {
   item: MemberType;
