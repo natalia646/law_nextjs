@@ -1,4 +1,4 @@
-import styled from "./service.module.css";
+import styled from "./service.module.scss";
 import { Link } from "@/navigation";
 import { ServiceType } from "../../global";
 import getCorrectNumber from "@/functions/getCorrectNumberOfServices";
