@@ -1,4 +1,4 @@
-import RunningText from "@/components/runningText/runningText";
+import RunningText from "@/components/runningText/RunningText";
 
 export default function HomePage() {
   return (
