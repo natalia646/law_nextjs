@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--backgr-color);
+  height: 10%;
+  overflow: hidden;
+
+  .scroll {
+    display: flex;
+    white-space: nowrap;
+    animation: RightToLeft 60s infinite linear;
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    margin: 0 1rem;
+    font-weight: 500;
+    line-height: 132%;
+    color: #758aa7;
+    font-size: 1.2rem
+  }
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

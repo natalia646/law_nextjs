@@ -1,11 +1,9 @@
-import { useTranslations } from "next-intl";
-// import PartServicesForMain from "@/components/services/PartServicesForMain";
+import RunningText from "@/components/runningText/runningText";
 
 export default function HomePage() {
   return (
-    <main>
-      h
-      {/* <PartServicesForMain/> */}
-    </main>
+    <>
+      <RunningText />
+    </>
   );
 }
