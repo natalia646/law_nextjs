@@ -1,7 +1,6 @@
 .button {
-  /* border: 2px solid var(--blue); */
   color: var(--white-color);
-  font-size: 1.1vw;
+  font-size: 1.25rem;
   font-weight: 500;
   background-color: var(--dark-blue);
   padding: 7% 14%;
