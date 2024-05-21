@@ -7,8 +7,8 @@ export default function TedaliniLogo() {
       <Image
         src={"/icons/logo/tedalini.svg"}
         alt="tedalini_logo"
-        width={182}
-        height={79}
+        width={135}
+        height={32}
       ></Image>
     </Link>
   );
