@@ -1,0 +1,29 @@
+.acticle {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.text {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  max-width: 46rem;
+  margin: auto;
+  h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+    color: var(--gray-color);
+  }
+}
+.image {
+  grid-area: 1 / 2 / 3 / 3;
+  background: url("/images/home_page_backgr.webp") no-repeat right bottom;
+  background-size: contain;
+  height: 35rem;
+  width: 100%;
+}
