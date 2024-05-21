@@ -2,7 +2,7 @@
   width: 95%;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 0.5fr 3fr 0.5fr 0.2fr;
+  grid-template-columns: 0.5fr 3fr 0.5fr 0.1fr;
   align-items: center;
   grid-column-gap: 1%;
 }
@@ -21,7 +21,7 @@
   color: var(--black-color);
 }
 .button {
-  min-width: 12rem;
+  min-width: 11rem;
   max-width: 12rem;
   border: 2px solid var(--blue);
   color: var(--blue);
@@ -53,7 +53,7 @@
 
 @media (max-width: 768px) {
   .header {
-    grid-template-columns: 4fr 0.2fr 0.7fr ;
+    grid-template-columns: 4fr 0.2fr 0.3fr ;
     grid-column-gap: 6%;
   }
   .navigation {
