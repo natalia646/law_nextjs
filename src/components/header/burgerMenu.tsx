@@ -11,8 +11,8 @@ export default function BurgerMenu() {
     <Image
       src={closed ? "/icons/burger.svg" : "/icons/close-cross.svg"}
       alt="menu"
-      width={45}
-      height={45}
+      width={35}
+      height={35}
       onClick={() => setClosed(!closed)}
       className={styled.burger_icon}
     ></Image>

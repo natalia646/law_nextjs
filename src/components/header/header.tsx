@@ -25,8 +25,8 @@ export default function Header() {
       <Link href={`/contacts`} className={styled.button}>
         {t("ContactPage")}
       </Link>
-      <BurgerMenu />
       <LangSwitcher />
+      <BurgerMenu />
     </header>
   );
 }
