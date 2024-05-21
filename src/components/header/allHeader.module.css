@@ -9,9 +9,9 @@
   grid-template-columns: 0.5fr 3fr 0.5fr 0.1fr;
   align-items: center;
   grid-column-gap: 1%;
+  margin: 1rem auto;
 }
 .navigation {
-  margin: 1.5rem 0;
   display: flex;
   flex-wrap: nowrap;
   gap: 5%;
