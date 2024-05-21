@@ -13,22 +13,19 @@ export default function Header() {
 
   return (
     <header className={styled.header}>
-      <div className={styled.container}>
-        <TedaliniLogo />
-
-        <nav className={styled.navigation}>
-          {keys.map((link, i) => (
-            <Navigation link={link} i={i}>
-              {t(`Header.${link}`)}
-            </Navigation>
-          ))}
-        </nav>
-        <Link href={`/contacts`} className={styled.button}>
-          {t("ContactPage")}
-        </Link>
-        <LangSwitcher />
-        <BurgerMenu />
-      </div>
+      <TedaliniLogo />
+      <nav className={styled.navigation}>
+        {keys.map((link, i) => (
+          <Navigation link={link} i={i}>
+            {t(`Header.${link}`)}
+          </Navigation>
+        ))}
+      </nav>
+      <Link href={`/contacts`} className={styled.button}>
+        {t("ContactPage")}
+      </Link>
+      <LangSwitcher />
+      <BurgerMenu />
     </header>
   );
 }

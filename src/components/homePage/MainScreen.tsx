@@ -12,10 +12,10 @@ export default function MainScreen() {
         <p>{t("description")}</p>
       </section>
       <section className={style.image}>
+        <span></span>
       </section>
-      <section>
-        d
-        {/* <ContactButton /> */}
+      <section className={style.button}>
+        <ContactButton />
       </section>
     </article>
   );
