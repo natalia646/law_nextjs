@@ -37,6 +37,7 @@
   color: var(--gray-color);
   font-size: 1.125rem;
 }
+
 .burger_icon {
   display: none;
 }
