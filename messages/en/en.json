@@ -15,6 +15,11 @@
             "title": "Our services",
             "text": "Not sure which service is right for you? Contact us by describing your question.",
             "all-services": "All services"
+        },
+        "DetailsPart": {
+            "title": "An innovative company that promotes business development",
+            "description": "To find an individual approach to each client, our company has brought together specialists who are narrowly specialized in the fields of law and business.",
+            "details": "More details"
         }
     },
     "AboutPage": {
