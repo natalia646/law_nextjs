@@ -1,4 +1,4 @@
-import MemberOfTeam from "../../../components/team/MemberOfTeam";
+import MemberOfTeam from "@/components/team/MemberOfTeam";
 import getMembersList from "../../../functions/getMembersList";
 import style from "./teamPage.module.css";
 import { useTranslations } from "next-intl";
