@@ -8,5 +8,6 @@ export default function getServicesList() {
   }
   const servicesList: ServiceType[] = messeges.Services;
 
+  
   return servicesList;
 }
