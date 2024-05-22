@@ -27,16 +27,17 @@
   color: var(--blue);
   font-size: 1.125rem;
   font-weight: 500;
-  background-color: var(--backgr-color);
   padding: 7% 14%;
   text-decoration: none;
   text-align: center;
 }
 .select {
+  background-color: rgba(255, 255, 255, 0);
   border: none;
   color: var(--gray-color);
   font-size: 1.125rem;
 }
+
 .burger_icon {
   display: none;
 }
@@ -50,10 +51,9 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .header {
-    grid-template-columns: 4fr 0.2fr 0.3fr ;
+    grid-template-columns: 4fr 0.2fr 0.3fr;
     grid-column-gap: 6%;
   }
   .navigation {

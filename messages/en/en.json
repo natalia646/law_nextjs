@@ -6,25 +6,24 @@
         "contacts": "Conntacts",
         "news": "News"
     },
-    "Index": {
-        "title": "Let's make your business better together with us"
-    },
-    "Main": {
+    "HomePage": {
+        "MainScreen": {
+            "title": "Let's make your business better together with us",
+            "description": "Our team focuses on expert assistance in legal matters and project management."
+        },
         "OurServices": {
             "title": "Our services",
             "text": "Not sure which service is right for you? Contact us by describing your question.",
-            "all-services" : "All services"
+            "all-services": "All services"
         }
     },
-
-
     "AboutPage": {
         "title": "We are an innovative company that promotes business development",
         "all-team": "All team"
     },
     "ContactPage": "Contact us",
     "TeamPage": {
-        "our-team": "Our team", 
+        "our-team": "Our team",
         "description": "You can get acquainted with our experienced and talented team of specialists."
     },
     "MemberPage": {
