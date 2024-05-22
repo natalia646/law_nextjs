@@ -14,7 +14,6 @@ export default function Header() {
   return (
     <header className={styled.header}>
       <TedaliniLogo />
-
       <nav className={styled.navigation}>
         {keys.map((link, i) => (
           <Navigation link={link} i={i}>
