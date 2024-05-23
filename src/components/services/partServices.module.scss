@@ -1,0 +1,16 @@
+.services_container {
+  display: grid;
+  background: linear-gradient(var(--backgr-color), var(--white-color));
+
+}
+
+.text {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.total_block{
+  width: 95%;
+  margin: auto;
+}
