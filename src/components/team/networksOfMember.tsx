@@ -19,9 +19,9 @@ export default function NetworksOfMember({ item }: Props) {
             alt="network"
             width={24}
             height={24}
-            style={{
-              margin: "2.5%"
-            }}
+            // style={{
+            //   margin: "auto 2.5%"
+            // }}
           ></Image>
         </Link>
       ))}
@@ -33,9 +33,9 @@ export default function NetworksOfMember({ item }: Props) {
           alt="network"
           width={24}
           height={24}
-          style={{
-            margin: "auto 2.5%"
-          }}
+          // style={{
+          //   margin: "auto 2.5%"
+          // }}
         ></Image>
       )}
     </div>

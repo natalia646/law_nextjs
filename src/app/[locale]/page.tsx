@@ -1,5 +1,5 @@
-import DetailsPart from "@/components/homePage/DetailsPart";
-import MainScreen from "@/components/homePage/MainScreen";
+import DetailsPart from "@/components/forHomePage/DetailsPart";
+import MainScreen from "@/components/forHomePage/MainScreen";
 import RunningText from "@/components/runningText/RunningText";
 
 export default function HomePage() {
