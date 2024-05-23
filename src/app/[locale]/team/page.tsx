@@ -1,6 +1,6 @@
 import MemberOfTeam from "@/components/team/MemberOfTeam";
 import getMembersList from "../../../functions/getMembersList";
-import style from "./teamPage.module.css";
+import style from "./teamPage.module.scss";
 import { useTranslations } from "next-intl";
 
 export default function TeamPage() {
