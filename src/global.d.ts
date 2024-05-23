@@ -17,3 +17,8 @@ export interface NetworsType {
   link: string;
   icon: string;
 }
+
+export interface BloksType {
+  title:       string;
+  description: string;
+}
