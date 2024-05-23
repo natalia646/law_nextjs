@@ -28,9 +28,9 @@ export default function MemberOfTeam({ item }: Props) {
           ></section>
         </Link>
       </div>
-      <div className={style.p}>
-        <p>{name}</p>
-        <p>{position}</p>
+      <div className={style.text}>
+        <p className={style.name}>{name}</p>
+        <p className={style.position}>{position}</p>
         <NetworksOfMember item={item} />
       </div>
     </div>

@@ -7,19 +7,29 @@
   transition: padding 0.7s;
   text-align: center;
   width: 100%;
+ 
 
-  .p {
+  .text {
     position: relative;
     padding: 2% 9% 0 9%;
     bottom: 130px;
     transition: bottom 0.7s;
+  }
+  .name{
+    font-size: 1.5vw;
+    color: var(--black-color);
+    font-weight: 600;
+    margin-bottom: 1%;
+  }
+  .position{
+    color: var(--gray-color);
   }
 
   &:hover {
     background-color: var(--white-color);
     padding: 9% 9% 0 9%;
     margin: auto;
-    .p {
+    .text {
       bottom: 0px;
     }
   }
