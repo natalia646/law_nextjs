@@ -24,6 +24,8 @@
     },
     "AboutPage": {
         "title": "We are an innovative company that promotes business development",
+        "desc1": "In order to find an individual approach to each client, our company has brought together specialists who are narrowly specialized in the fields of law and business.",
+        "desc2": "Development of an individual approach to each client is a key element of the successful operation of our company. Our legal and business professionals have extensive experience working with a variety of clients and situations. They skillfully take into account the peculiarities and needs of each client, providing individual consultations and solutions.",
         "all-team": "All team"
     },
     "ContactPage": "Contact us",
