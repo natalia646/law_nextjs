@@ -1,15 +1,26 @@
 import { useTranslations } from "next-intl";
 import TeamPage from "../team/page";
 import { Link } from "@/navigation";
+import style from "./aboutPage.module.scss";
 
-export default function About() {
+export default function AboutPage() {
   const t = useTranslations("AboutPage");
 
   return (
-    <div>
-      <h1>{t("title")}</h1>
-      <TeamPage/>
+    <>
+      <article className={style.container}>
+        <section className={style.text}>
+          <h2>{t("title")}</h2>
+          <h6>{t("desc1")}</h6>
+          <h6>{t("desc2")}</h6>
+        </section>
+        <section className={style.image}>
+          <span></span>
+        </section>
+      </article>
+
+      <TeamPage />
       <Link href={`/team`}>{t("all-team")}</Link>
-    </div>
+    </>
   );
 }

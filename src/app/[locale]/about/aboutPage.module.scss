@@ -1,0 +1,31 @@
+.container {
+  max-width: 95%;
+  margin: 3% auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+//   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 5%;
+}
+.text {
+  h6 {
+    margin-top: 5%;
+  }
+}
+
+.image {
+  background: url("/images/about_backgr.webp") no-repeat right 10% top;
+  background-size: contain;
+  max-height: 35rem;
+  height: 100vh;
+  max-width:25rem;
+  span {
+    background-color: var(--backgr-color);
+    position: relative;
+    bottom: 5%;
+    left: 50%;
+    display: block;
+    width: 40rem;
+    height: 9rem;
+    z-index: -1;
+  }
+}

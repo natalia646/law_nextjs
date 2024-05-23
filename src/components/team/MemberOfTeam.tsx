@@ -29,7 +29,7 @@ export default function MemberOfTeam({ item }: Props) {
         </Link>
       </div>
       <div className={style.text}>
-        <p className={style.name}>{name}</p>
+        <h4>{name}</h4>
         <p className={style.position}>{position}</p>
         <NetworksOfMember item={item} />
       </div>

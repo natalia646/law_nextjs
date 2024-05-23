@@ -9,7 +9,7 @@ export default function MainScreen() {
     <article className={style.acticle}>
       <section className={style.text}>
         <h1>{t("title")}</h1>
-        <p>{t("description")}</p>
+        <h6>{t("description")}</h6>
       </section>
       <section className={style.image}>
         <span></span>

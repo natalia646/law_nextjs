@@ -34,7 +34,7 @@ export default function NetworksOfMember({ item }: Props) {
           width={24}
           height={24}
           style={{
-            margin: "2.5%"
+            margin: "auto 2.5%"
           }}
         ></Image>
       )}

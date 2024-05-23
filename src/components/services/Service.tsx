@@ -12,8 +12,8 @@ export default function Service({ item }: Props) {
 
   return (
     <Link href={`/services/${id}`} className={styled.block}>
-      <p className={styled.number}>{getCorrectNumber(item)}</p>
-      <p className={styled.link}>{title}</p>
+      <h5>{getCorrectNumber(item)}</h5>
+      <h6>{title}</h6>
     </Link>
   );
 }

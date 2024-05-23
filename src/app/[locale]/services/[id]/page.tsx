@@ -4,5 +4,5 @@ export default function ServicePage({ params }: { params: { id: number } }) {
   const services = getServerList();
   const { id } = params;
 
-  return <p>{services[id].title}</p>;
+  return <h2>{services[id].title}</h2>;
 }

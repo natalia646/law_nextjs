@@ -10,7 +10,7 @@ export default function DetailsPart() {
         <h2>{t("title")}</h2>
       </section>
       <section>
-        <p>{t("description")}</p>
+        <h6>{t("description")}</h6>
         <Link href={"/about"} className={style.link}>{t("details") + ' >'}</Link>
       </section>
     </article>

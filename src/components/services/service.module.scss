@@ -11,21 +11,20 @@
 
   &:hover {
     background-color: var(--blue);
-    p {
+    h5,
+    h6 {
       color: var(--white-color);
     }
   }
-}
-.number {
-  margin: 1.2rem;
-  text-align: end;
-  font-weight: 700;
-  color: var(--blue);
-}
-.link {
-  color: var(--gray-color);
-  margin: 1.2rem;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
+  h5 {
+    margin: 1.2rem;
+    text-align: end;
+    font-weight: 700;
+  }
+  h6 {
+    margin: 1.2rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+  }
 }

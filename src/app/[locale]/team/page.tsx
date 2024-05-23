@@ -11,7 +11,7 @@ export default function TeamPage() {
       <div className={style.block}>
         <div className={style.text}>
           <h2>{t("our-team")}</h2>
-          <p>{t("description")}</p>
+          <h6>{t("description")}</h6>
         </div>
         {team.map((item) => (
           <MemberOfTeam item={item} key={item.id} />

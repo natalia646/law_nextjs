@@ -12,16 +12,16 @@ export default function MemberPage({ params }: { params: { id: number } }) {
 
   return (
     <div>
-      <p>{t("name")}</p>
-      <p>{name}</p>
+      <h5>{t("name")}</h5>
+      <h6>{name}</h6>
 
-      <p>{t("position")}</p>
-      <p>{position}</p>
+      <h5>{t("position")}</h5>
+      <h6>{position}</h6>
 
-      <p>{t("description")}</p>
-      <p>{description}</p>
+      <h5>{t("description")}</h5>
+      <h6>{description}</h6>
 
-      <p>{t("networks")}</p>
+      <h5>{t("networks")}</h5>
       <NetworksOfMember item={team[id]} />
       <Image
         src={`/team/${image}`}
