@@ -6,20 +6,24 @@
         "contacts": "Conntacts",
         "news": "News"
     },
-    "Bloks": {
-        "title": [
-            "Jurisprudence",
-            "Contracts",
-            "Support",
-            "Consulting"
-        ],
-        "description": [
-            "Legal support for your business",
-            "Development and conclusion of agreements",
-            "International legal support",
-            "Corporate consulting and interest protection"
-        ]
-    },
+    "Bloks": [
+        {
+            "title": "Jurisprudence",
+            "description": "Legal support for your business"
+        },
+        {
+            "title": "Contracts",
+            "description": "Development and conclusion of agreements"
+        },
+        {
+            "title": "Support",
+            "description": "International legal support"
+        },
+        {
+            "title": "Consulting",
+            "description": "Corporate consulting and interest protection"
+        }
+    ],
     "HomePage": {
         "MainScreen": {
             "title": "Make your business better together with us",
