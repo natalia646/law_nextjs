@@ -22,3 +22,7 @@ export interface BloksType {
   title:       string;
   description: string;
 }
+export interface NavigationType {
+  path: string;
+  link: string;
+}
