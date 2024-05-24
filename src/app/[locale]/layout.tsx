@@ -1,13 +1,14 @@
 import Header from "@/components/header/header";
 import { Metadata } from "next";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import '../../app/globals.css'
-import { Inter } from 'next/font/google'
- 
+import "../../app/globals.css";
+import { Inter } from "next/font/google";
+import Footer from "@/components/footer/Footer";
+
 const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-})
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Tedalini",
@@ -25,16 +26,15 @@ export default function LocaleLayout({
 
   return (
     <html lang={locale} className={inter.className}>
-      <body >
+      <body>
         <Header />
         <main>
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>
         </main>
-
+        <Footer />
       </body>
     </html>
   );
 }
- 
