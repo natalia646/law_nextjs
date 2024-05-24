@@ -20,7 +20,7 @@ export default function NetworksOfMember({ item }: Props) {
             width={24}
             height={24}
             style={{
-              margin: "1rem"
+              margin: " 0.5rem 0.3rem"
             }}
           ></Image>
         </Link>
@@ -34,7 +34,7 @@ export default function NetworksOfMember({ item }: Props) {
           width={24}
           height={24}
           style={{
-            margin: "1rem"
+            margin: "0.5rem 0.3rem"
           }}
         ></Image>
       )}

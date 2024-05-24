@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import style from './member.module.scss'
 
 export default function MemberLayout({
   children,
@@ -9,7 +10,7 @@ export default function MemberLayout({
 
   return (
     <div>
-      <h2>{t("our-team")}</h2>
+      <h2 className={style.title}>{t("our-team")}</h2>
       {children}
     </div>
   );
