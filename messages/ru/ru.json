@@ -1,11 +1,26 @@
 {
-    "Header": {
-        "about": "О нас",
-        "services": "Услуги",
-        "cases": "Кейсы",
-        "contacts": "Контакты",
-        "news": "Новости"
-    },
+    "Header": [
+        {
+            "path": "about",
+            "link": "О нас"
+        },
+        {
+            "path": "services",
+            "link": "Услуги"
+        },
+        {
+            "path": "cases",
+            "link": "Кейсы"
+        },
+        {
+            "path": "contacts",
+            "link": "Контакты"
+        },
+        {
+            "path": "news",
+            "link": "Новости"
+        }
+    ],
     "Bloks": [
         {
             "title": "Юриспруденция",

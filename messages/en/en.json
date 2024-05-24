@@ -1,11 +1,26 @@
 {
-    "Header": {
-        "about": "About Us",
-        "services": "Services",
-        "cases": "Cases",
-        "contacts": "Conntacts",
-        "news": "News"
-    },
+    "Header": [
+        {
+            "path": "about",
+            "link": "About Us"
+        },
+        {
+            "path": "services",
+            "link": "Services"
+        },
+        {
+            "path": "cases",
+            "link": "Cases"
+        },
+        {
+            "path": "contacts",
+            "link": "Contacts"
+        },
+        {
+            "path": "news",
+            "link": "News"
+        }
+    ],
     "Bloks": [
         {
             "title": "Jurisprudence",
