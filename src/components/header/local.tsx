@@ -3,7 +3,6 @@
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { ChangeEvent, useTransition } from "react";
-// import styled from "./local.module.css";
 import styled from "./allHeader.module.css";
 
 export default function LangSwitcher() {

@@ -1,29 +1,30 @@
 "use client";
 import { Link } from "@/navigation";
-import styled from './allHeader.module.css'
+import styled from "./allHeader.module.css";
 import { usePathname } from "next/navigation";
+import { NavigationType } from "@/global";
 
 export default function Navigation({
-  link,
-  i,
-  children,
+  navigation,
 }: {
-  link: string;
-  i: number;
-  children: string;
+  navigation: NavigationType[];
 }) {
   const path = usePathname();
   const acticvePath = path.slice(4);
 
   return (
-      <Link
-        href={`/${link}`}
-        key={i}
-        className={`${styled.link} ${
-          acticvePath === link ? styled.active : ""
-        }`}
-      >
-        {children}
-      </Link>
+    <nav className={styled.navigation}>
+      {navigation.map((item, i) => (
+        <Link
+          href={`/${item.path}`}
+          key={i}
+          className={`${styled.link} ${
+            acticvePath === item.path ? styled.active : ""
+          }`}
+        >
+          {item.link}
+        </Link>
+      ))}
+    </nav>
   );
 }

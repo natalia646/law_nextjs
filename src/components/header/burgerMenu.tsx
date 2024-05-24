@@ -6,6 +6,7 @@ import styled from './allHeader.module.css'
 
 export default function BurgerMenu() {
   const [closed, setClosed] = useState(true);
+  
 
   return (
     <Image
