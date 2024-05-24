@@ -1,16 +1,15 @@
-.services_container {
+.container {
   display: grid;
   background: linear-gradient(var(--backgr-color), var(--white-color));
-
 }
-
+.wrapper {
+  display: grid;
+  max-width: 95%;
+  margin: 3rem auto;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 2rem;
+}
 .text {
   grid-area: 1 / 1 / 2 / 3;
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-}
-.total_block{
-  width: 95%;
-  margin: auto;
 }

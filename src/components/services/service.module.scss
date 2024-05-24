@@ -15,6 +15,9 @@
     h6 {
       color: var(--white-color);
     }
+    .arrow{
+      background-image: url('/icons/white-arrow.svg');
+    }
   }
   h5 {
     margin: 1.2rem;
@@ -27,4 +30,12 @@
     position: absolute;
     bottom: 0;
   }
+}
+.arrow {
+  width: 60px;
+  height: 20px;
+  background: url("/icons/blue-arrow.svg") no-repeat top;
+  background-size: contain;
+  margin-left: auto;
+  margin-top: 1.25rem;
 }

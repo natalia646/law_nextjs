@@ -21,7 +21,6 @@ export default function PartServicesForMain() {
           <Service item={item} key={item.id} />
         ))}
         <LinkToAllServices />
-        <section className={styled.last_block}></section>
       </section>
     </article>
   );
