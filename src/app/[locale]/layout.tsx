@@ -27,13 +27,13 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className={inter.className}>
       <body>
-        <Header />
-        <main>
-          <NextIntlClientProvider messages={messages}>
-            {children}
-          </NextIntlClientProvider>
-        </main>
-        <Footer />
+          <Header />
+          <main>
+            <NextIntlClientProvider messages={messages}>
+              {children}
+            </NextIntlClientProvider>
+          </main>
+          <Footer />
       </body>
     </html>
   );
