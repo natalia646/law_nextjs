@@ -2,10 +2,10 @@
     "Team": [
         {
             "id": 0,
-            "name": "Oлешко Олена",
+            "name": "Oleshko Olena",
+            "position": "Chief Accountant, Financial Analyst, Financial Manager, Financial Consultant",
+            "description": "Over 17 years of experience in finance, accounting, tax accounting, and consulting. Developed financial models for fintech and gambling projects in over 20 countries. Managed financial accounting for commercial companies in Ukraine in the fields of medicine, wholesale trade, foreign economic activity, financial services. Coordinated budgeting in the International Technical Assistance Project UHBDP. Certified financial manager with IFA financial qualification (UK).",
             "image": "oleshko.webp",
-            "position": "Головний бухгалтер, Фінансовий аналітик / менеджер /консультант",
-            "description": "Понад 17 років досвіду роботи у сфері  фінансів, бухгалтерського, податкового обліку та консалтингу. Розробляла фінансові моделі для fintech та gambling проектів в понад 20 країнах.</b> Керувала фінансовим обліком комерційних компаній в України у галузях: медицина, оптова торгівля, зовнішньоекономічна діяльность, фінансові послуги. Координувала бюджетування в Міжнародному проекті технічної допомоги UHBDP. Дипломований фінансовий менеджер з фінансової кваліфікації IFA (Великобританія).",
             "networks": [],
             "whatsapp": "+380 97 878 0688",
             "certificates": [
@@ -16,10 +16,10 @@
         },
         {
             "id": 1,
-            "name": "Азарова Ірина",
-            "image": "azarova.webp",
+            "name": "Azarova Iryna",
             "position": "Project Manager, PMP, CPC, D.Sc.",
-            "description": "Ірина – керівник проєктів та програми з Одеси (Україна), яка більш, ніж 20 років майстерно втілює в життя найрізноманітніші ідеї – від торгових центрів до платіжних систем та мобільних додатків. </b>Ірина володіє глибокими знаннями та навичками у плануванні, управлінні та успішному завершенні різноманітних проектів. Її експертиза, що підтверджена визнаними міжнародними сертифікатами з її фаху, дозволяє забезпечити ефективне виконання завдань та досягнення поставлених цілей проєктів. Ірина цінує командну роботу та прагне досягнення оптимальних результатів у співпраці з командою та іншими учасниками.",
+            "description": "Iryna is a project and program manager from Odesa, Ukraine, who has been expertly bringing a wide variety of ideas to life for over 20 years – from shopping malls to payment systems and mobile applications. Iryna possesses deep knowledge and skills in planning, managing, and successfully completing various projects. Her expertise, confirmed by recognized international certifications in her field, ensures effective task execution and achievement of project goals. Iryna values teamwork and strives to achieve optimal results in collaboration with the team and other stakeholders.",
+            "image": "azarova.webp",
             "networks": [
                 {
                     "link": " https://www.linkedin.com/in/azarovairene/",
@@ -42,10 +42,10 @@
         },
         {
             "id": 2,
-            "name": "Лінецький Ігор",
-            "image": "linetskiy.webp",
+            "name": "Linetsky Ihor",
             "position": "M&A/Corporate",
-            "description": "Досвідчений партнер із підтвердженим досвідом роботи у сфері юридичної практики. Має навички нормативного аналізу, юридичного листа, злиття та поглинання, міжнародних угод, контрактів та корпоративного права. </b>Сильний професіонал у галузі підприємництва зі ступенем магістра права (LLM), що спеціалізується на міжнародному бізнесі/торгівлі/комерції, отриманій у юридичному коледжі Гастінгса Каліфорнійського університету.",
+            "description": "Experienced partner with a proven track record in legal practice. Skilled in regulatory analysis, legal writing, mergers and acquisitions, international agreements, contracts, and corporate law. Experience as Advisor to the Minister of Finance of Ukraine, Advisor to the Head of the State Tax Administration of Ukraine, and Head of the Lottery Issuance and Circulation Regulation Department of the Ministry of Finance of Ukraine. A strong professional in entrepreneurship with a Master of Laws (LLM) degree specializing in international business/trade/commerce from the Hastings College of the Law, University of California.",
+            "image": "linetskiy.webp",
             "networks": [
                 {
                     "link": "https://www.linkedin.com/in/igor-linetsky-0a4b74132/ ",
@@ -57,10 +57,10 @@
         },
         {
             "id": 3,
-            "name": "Кузнецов Євген",
+            "name": "Kuznetsov Yevhen",
+            "position": "CEO, Financial Consultant, Lawyer",
+            "description": "Dynamic specialist in law and finance with extensive experience in commercial law, corporate law, and financial services. Proven track record of successfully managing complex financial organizations, developing operational processes, and promoting financial initiatives. Skilled in ensuring compliance with legislation and optimizing financial performance.",
             "image": "kuznetsov.webp",
-            "position": "CEO, Financial Consultant, Lawer",
-            "description": "Динамічний фахівець у галузі права та фінансів із великим досвідом у сфері комерційного права, корпоративного права та фінансових послуг. Перевірений досвід успішного управління складними фінансовими організаціями, розробки операційних процесів і просування фінансових ініціатив. Вправність у забезпеченні дотримання законодавства та оптимізації фінансових показників.",
             "networks": [
                 {
                     "link": "https://t.me/EvgenKuznecov",
