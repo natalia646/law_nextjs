@@ -19,7 +19,7 @@ export default function Footer() {
           <p className={style.title}>{t("services")}</p>
           <div className={style.services}>
             {services.map((item) => (
-              <Link href={`/services/${item.id}`} className={style.link}>
+              <Link href={`/services/${item.id}`} className={style.link} key={item.id}>
                 {item.title}
               </Link>
             ))}

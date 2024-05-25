@@ -10,9 +10,13 @@ export default function Partners() {
 
   return (
     <div className={style.container}>
-      {partners.map((partner) => (
+      {partners.map((partner, i) => (
         <section
-          style={{ background: `url(${partner}) no-repeat center`, height: '3.5rem' }}
+          style={{
+            background: `url(${partner}) no-repeat center`,
+            height: "3.5rem",
+          }}
+          key={partners[i]}
         ></section>
       ))}
     </div>

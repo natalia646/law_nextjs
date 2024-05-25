@@ -19,8 +19,9 @@ export default function Bloks() {
   return (
     <article className={style.container}>
       {bloks.map((item, i) => (
-        <section className={style.block}>
+        <section className={style.block} key={i}>
           <Image
+            key={i}
             src={icons[i]}
             alt="icon"
             width={64}
