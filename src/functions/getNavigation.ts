@@ -3,10 +3,10 @@ import { NavigationType } from "@/global";
 
 export default function getNavigation() {
   const messeges = useMessages();
-  if (!Array.isArray(messeges.Header)) {
+  if (!Array.isArray(messeges.Navigation)) {
     return [];
   }
-  const navigationLinks: NavigationType[] = messeges.Header;
+  const navigationLinks: NavigationType[] = messeges.Navigation;
 
   return navigationLinks;
 }
