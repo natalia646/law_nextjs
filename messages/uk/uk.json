@@ -1,5 +1,12 @@
 {
-    "Header": [
+    "Header": {
+        "about": "Про нас",
+        "services": "Послуги",
+        "cases": "Кейси",
+        "contacts": "Контакти",
+        "news": "Новини"
+    },
+    "Navigation": [
         {
             "path": "about",
             "link": "Про нас"

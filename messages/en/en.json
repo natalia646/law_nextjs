@@ -1,5 +1,12 @@
 {
-    "Header": [
+    "Header": {
+        "about": "About Us",
+        "services": "Services",
+        "cases": "Cases",
+        "contacts": "Conntacts",
+        "news": "News"
+    },
+    "Navigation": [
         {
             "path": "about",
             "link": "About Us"
