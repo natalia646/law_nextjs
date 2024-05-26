@@ -1,19 +1,22 @@
-'use client'
+"use client";
 
 import Image from "next/image";
-import { useState } from "react";
-import styled from './allHeader.module.css'
+import styled from "./navigation.module.css";
 
-export default function BurgerMenu() {
-  const [closed, setClosed] = useState(true);
-
+export default function BurgerMenu({
+  openMobileMenu,
+  setOpenMobile,
+}: {
+  openMobileMenu: boolean;
+  setOpenMobile: React.Dispatch<React.SetStateAction<boolean>>;
+}) {
   return (
     <Image
-      src={closed ? "/icons/burger.svg" : "/icons/close-cross.svg"}
+      src={openMobileMenu ? "/icons/close-cross.svg" : "/icons/burger.svg"}
       alt="menu"
       width={35}
       height={35}
-      onClick={() => setClosed(!closed)}
+      onClick={() => setOpenMobile(!openMobileMenu)}
       className={styled.burger_icon}
     ></Image>
   );

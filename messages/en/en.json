@@ -6,6 +6,28 @@
         "contacts": "Conntacts",
         "news": "News"
     },
+    "Navigation": [
+        {
+            "path": "about",
+            "link": "About Us"
+        },
+        {
+            "path": "services",
+            "link": "Services"
+        },
+        {
+            "path": "cases",
+            "link": "Cases"
+        },
+        {
+            "path": "contacts",
+            "link": "Contacts"
+        },
+        {
+            "path": "news",
+            "link": "News"
+        }
+    ],
     "Bloks": [
         {
             "title": "Jurisprudence",

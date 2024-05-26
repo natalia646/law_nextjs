@@ -6,20 +6,6 @@
   align-items: center;
   grid-column-gap: 1%;
 }
-.navigation {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 5%;
-}
-.link {
-  color: var(--gray-color);
-  text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-.active {
-  color: var(--black-color);
-}
 .button {
   min-width: 11rem;
   max-width: 12rem;
@@ -39,10 +25,6 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.burger_icon {
-  display: none;
-}
-
 @media (max-width: 1024px) {
   .header {
     grid-template-columns: 1fr 5fr 0.2fr;
@@ -56,11 +38,5 @@
   .header {
     grid-template-columns: 4fr 0.2fr 0.3fr;
     grid-column-gap: 6%;
-  }
-  .navigation {
-    display: none;
-  }
-  .burger_icon {
-    display: block;
   }
 }

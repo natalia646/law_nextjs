@@ -6,6 +6,28 @@
         "contacts": "Контакти",
         "news": "Новини"
     },
+    "Navigation": [
+        {
+            "path": "about",
+            "link": "Про нас"
+        },
+        {
+            "path": "services",
+            "link": "Послуги"
+        },
+        {
+            "path": "cases",
+            "link": "Кейси"
+        },
+        {
+            "path": "contacts",
+            "link": "Контакти"
+        },
+        {
+            "path": "news",
+            "link": "Новини"
+        }
+    ],
     "Bloks": [
         {
             "title": "Юриспруденція",
