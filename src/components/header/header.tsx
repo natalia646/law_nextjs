@@ -1,10 +1,9 @@
 import { useTranslations } from "next-intl";
 import LangSwitcher from "./local";
-import styled from "./allHeader.module.css";
+import styled from "./header.module.css";
 import TedaliniLogo from "../tedaliniLogo/TedaliniLogo";
 import Navigation from "./navigation";
 import { Link } from "@/navigation";
-import BurgerMenu from "./burgerMenu";
 import getNavigation from "@/functions/getNavigation";
 
 export default function Header() {
@@ -19,7 +18,6 @@ export default function Header() {
         {t("ContactPage")}
       </Link>
       <LangSwitcher />
-      <BurgerMenu />
     </header>
   );
 }
