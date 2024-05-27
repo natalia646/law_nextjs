@@ -1,4 +1,4 @@
-// import MemberOfTeam from "@/components/team/MemberOfTeam";
+import MemberOfTeam from "@/components/team/MemberOfTeam";
 import getMembersList from "../../../functions/getMembersList";
 import style from "./teamPage.module.scss";
 import { useTranslations } from "next-intl";
@@ -13,9 +13,9 @@ export default function TeamPage() {
           <h2>{t("our-team")}</h2>
           <h6>{t("description")}</h6>
         </div>
-        {/* {team.map((item) => (
+        {team.map((item) => (
           <MemberOfTeam item={item} key={item.id} />
-        ))} */}
+        ))} 
       </div>
     </article>
   );
