@@ -26,3 +26,12 @@ export interface NavigationType {
   path: string;
   link: string;
 }
+export interface CaseType {
+  id:       number;
+  title:    string;
+  client:   string;
+  task:     string;
+  decision: string;
+  result:   string;
+  summary:  string;
+}
