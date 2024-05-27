@@ -7,7 +7,7 @@ export default function CasesPage() {
   return (
     <div>
       {cases.map((item) => (
-        <Case id={item.id} />
+        <Case id={item.id} cases = {cases} />
       ))}
     </div>
   );
