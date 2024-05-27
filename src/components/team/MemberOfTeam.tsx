@@ -1,15 +1,14 @@
 import { Link } from "@/navigation";
 import { MemberType } from "../../global";
-
 import style from "./memberOfTeam.module.scss";
-// import NetworksOfMember from "./NetworksOfMember";
+import NetworksOfMember from "./NetworksOfMember";
 
 interface Props {
   item: MemberType;
 }
 
 export default function MemberOfTeam({ item }: Props) {
-  const { id, name, position, image} = item;
+  const { id, name, position, image } = item;
 
   return (
     <div className={style.card}>
@@ -31,7 +30,7 @@ export default function MemberOfTeam({ item }: Props) {
       <div className={style.text}>
         <h4>{name}</h4>
         <p className={style.position}>{position}</p>
-        {/* <NetworksOfMember item={item} /> */}
+        <NetworksOfMember item={item} />
       </div>
     </div>
   );

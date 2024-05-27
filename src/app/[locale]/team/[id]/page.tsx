@@ -1,8 +1,8 @@
 import getMembersList from "@/functions/getMembersList";
 import Image from "next/image";
 import style from "./member.module.scss";
-// import NetworksOfMember from "@/components/team/NetworksOfMember";
 import { useTranslations } from "next-intl";
+import NetworksOfMember from "@/components/team/NetworksOfMember";
 
 export default function MemberPage({ params }: { params: { id: number } }) {
   const team = getMembersList();
@@ -23,7 +23,7 @@ export default function MemberPage({ params }: { params: { id: number } }) {
         <h6>{description}</h6>
 
         <h5>{t("networks")}</h5>
-        {/* <NetworksOfMember item={team[id]} /> */}
+      <NetworksOfMember item={team[id]}/>
       </section>
       <Image
         src={`/team/${image}`}
