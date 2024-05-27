@@ -1,1 +1,58 @@
-{}
+{
+    "Cases": [
+        {
+            "id": 0,
+            "title": "Optimization of the Fintech Project Budget through Project Audit and Compliance",
+            "client": "Fintech startup developing the concept of a neobank",
+            "task": "The project's investor approached us with a request for a project audit to optimize expenses and reduce the budget.",
+            "decision": "We conducted a comprehensive audit of the project and identified potential risks and unnecessary expenses. One of the key aspects we identified was the hiring of bank management for the full period of obtaining the license, despite the fact that there was no actual workload at the start of the project. Through the joint efforts of our project manager and Compliance specialist, a decision was made to review this aspect.",
+            "result": "We proposed optimizing the process of hiring bank management by signing a letter of intent for employment without salary payments for the period when banking activities could not begin. This allowed for significant budget savings by avoiding unnecessary salary expenses at the initial stage.",
+            "summary": "Thanks to our intervention and process optimization, the client saved several hundred thousand euros from the project budget. Our recommendations allowed the project to effectively allocate resources and focus on key tasks without unnecessary expenses."
+        },
+        {
+            "id": 1,
+            "title": "Development and Optimization of a Cryptocurrency Platform through Project Audit and Strategic Planning",
+            "client": "Investor in a cryptocurrency project interested in understanding the reasons for low profitability and the possibility of closing the project.",
+            "task": "Our team was tasked with analyzing the project of creating a cryptocurrency wallet and exchange to determine the reasons for unsatisfactory profitability.",
+            "decision": "After conducting a project audit, we identified key issues, including the project's team having an unclear understanding of the proposed product in the market, uncertainty about the target audience, and unclear competitive advantages. Our product owners and marketers took on the task of revising the product strategy and its marketing.",
+            "result": "After intensive work on strategic planning and market analysis, we developed a clear product description, identified unique competitive advantages, and found the most attractive target audiences. We also prioritized tasks in the product backlog and adapted the go-to-market strategy.",
+            "summary": "Thanks to our intervention and optimization of the project strategy, the project's profitability significantly increased, leading to the beginning of investment returns. Our team continues to work on improving the product and expanding its market share, ensuring the long-term success of the project."
+        },
+        {
+            "id": 2,
+            "title": "Development of a Business Plan for an iGaming Program in 16 Countries",
+            "client": "An iGaming company aiming to enter new markets in 16 countries.",
+            "task": "Our experts conducted a comprehensive program assessment, including business planning, investment analysis, marketing, and compliance research. We identified the program's product and its target audience, and developed the project's budget and schedule.",
+            "decision": "Our experts conducted a comprehensive program assessment, including business planning, investment analysis, marketing, and compliance research. We identified the program's product and its target audience, and developed the project's budget and schedule.",
+            "result": "The client gained a complete understanding of running their iGaming business in the selected countries. Our recommendations helped the client make an informed strategic decision about launching the program, considering all aspects of economic, legal, and technical implementation.",
+            "summary": "Thanks to our work, the client was ready for the successful launch of their iGaming program in new countries, ensuring long-term success and growth of their business."
+        },
+        {
+            "id": 3,
+            "title": "Accounting Policy for Revenue Recognition and Exchange Differences of a Microfinance Organization (MFO) through Analysis of the Project's Financial Model",
+            "client": "A startup microfinance organization providing microcredit financial services.",
+            "task": "The project team approached us with questions regarding the recognition and accounting of exchange differences in the financial result of the MFO and their accurate reflection in the financial statements.",
+            "decision": "During the consultation, it was found that the project team was recognizing income using the Cash method, which violates the requirements for revenue recognition of MFOs according to IFRS requirements. As a result of the consultation, the project began recognizing income using the Accrual method, complying with IFRS requirements. Rules and algorithms for recognizing exchange differences and their reflection in the MFO's financial statements were proposed.",
+            "result": "The accounting policy for revenue recognition and exchange differences of the MFO complies with IFRS requirements.",
+            "summary": "Thanks to our intervention, the MFO maintains accurate records of income and exchange differences, which directly impacts the financial results of the project's activities and the accuracy of financial reporting."
+        },
+        {
+            "id": 4,
+            "title": "Investment Profitability Analysis of a Microfinance Organization (MFO) Project through Financial Results Analysis",
+            "client": "A startup microfinance organization providing microcredit financial services.",
+            "task": "The project investor approached us with a request to conduct an analysis of the project to determine the profitability of the invested capital in order to make a decision on the feasibility of further investment.",
+            "decision": "The analysis of the project's financial performance showed that the project team does not maintain complete records of activities and does not prepare financial statements of the MFO in accordance with IFRS requirements. Our experts compiled the necessary reporting for analysis and determined the profitability of investments. The obtained results were presented to the investor and the project team.",
+            "result": "We proposed reporting formats necessary for generating the financial results of the MFO's operations, which are essential for the team's project development.",
+            "summary": "Thanks to our intervention, the investor understands the profitability of the investments made in the MFO project and, considering the proposals from the team for MFO development, makes decisions regarding further investment."
+        },
+        {
+            "id": 5,
+            "title": "Payback Period of a Fintech Project through Financial Model Analysis",
+            "client": "A fintech startup developing the concept of a neobank",
+            "task": "The project investor approached us to analyze the project's financial model to understand the minimum payback period of the invested funds.",
+            "decision": "The analysis of the financial model showed that the project team increased the required investment amount by 10% and extended the payback period of investments by three months.",
+            "result": "An adjusted calculation of investments in the project has been proposed, taking into account the effective utilization of planned profit and a shorter payback period of investments.",
+            "summary": "Thanks to our intervention, the planned financial result is achieved faster and with a smaller amount of investment from both the investor and the project team."
+        }
+    ]
+}

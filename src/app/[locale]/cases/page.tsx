@@ -1,11 +1,14 @@
-import { useTranslations } from "next-intl";
+import getCasesList from "@/functions/getCasesList";
+import Case from "@/components/cases/Case";
 
-export default function About() {
-  const t = useTranslations();
+export default function CasesPage() {
+  const cases = getCasesList();
 
   return (
     <div>
-      Cases
+      {cases.map((item) => (
+        <Case id={item.id} />
+      ))}
     </div>
   );
 }
