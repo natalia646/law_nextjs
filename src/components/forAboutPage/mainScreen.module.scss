@@ -7,9 +7,12 @@
 .text {
   max-width: 90%;
   margin: 0 auto;
-  h6 {
-    margin-top: 5%;
-  }
+}
+.h6 {
+  margin-top: 5%;
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .image {

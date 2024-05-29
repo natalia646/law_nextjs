@@ -1,7 +1,7 @@
 .acticle {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 2rem;
 }
 
@@ -13,6 +13,11 @@
   h1 {
     margin-bottom: 2rem;
   }
+}
+.h6 {
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 .image {
   grid-area: 1 / 2 / 3 / 3;

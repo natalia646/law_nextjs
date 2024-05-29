@@ -28,8 +28,8 @@ export default function Bloks() {
             height={64}
             className={style.icon}
           ></Image>
-          <h4>{item.title}</h4>
-          <h6>{item.description}</h6>
+          <p className={style.h4}>{item.title}</p>
+          <p className={style.h6}>{item.description}</p>
         </section>
       ))}
     </article>

@@ -7,7 +7,6 @@
   transition: padding 0.7s;
   text-align: center;
   width: 100%;
- 
 
   .text {
     position: relative;
@@ -15,7 +14,7 @@
     bottom: 160px;
     transition: bottom 0.7s;
   }
-  .position{
+  .position {
     margin-top: 1.2%;
     color: var(--gray-color);
   }
@@ -29,4 +28,9 @@
       bottom: 0px;
     }
   }
+}
+.h4 {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  font-weight: 600;
 }

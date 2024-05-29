@@ -9,13 +9,20 @@
   box-shadow: 10px 10px 15px 12px rgba(215, 215, 215, 0.204);
   text-align: center;
   margin: 5rem auto;
-
-  h4,
-  h6 {
-    margin: 0rem 1% 5% 0rem;
-  }
 }
-.icon{
-    position: relative;
-    bottom: 2rem;
+.icon {
+  position: relative;
+  bottom: 2rem;
+}
+.h4 {
+  margin: 0rem 1% 5% 0rem;
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+.h6 {
+  margin: 0rem 1% 5% 0rem;
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
 }

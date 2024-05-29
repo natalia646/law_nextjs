@@ -9,7 +9,7 @@ export default function Service() {
   return (
     <Link href={`/services`} className={styled.block}>
       <div className={styled.arrow}></div>
-      <h5 className={styleLink.link}>{t("all-services")}</h5>
+      <p className={styleLink.link}>{t("all-services")}</p>
     </Link>
   );
 }

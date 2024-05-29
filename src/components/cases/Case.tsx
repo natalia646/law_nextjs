@@ -12,7 +12,7 @@ export default function Case({ id, title }: { id: number; title: string }) {
         width={212}
         height={278}
       ></Image>
-      <p>{title}</p>
+      <p className={style.h4}>{title}</p>
     </Link>
   );
 }
