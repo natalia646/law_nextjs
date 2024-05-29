@@ -1,6 +1,11 @@
 .image_block {
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  img {
+    max-width: 433px;
+    width: 100%;
+    height: auto;
+  }
   section {
     background: linear-gradient(var(--backgr-color), var(--white-color));
   }
@@ -9,6 +14,7 @@
 .result_block {
   display: block;
 }
+
 
 
 .image_block,

@@ -3,6 +3,7 @@ import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import CaseDescription from "@/components/cases/CaseDescription";
 import getCasesList from "@/functions/getCasesList";
+import style from "./case.module.scss";
 
 export default function CasePage({ params }: { params: { id: number } }) {
   const cases = getCasesList();
@@ -10,14 +11,16 @@ export default function CasePage({ params }: { params: { id: number } }) {
   const t = useTranslations("CasePage");
 
   return (
-    <article>
+    <article className={style.container}>
       <section>
-        <h2>{sCase.title}</h2>
-        <p>{t("desc1")}</p>
-        <p>{t("desc2")}</p>
-        <Link href="/cases" className="">
-          {t("all-cases")}
-        </Link>
+        <div>
+          <h2>{sCase.title}</h2>
+          <p>{t("desc1")}</p>
+          <p>{t("desc2")}</p>
+          <Link href="/cases" className={style.link}>
+            {t("all-cases") + ' >'}
+          </Link>
+        </div>
         <Image
           src={"/cases/main-fon.webp"}
           alt="fon"

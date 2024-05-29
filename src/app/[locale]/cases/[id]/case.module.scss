@@ -1,4 +1,29 @@
 .container {
   width: 95%;
-  margin: auto;
+  margin: 2rem auto;
+  section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-column-gap: 3%;
+    p {
+      color: var(--gray-color);
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin: 2rem 0;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      max-width: 455px;
+      width: 100%;
+      height: auto;
+    }
+    .link {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--blue);
+      text-decoration: none;
+    }
+  }
 }
