@@ -11,31 +11,32 @@
 
   &:hover {
     background-color: var(--blue);
-    h5,
-    h6 {
+    .h5,
+    .h6 {
       color: var(--white-color);
     }
-    .arrow{
-      background-image: url('/icons/white-arrow.svg');
+    .arrow {
+      background-image: url("/icons/white-arrow.svg");
     }
   }
-  h5 {
-    margin: 1.2rem;
-    text-align: end;
-    font-weight: 700;
-    font-size: 1.125rem;
-    color: var(--blue);
-  }
-  .h6 {
-    margin: 1.2rem;
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    color: var(--gray-color);
-    font-size: 1.25rem;
-    font-weight: 400;
-  }
 }
+.h5 {
+  margin: 1.2rem;
+  text-align: end;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--blue);
+}
+.h6 {
+  margin: 1.2rem;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 .arrow {
   width: 60px;
   height: 20px;
