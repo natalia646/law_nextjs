@@ -1,13 +1,18 @@
 import { Link } from "@/navigation";
 import React from "react";
-import { CaseType } from "@/global";
+import style from "./case.module.scss";
+import Image from "next/image";
 
-export default function Case({ id, cases }: { id: number, cases: CaseType[] }) {
-    const {title} = cases[id]
-    
+export default function Case({ id, title }: { id: number; title: string }) {
   return (
-    <Link href={`/cases/${id}`}>
-      <p>{title}</p>
+    <Link href={`/cases/${id}`} className={style.block}>
+      <Image
+        src={`/cases/case${id}.webp`}
+        alt="photo"
+        width={212}
+        height={278}
+      ></Image>
+      <p className={style.h4}>{title}</p>
     </Link>
   );
 }

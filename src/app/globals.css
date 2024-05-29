@@ -34,7 +34,7 @@ h2 {
   font-weight: 600;
   color: var(--dark-blue);
 }
-h3 {
+/* h3 {
   font-size: 1.75rem;
   color: var(--dark-blue);
   font-weight: 600;
@@ -53,4 +53,4 @@ h6 {
   color: var(--gray-color);
   font-size: 1.25rem;
   font-weight: 400;
-}
+} */

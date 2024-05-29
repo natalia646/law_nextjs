@@ -23,12 +23,17 @@
     margin: 1.2rem;
     text-align: end;
     font-weight: 700;
+    font-size: 1.125rem;
+    color: var(--blue);
   }
-  h6 {
+  .h6 {
     margin: 1.2rem;
     display: inline-block;
     position: absolute;
     bottom: 0;
+    color: var(--gray-color);
+    font-size: 1.25rem;
+    font-weight: 400;
   }
 }
 .arrow {

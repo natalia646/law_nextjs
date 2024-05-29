@@ -14,7 +14,7 @@ export default function PartServicesForHome() {
       <section className={styled.wrapper}>
         <div className={styled.text}>
           <h2>{t("OurServices.title")}</h2>
-          <h6>{t("OurServices.text")}</h6>
+          <p className={styled.h6}>{t("OurServices.text")}</p>
           <ContactButton />
         </div>
         {[s1, s2, s3, s4, s5].map((item) => (
