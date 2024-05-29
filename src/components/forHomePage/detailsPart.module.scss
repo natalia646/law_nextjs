@@ -7,16 +7,20 @@
   h2 {
     margin-bottom: 5%;
   }
-  .h6 {
-    margin-bottom: 5%;
-    @media (max-width: 768px) {
-      display: none;
-    }
-  }
+
   .link {
     color: var(--blue);
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 600;
+  }
+}
+.h6 {
+  margin-bottom: 5%;
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  @media (max-width: 768px) {
+    display: none;
   }
 }
