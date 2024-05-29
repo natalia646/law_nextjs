@@ -16,7 +16,7 @@ export async function generateMetadata({
 
   return {
     title: "Tedalini - " + casesList[id].title,
-    description: casesList[id].title
+    description: casesList[id].title,
   };
 }
 
@@ -25,7 +25,5 @@ export default function ServiceLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div>
-    {children}
-    </div>;
+  return <>{children}</>;
 }

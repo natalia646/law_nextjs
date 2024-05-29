@@ -1,0 +1,26 @@
+.image_block {
+  display: flex;
+
+  section {
+    background: linear-gradient(var(--backgr-color), var(--white-color));
+  }
+}
+
+.result_block {
+  display: block;
+}
+
+
+.image_block,
+.result_block {
+  p {
+    color: var(--gray-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  .h3 {
+    font-size: 1.75rem;
+    color: var(--dark-blue);
+    font-weight: 600;
+  }
+}
