@@ -78,5 +78,12 @@
         "position": "Описание",
         "description": "Описание",
         "networks": "Социальные сети"
+    },
+    "CasePage": {
+        "client": "Клиент",
+        "task": "Задача",
+        "decision": "Решение",
+        "result": "Результат",
+        "summary": "Итог"
     }
 }

@@ -78,5 +78,12 @@
         "position": "Посада",
         "description": "Опис",
         "networks": "Соціальні мережі"
+    },
+    "CasePage": {
+        "client": "Клієнт",
+        "task": "Завдання",
+        "decision": "Рішення",
+        "result": "Результат",
+        "summary": "Підсумок"
     }
 }

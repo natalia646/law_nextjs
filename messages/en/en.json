@@ -78,5 +78,12 @@
         "position": "Position",
         "description": "Description",
         "networks": "Networks"
+    },
+    "CasePage": {
+        "client": "Client",
+        "task": "Task",
+        "decision": "Decision",
+        "result": "Result",
+        "summary": "Summary"
     }
 }
