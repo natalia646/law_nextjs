@@ -13,16 +13,16 @@ export default function MemberPage({ params }: { params: { id: number } }) {
   return (
     <article className={style.container}>
       <section>
-        <h5>{t("name")}</h5>
-        <h6>{name}</h6>
+        <p className={style.h5}>{t("name")}</p>
+        <p className={style.h6}>{name}</p>
 
-        <h5>{t("position")}</h5>
-        <h6>{position}</h6>
+        <p className={style.h5}>{t("position")}</p>
+        <p className={style.h6}>{position}</p>
 
-        <h5>{t("description")}</h5>
-        <h6>{description}</h6>
+        <p className={style.h5}>{t("description")}</p>
+        <p className={style.h6}>{description}</p>
 
-        <h5>{t("networks")}</h5>
+        <p className={style.h5}>{t("networks")}</p>
       <NetworksOfMember item={team[id]}/>
       </section>
       <Image

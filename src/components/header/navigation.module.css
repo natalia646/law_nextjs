@@ -28,15 +28,15 @@
     flex-direction: column;
     position: absolute;
     list-style: none;
-    background-color: rgba(6, 72, 82, 0.367);
-    left: 0;
-    top: 80px;
+    background-color: var(--white-color);
+    top: 9%;
     transition: all 0.1s;
-    width: 100%;
+    width: 100vh;
+    z-index: 2;
   }
   .link{
-    text-align: center;
-    color: aliceblue;
+    text-align: start;
+    color: var(--black-color);
     width: 100%;
     padding: 32px;
     transition: all 0.3s ease;

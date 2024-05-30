@@ -8,9 +8,17 @@
   grid-column-gap: 10%;
   width: 95%;
   margin: auto;
-  h6 {
+  .h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--blue);
+  }
+  .h6 {
     margin-top: 0.3rem;
     margin-bottom: 1.5rem;
+    color: var(--gray-color);
+    font-size: 1.25rem;
+    font-weight: 400;
   }
 }
 

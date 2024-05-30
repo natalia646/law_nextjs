@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
 import { CaseType } from "@/global";
+import Questions from "@/components/questions/Questions";
 
 export async function generateMetadata({
   params,
@@ -25,5 +26,10 @@ export default function ServiceLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <Questions />
+    </>
+  );
 }
