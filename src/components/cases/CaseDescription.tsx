@@ -9,14 +9,15 @@ export default function CaseDescription({ sCase }: { sCase: CaseType }) {
   const { id, client, task, decision, result, summary } = sCase;
 
   return (
-    <>
-      <div className={style.image_block}>
-        <Image
-          src={`/cases/case${id}.webp`}
-          alt="case"
-          width={433}
-          height={541}
-        ></Image>
+    <div className={style.wrapper}>
+      <Image
+        src={`/cases/case${id}.webp`}
+        alt="case"
+        width={433}
+        height={541}
+        className={style.image}
+      ></Image>
+      <div className={style.client}>
         <section>
           <p className={style.h3}>{t("client")}</p>
           <p>{client}</p>
@@ -24,14 +25,14 @@ export default function CaseDescription({ sCase }: { sCase: CaseType }) {
           <p>{task}</p>
         </section>
       </div>
-      <div className={style.result_block}>
+      <section className={style.result}>
         <p className={style.h3}>{t("decision")}</p>
         <p>{decision}</p>
         <p className={style.h3}>{t("result")}</p>
         <p>{result}</p>
         <p className={style.h3}>{t("summary")}</p>
         <p>{summary}</p>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }
