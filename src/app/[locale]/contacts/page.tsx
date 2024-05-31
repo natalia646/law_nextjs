@@ -6,7 +6,7 @@ const GoogleMap = dynamic(() => import('../../../components/googleMap/GoogleMap'
 export default function ContactsPage() {
   return (
     <div>
-     <GoogleMap/>
+     {/* <GoogleMap/> */}
     </div>
   )
 }
