@@ -11,14 +11,14 @@ export default function CasePage({ params }: { params: { id: number } }) {
   const t = useTranslations("CasePage");
 
   return (
-    <article className={style.container}>
-      <section>
+    <article>
+      <section className={style.container}>
         <div>
           <h2>{sCase.title}</h2>
           <p>{t("desc1")}</p>
           <p>{t("desc2")}</p>
           <Link href="/cases" className={style.link}>
-            {t("all-cases") + ' >'}
+            {t("all-cases") + " >"}
           </Link>
         </div>
         <Image
