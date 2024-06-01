@@ -34,8 +34,11 @@ export default function MemberPage({ params }: { params: { id: number } }) {
           width="700"
           height="700"
         />
+        <h2>{t("certificates")}</h2>
       </article>
-      <Certificates certificates = {certificates}/>
+      <div className={style.certificates}>
+        <Certificates certificates={certificates} />
+      </div>
     </>
   );
 }
