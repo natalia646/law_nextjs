@@ -99,7 +99,8 @@
         "name": "Name",
         "position": "Position",
         "description": "Description",
-        "networks": "Networks"
+        "networks": "Networks",
+        "certificates": "Certificates"
     },
     "CasePage": {
         "client": "Client",

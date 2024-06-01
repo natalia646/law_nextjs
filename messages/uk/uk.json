@@ -99,7 +99,8 @@
         "name": "Ім'я",
         "position": "Посада",
         "description": "Опис",
-        "networks": "Соціальні мережі"
+        "networks": "Соціальні мережі",
+        "certificates": "Сертификати"
     },
     "CasePage": {
         "client": "Клієнт",
