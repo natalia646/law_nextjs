@@ -6,7 +6,7 @@ export default function MainScreen() {
   const t = useTranslations("HomePage.MainScreen");
 
   return (
-    <article className={style.acticle}>
+    <article className={style.container}>
       <section className={style.text}>
         <h1>{t("title")}</h1>
         <p className={style.h6}>{t("description")}</p>
