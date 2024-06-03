@@ -29,10 +29,13 @@
     position: absolute;
     list-style: none;
     background-color: var(--white-color);
-    top: 9%;
+    top: 6%;
     transition: all 0.1s;
-    width: 100vh;
+    width: 100%;
+    height: 100vh;
     z-index: 2;
+    right: .01%;
+
   }
   .link{
     text-align: start;
@@ -41,4 +44,7 @@
     padding: 32px;
     transition: all 0.3s ease;
   }
+}
+@media (max-width: 580px) {
+
 }

@@ -6,13 +6,14 @@ export default function MainScreen() {
   const t = useTranslations("HomePage.MainScreen");
 
   return (
-    <article className={style.acticle}>
+    <article className={style.container}>
       <section className={style.text}>
         <h1>{t("title")}</h1>
         <p className={style.h6}>{t("description")}</p>
       </section>
-      <section className={style.image}>
-        <span></span>
+      <section className={style.fon}>
+        <span className={style.color}></span>
+        <span className={style.image}></span>
       </section>
       <section className={style.button}>
         <ContactButton />
@@ -20,4 +21,3 @@ export default function MainScreen() {
     </article>
   );
 }
-
