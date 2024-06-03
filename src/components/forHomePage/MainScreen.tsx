@@ -11,8 +11,9 @@ export default function MainScreen() {
         <h1>{t("title")}</h1>
         <p className={style.h6}>{t("description")}</p>
       </section>
-      <section className={style.image}>
-        <span></span>
+      <section className={style.fon}>
+        <span className={style.color}></span>
+        <span className={style.image}></span>
       </section>
       <section className={style.button}>
         <ContactButton />
@@ -20,4 +21,3 @@ export default function MainScreen() {
     </article>
   );
 }
-

@@ -1,8 +1,11 @@
 .acticle {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  grid-column-gap: 5%;
   margin-top: 2%;
+  align-items: center;
+
 }
 
 .text {
@@ -19,24 +22,48 @@
   font-size: 1.25rem;
   font-weight: 400;
 }
-.image {
-  grid-area: 1 / 2 / 3 / 3;
-  background: url("/images/home_page_backgr.webp") no-repeat right top;
-  background-size: contain;
-  height: 35rem;
-  width: 100%;
 
-  span {
-    background-color: var(--backgr-color);
-    position: relative;
-    bottom: 35%;
-    display: block;
-    width: 100%;
-    height: 30rem;
-    z-index: -1;
-  }
+.fon {
+  grid-area: 1 / 2 / 3 / 3;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
+
+.image {
+  width: 80%;
+  display: block;
+  background: url("/images/home_page_backgr.webp") no-repeat right top;
+  background-size: cover;
+  height: 35rem;
+  margin-left: auto;
+  max-height: 544px;
+}
+.color {
+  background-color: var(--backgr-color);
+  position: absolute;
+  bottom: 40%;
+  display: block;
+  width: 100%;
+  height: 30rem;
+  z-index: -1;
+}
+
 .button {
   grid-area: 2 / 1 / 3 / 2;
-  margin: 3rem 0 0 5%;
+  margin-left: 5%;
+}
+
+@media (max-width: 1024px) {
+  // .image{
+  //   height: 23rem;
+  //   width: 90%;
+  // }
+  // .h6{
+  //   font-size: 1rem;
+  // }
+  // .text {
+  //   h1 {
+  //   }
+  // }
 }
