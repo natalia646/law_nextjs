@@ -15,7 +15,9 @@ export default function PartServicesForHome() {
         <div className={styled.text}>
           <h2>{t("OurServices.title")}</h2>
           <p className={styled.h6}>{t("OurServices.text")}</p>
-          <ContactButton />
+          <section className={styled.button}>
+            <ContactButton />
+          </section>
         </div>
         {[s1, s2, s3, s4, s5].map((item) => (
           <Service item={item} key={item.id} />
