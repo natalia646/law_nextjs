@@ -3,6 +3,7 @@ import getServicesList from "@/functions/getServicesList";
 import Service from "@/components/services/Service";
 import ContactButton from "../contactButton/ContactButton";
 import styled from "./partServicesForHome.module.scss";
+import styleLink from "../services/service.module.scss";
 import { Link } from "@/navigation";
 
 export default function PartServicesForHome() {
@@ -22,8 +23,8 @@ export default function PartServicesForHome() {
         {[s1, s2, s3, s4, s5].map((item) => (
           <Service item={item} key={item.id} />
         ))}
-        <Link href={`/services`} className={styled.block}>
-          <div className={styled.arrow}></div>
+        <Link href={`/services`} className={styleLink.block}>
+          <div className={styleLink.arrow}></div>
           <p className={styled.link}>{t("all-services")}</p>
         </Link>
       </section>
