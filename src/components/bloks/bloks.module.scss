@@ -8,11 +8,16 @@
 .block {
   box-shadow: 10px 10px 15px 12px rgba(215, 215, 215, 0.204);
   text-align: center;
-  margin: 5rem auto;
+  margin: 3rem auto;
+  max-width: 18rem;
+
 }
 .icon {
   position: relative;
   bottom: 2rem;
+  filter: drop-shadow(1px 1px 20px rgba(175, 175, 175, 0.459));
+  width: auto;
+  height: auto;
 }
 .h4 {
   margin: 0rem 1% 5% 0rem;
@@ -21,7 +26,7 @@
   font-weight: 600;
 }
 .h6 {
-  margin: 0rem 1% 5% 0rem;
+  margin: 0 5% 5% 5%;
   color: var(--gray-color);
   font-size: 1.25rem;
   font-weight: 400;
