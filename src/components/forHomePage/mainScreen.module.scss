@@ -1,8 +1,8 @@
 .acticle {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 2rem;
+  grid-template-rows: 1.5fr 1fr;
+  margin-top: 2%;
 }
 
 .text {
@@ -25,13 +25,14 @@
   background-size: contain;
   height: 35rem;
   width: 100%;
+
   span {
     background-color: var(--backgr-color);
     position: relative;
-    bottom: 15%;
+    bottom: 35%;
     display: block;
     width: 100%;
-    height: 22rem;
+    height: 30rem;
     z-index: -1;
   }
 }
