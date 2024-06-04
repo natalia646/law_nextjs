@@ -5,10 +5,10 @@ import { useTranslations } from "next-intl";
 
 export default function CertificatesPage() {
   const team = getMembersList();
-  const t = useTranslations();
+  const t = useTranslations("CertificatesPage");
   return (
     <section className={style.container}>
-      <h2>{t("CertificatesPage")}</h2>
+      <h2>{t("our")}</h2>
       <div className={style.certificates}>
         {team.map((member) => (
           <Certificates certificates={member.certificates} key={member.id} />

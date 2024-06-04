@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 280px;
+  height: 280px;
   width: 90%;
   margin: auto;
 }
@@ -35,8 +35,33 @@
   color: var(--blue);
 }
 
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(173.5px, 1fr));
+  }
+  .h6 {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 580px) {
+  .wrapper {
+    max-width: 98%;
+  }
+  .h6,
   .button {
-    margin: auto;
+    display: none;
+  }
+  .text {
+    height: auto;
+  }
+}
+@media (max-width: 371px) {
+  .text {
+    grid-area: 1 / 1 / 2 / 2;
   }
 }

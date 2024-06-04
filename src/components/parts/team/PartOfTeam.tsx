@@ -1,5 +1,5 @@
 import MemberOfTeam from "@/components/team/MemberOfTeam";
-import getMembersList from "../../functions/getMembersList";
+import getMembersList from "../../../functions/getMembersList";
 import { useTranslations } from "next-intl";
 import { Link } from "@/navigation";
 import style from "./partOfTeam.module.scss";

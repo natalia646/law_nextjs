@@ -1,7 +1,22 @@
-.links{
-    display: grid;
-    max-width: 95%;
-    margin: 0 auto;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.links {
+  display: grid;
+  max-width: 95%;
+  margin: 3rem auto;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+@media (max-width: 1024px) {
+  .links {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+@media (max-width: 768px) {
+  .links {
+    grid-template-columns: repeat(auto-fit, minmax(193px, 1fr));
+  }
+}
+@media (max-width: 580px) {
+    .links {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
