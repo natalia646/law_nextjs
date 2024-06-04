@@ -2,7 +2,6 @@
   z-index: 1;
   position: relative;
 }
-
 .card {
   transition: padding 0.7s;
   text-align: center;
@@ -33,4 +32,11 @@
   font-size: 1.5rem;
   color: var(--dark-blue);
   font-weight: 600;
+}
+@media (max-width: 580px) {
+  .text {
+    .position {
+      display: none;
+    }
+  }
 }
