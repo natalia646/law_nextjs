@@ -2,11 +2,12 @@
   margin: 3% auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  width: 93%;
+  align-content: space-between;
 }
 
 .text {
   max-width: 90%;
-  margin: 0 auto;
 }
 .h6 {
   margin-top: 5%;
@@ -15,19 +16,28 @@
   font-weight: 400;
 }
 
+.fon {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 .image {
   background: url("/images/about_backgr.webp") no-repeat top right 20%;
-  background-size: contain;
-  max-height: 35rem;
-  height: 100vh;
-  span {
-    background-color: var(--backgr-color);
-    position: relative;
-    bottom: 5%;
-    left: 50%;
-    display: block;
-    width: 40rem;
-    height: 9rem;
-    z-index: -1;
-  }
+  background-size: cover;
+  display: block;
+  width: 89%;
+  height: 35rem;
+  margin-left: auto;
+  margin-bottom: 3rem;
+}
+.color {
+  background-color: var(--backgr-color);
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  display: block;
+  width: 40rem;
+  height: 9rem;
+  z-index: -1;
 }
