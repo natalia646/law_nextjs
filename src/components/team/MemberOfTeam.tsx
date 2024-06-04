@@ -18,10 +18,6 @@ export default function MemberOfTeam({ item }: Props) {
             style={{
               backgroundImage: `url(/team/${image})`,
               backgroundSize: "cover",
-              width: "100%",
-              maxWidth: "305px",
-              minHeight: "297px",
-              height: "100%",
             }}
           ></section>
         </Link>

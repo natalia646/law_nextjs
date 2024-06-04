@@ -6,6 +6,7 @@ export default function Certificates({
 }: {
   certificates: string[];
 }) {
+
   return (
     <>
       {certificates.map((item, i) => (

@@ -1,6 +1,14 @@
 .image_block {
   z-index: 1;
   position: relative;
+
+  section {
+    margin: auto;
+    width: 100%;
+    max-width: 305px;
+    min-height: 297px;
+    height: 100%;
+  }
 }
 .card {
   transition: padding 0.7s;
@@ -9,7 +17,8 @@
 
   .text {
     position: relative;
-    padding: 2% 9% 0 9%;
+    width: 80%;
+    margin: auto;
     bottom: 160px;
     transition: bottom 0.7s;
   }
@@ -33,10 +42,31 @@
   color: var(--dark-blue);
   font-weight: 600;
 }
-@media (max-width: 580px) {
-  .text {
+
+@media (max-width: 1024px) {
+  .card {
     .position {
-      display: none;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .h4 {
+    font-size: 1rem;
+  }
+  .image_block {
+    section {
+      max-width: 155px;
+      min-height: 153px;
+    }
+  }
+  .card {
+    .text {
+      bottom: 100px;
+      .position {
+        display: none;
+      }
     }
   }
 }
