@@ -11,8 +11,9 @@ export default function AboutPage() {
         <p className={style.h6}>{t("desc1")}</p>
         <p className={style.h6}>{t("desc2")}</p>
       </section>
-      <section className={style.image}>
-        <span></span>
+      <section className={style.fon}>
+        <span className={style.image}></span>
+        <span className={style.color}></span>
       </section>
     </article>
   );

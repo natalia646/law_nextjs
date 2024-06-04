@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-main{
+main {
   flex-grow: 1;
 }
 
@@ -20,7 +20,7 @@ main{
   --white-color: #ffffff;
   --gray-color: #475467;
   --dark-blue: #083554;
-  --blue: #286AC6;
+  --blue: #286ac6;
   --black-color: #000;
   --backgr-color: #f5f8ff;
 }
@@ -34,6 +34,13 @@ h2 {
   font-weight: 600;
   color: var(--dark-blue);
 }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 /* h3 {
   font-size: 1.75rem;
   color: var(--dark-blue);
