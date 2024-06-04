@@ -2,7 +2,7 @@
   display: grid;
   width: 95%;
   margin: 7% auto;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   grid-column-gap: 10%;
 
   p {
@@ -12,7 +12,7 @@
   .text {
     font-size: 1.25rem;
     font-weight: 400;
-    margin: 1rem 0;
+    margin: 1.5rem 0 3rem 0;
   }
 }
 
@@ -39,4 +39,23 @@
 .a_open {
   max-height: 450px;
   transition: max-height 2s ease;
+}
+.plus{
+  margin-left: 2rem;
+}
+@media (max-width: 580px) {
+  .container {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    h2 {
+      margin-bottom: 3rem;
+    }
+  }
+  .text {
+    display: none;
+  }
+  .question{
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
