@@ -1,23 +1,21 @@
+'use client'
 import style from "./partners.module.scss";
+import Image from "next/image";
 
 export default function Partners() {
-  const partners = [
-    "/icons/logo/kta.svg",
-    "/icons/logo/rm.svg",
-    "/icons/logo/fin-serv.svg",
-    "/icons/logo/exalty.svg",
-  ];
+  const partners = ["kta.svg", "rm.svg", "fin-serv.svg", "exalty.svg"];
 
   return (
     <div className={style.container}>
       {partners.map((partner, i) => (
-        <section
-          style={{
-            background: `url(${partner}) no-repeat center`,
-            height: "3.5rem",
-          }}
-          key={partners[i]}
-        ></section>
+            <Image
+          src={`/icons/logo/${partner}`}
+          alt="partner"
+          width={94}
+          height={28}
+          className={style.image}
+          key={i}
+        ></Image>
       ))}
     </div>
   );
