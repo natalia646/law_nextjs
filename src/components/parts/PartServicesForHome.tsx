@@ -3,7 +3,7 @@ import ContactButton from "../contactButton/ContactButton";
 import styled from "./partServicesForHome.module.scss";
 import styleLink from "../services/service.module.scss";
 import { Link } from "@/navigation";
-// import ServicesScreenWidtn from "./ServicesScreenWidtn";
+import ServiceScreen from "./matchMediaFunction";
 
 export default function PartServicesForHome() {
   const t = useTranslations("HomePage.OurServices");
@@ -18,7 +18,7 @@ export default function PartServicesForHome() {
             <ContactButton />
           </section>
         </div>
-        {/* <ServicesScreenWidtn /> */}
+        <ServiceScreen />
         <Link href={`/services`} className={styleLink.block}>
           <div className={styleLink.arrow}></div>
           <p className={styled.link}>{t("all-services")}</p>

@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 280px;
+  height: 280px;
   width: 90%;
   margin: auto;
 }
@@ -45,14 +45,23 @@
     grid-template-columns: repeat(auto-fit, minmax(173.5px, 1fr));
   }
   .h6 {
-    font-size:1rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 580px) {
-  .h6 {
+  .wrapper {
+    max-width: 98%;
+  }
+  .h6,
+  .button {
     display: none;
   }
-  .button{
-    display: none;
+  .text {
+    height: auto;
+  }
+}
+@media (max-width: 371px) {
+  .text {
+    grid-area: 1 / 1 / 2 / 2;
   }
 }
