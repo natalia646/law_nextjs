@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
-import ContactButton from "../contactButton/ContactButton";
+import ContactButton from "../../contactButton/ContactButton";
 import styled from "./partServicesForHome.module.scss";
-import styleLink from "../services/service.module.scss";
+import styleLink from "../../services/service.module.scss";
 import { Link } from "@/navigation";
 import ServiceScreen from "./matchMediaFunction";
 
