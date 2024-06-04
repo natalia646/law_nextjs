@@ -13,7 +13,7 @@ export default function Certificates({
         <Image
           src={`/certificates/${item}`}
           alt="certificates"
-          width={200}
+          width={900}
           height={100}
           key={i}
           className={style.image}
