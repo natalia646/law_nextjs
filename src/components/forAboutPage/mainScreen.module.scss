@@ -1,7 +1,7 @@
 .container {
   margin: 3% auto;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   width: 93%;
   align-content: space-between;
 }
@@ -40,4 +40,39 @@
   width: 40rem;
   height: 9rem;
   z-index: -1;
+}
+@media (max-width: 1024px) {
+  .image {
+    height: 27rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    grid-template-columns: 2fr 1fr;
+  }
+  .image {
+    height: 19rem;
+    width: 95%;
+  }
+  .h6 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    grid-template-columns: 1fr;
+    align-content: center;
+    grid-row-gap: 3rem;
+  }
+  .image {
+    background-position: top right;
+    width: 94%;
+    margin: auto;
+    height: 23rem;
+  }
+  .text {
+    max-width: 95%;
+    margin: auto;
+  }
 }
