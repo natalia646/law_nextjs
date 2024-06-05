@@ -35,3 +35,7 @@ export interface CaseType {
   result:   string;
   summary:  string;
 }
+export interface QAType{
+  q: string,
+  a: string
+}

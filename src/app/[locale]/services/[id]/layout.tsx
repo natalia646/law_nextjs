@@ -15,7 +15,8 @@ export async function generateMetadata({
   const servicesList: ServiceType[] = messages.Services;
   
   return {
-    title: servicesList[id].title,
+    title: "Tedalini - " +  servicesList[id].title,
+    description: servicesList[id].title,
   };
 }
 

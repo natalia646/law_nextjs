@@ -1,30 +1,34 @@
-import React from "react";
+import Image from "next/image";
+import { Link } from "@/navigation";
+import { useTranslations } from "next-intl";
+import CaseDescription from "@/components/cases/CaseDescription";
 import getCasesList from "@/functions/getCasesList";
 import style from "./case.module.scss";
-import Image from "next/image";
 
 export default function CasePage({ params }: { params: { id: number } }) {
   const cases = getCasesList();
-  const { id, title, client, task, decision, result, summary } =
-    cases[params.id];
+  const sCase = cases[params.id];
+  const t = useTranslations("CasePage");
+
   return (
-    <div className={style.container}>
-      <p>{title}</p>
-      <div className={style.image_block}>
+    <article>
+      <section className={style.container}>
+        <div>
+          <h2>{sCase.title}</h2>
+          <p>{t("desc1")}</p>
+          <p>{t("desc2")}</p>
+          <Link href="/cases" className={style.link}>
+            {t("all-cases") + " >"}
+          </Link>
+        </div>
         <Image
-          src={`/cases/case${id}.webp`}
-          alt="photo"
-          width={433}
-          height={540}
+          src={"/cases/main-fon.webp"}
+          alt="fon"
+          width={455}
+          height={611}
         ></Image>
-        <p>{client}</p>
-        <p>{task}</p>
-      </div>
-      <div className={style.result_block}>
-        <p>{decision}</p>
-        <p>{result}</p>
-        <p>{summary}</p>
-      </div>
-    </div>
+      </section>
+      <CaseDescription sCase={sCase} />
+    </article>
   );
 }

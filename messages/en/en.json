@@ -46,6 +46,28 @@
             "description": "Corporate consulting and interest protection"
         }
     ],
+    "QuestionsBlock": {
+        "commonQ": "FAQ",
+        "description": "We may have already answered your question. Check our FAQ archive."
+    },
+    "Questions": [
+        {
+            "q": "Які послуги ви надаєте для IT стартапів ?",
+            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+        },
+        {
+            "q": "Які послуги ви надаєте для IT стартапів ?",
+            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+        },
+        {
+            "q": "Які послуги ви надаєте для IT стартапів ?",
+            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+        },
+        {
+            "q": "Які послуги ви надаєте для IT стартапів ?",
+            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+        }
+    ],
     "HomePage": {
         "MainScreen": {
             "title": "Make your business better together with us",
@@ -77,6 +99,24 @@
         "name": "Name",
         "position": "Position",
         "description": "Description",
-        "networks": "Networks"
+        "networks": "Networks",
+        "certificates": "Certificates",
+        "our-team": "Our team"
+
+    },
+    "CasePage": {
+        "client": "Client",
+        "task": "Task",
+        "decision": "Decision",
+        "result": "Result",
+        "summary": "Summary",
+        "desc1": "Here you can learn about the successful projects and achievements of our company.",
+        "desc2": "Each case is a unique success story that demonstrates our expertise and ability to provide innovative solutions.",
+        "all-cases": "All cases"
+    },
+    "CertificatesPage": {
+        "our": "Our achievements",
+        "certificates":"Certificates",
+        "link" : "View all"
     }
 }

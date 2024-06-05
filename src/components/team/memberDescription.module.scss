@@ -1,0 +1,27 @@
+.h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.h6 {
+  margin-top: 0.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--gray-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  .h6 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .h5 {
+    font-size: 1rem;
+  }
+  .h6 {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+}

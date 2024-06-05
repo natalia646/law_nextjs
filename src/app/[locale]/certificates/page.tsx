@@ -1,9 +1,19 @@
-import React from 'react'
+import Certificates from "@/components/certificates/Certificates";
+import getMembersList from "@/functions/getMembersList";
+import style from "./certificates.module.css";
+import { useTranslations } from "next-intl";
 
 export default function CertificatesPage() {
+  const team = getMembersList();
+  const t = useTranslations("CertificatesPage");
   return (
-    <div>
-      certificates
-    </div>
-  )
+    <section className={style.container}>
+      <h2>{t("our")}</h2>
+      <div className={style.certificates}>
+        {team.map((member) => (
+          <Certificates certificates={member.certificates} key={member.id} />
+        ))}
+      </div>
+    </section>
+  );
 }

@@ -52,7 +52,12 @@
                 }
             ],
             "whatsapp": "+34 627 23 49 52",
-            "certificates": []
+            "certificates": [
+                "linetsky_1.webp",
+                "linetsky_2.webp",
+                "linetsky_3.webp",
+                "linetsky_4.webp"
+            ]
         },
         {
             "id": 3,

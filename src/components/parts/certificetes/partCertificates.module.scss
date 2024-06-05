@@ -1,0 +1,21 @@
+.container {
+  width: 95%;
+  margin: 3rem auto;
+}
+
+.wrapper {
+  margin: 2.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+  @media (max-width: 580px) {
+  grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+.link {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+}

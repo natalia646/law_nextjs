@@ -11,11 +11,11 @@ export default function TeamPage() {
       <div className={style.block}>
         <div className={style.text}>
           <h2>{t("our-team")}</h2>
-          <h6>{t("description")}</h6>
+          <p className={style.h6}>{t("description")}</p>
         </div>
         {team.map((item) => (
           <MemberOfTeam item={item} key={item.id} />
-        ))} 
+        ))}
       </div>
     </article>
   );
