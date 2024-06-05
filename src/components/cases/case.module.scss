@@ -8,19 +8,24 @@
   text-decoration: none;
   position: relative;
   padding: 1rem;
-  img {
-    max-width: 212px;
-    width: 100%;
-    height: auto;
-    margin-right: 1rem;
-  }
+}
+.image {
+  max-width: 212px;
+  width: 100%;
+  height: auto;
+  margin-right: 1rem;
+}
+.h4 {
+  display: inline-block;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+  font-weight: 600;
+}
 
+@media (max-width: 1024px) {
   .h4 {
-    display: inline-block;
-    position: absolute;
-    bottom: 1rem;
-    font-size: 1.5rem;
-    color: var(--dark-blue);
-    font-weight: 600;
+    font-size: 1rem;
   }
 }
