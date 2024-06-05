@@ -25,3 +25,20 @@
     text-decoration: none;
   }
 }
+@media (max-width: 1024px) {
+  .container{
+    p{
+      font-size: 1rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    p{
+      font-size: .875rem;
+    }
+    h2{
+      font-size: 1.25rem;
+    }
+  }
+}

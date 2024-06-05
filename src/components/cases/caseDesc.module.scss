@@ -1,7 +1,6 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   width: 95%;
@@ -50,5 +49,36 @@
   .h3::before {
     content: url("/icons/done.svg");
     margin-right: 3%;
+  }
+}
+
+.color {
+  display: block;
+  background: url("/icons/gray-backgr.svg") no-repeat left;
+  background-size: contain;
+  max-width: 19rem;
+  height: 5rem;
+  width: 100%;
+  margin: 2% 0;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    p {
+      font-size: 1rem;
+    }
+    .h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    p {
+      font-size: 0.875rem;
+    }
+    .h3 {
+      font-size: 1rem;
+    }
   }
 }

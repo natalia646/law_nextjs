@@ -26,6 +26,7 @@ export default function CaseDescription({ sCase }: { sCase: CaseType }) {
         </section>
       </div>
       <section className={style.result}>
+      <span className={style.color}></span>
         <p className={style.h3}>{t("decision")}</p>
         <p>{decision}</p>
         <p className={style.h3}>{t("result")}</p>
