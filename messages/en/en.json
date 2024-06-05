@@ -100,7 +100,9 @@
         "position": "Position",
         "description": "Description",
         "networks": "Networks",
-        "certificates": "Certificates"
+        "certificates": "Certificates",
+        "our-team": "Our team"
+
     },
     "CasePage": {
         "client": "Client",
