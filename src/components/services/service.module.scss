@@ -11,15 +11,15 @@
 
   &:hover {
     background-color: var(--blue);
-    h5,
-    h6 {
+    .h5,
+    .h6 {
       color: var(--white-color);
     }
     .arrow{
       background-image: url('/icons/white-arrow.svg');
     }
   }
-  h5 {
+  .h5 {
     margin: 1.2rem;
     text-align: end;
     font-weight: 700;
