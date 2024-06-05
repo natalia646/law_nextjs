@@ -10,13 +10,15 @@ export default function CaseDescription({ sCase }: { sCase: CaseType }) {
 
   return (
     <div className={style.wrapper}>
-      <Image
-        src={`/cases/case${id}.webp`}
-        alt="case"
-        width={433}
-        height={541}
-        className={style.image}
-      ></Image>
+      <span>
+        <Image
+          src={`/cases/case${id}.webp`}
+          alt="case"
+          width={433}
+          height={541}
+          className={style.image}
+        ></Image>
+      </span>
       <div className={style.client}>
         <section>
           <p className={style.h3}>{t("client")}</p>
@@ -26,7 +28,7 @@ export default function CaseDescription({ sCase }: { sCase: CaseType }) {
         </section>
       </div>
       <section className={style.result}>
-      <span className={style.color}></span>
+        <div className={style.color}></div>
         <p className={style.h3}>{t("decision")}</p>
         <p>{decision}</p>
         <p className={style.h3}>{t("result")}</p>

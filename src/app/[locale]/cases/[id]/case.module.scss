@@ -26,19 +26,27 @@
   }
 }
 @media (max-width: 1024px) {
-  .container{
-    p{
+  .container {
+    p {
       font-size: 1rem;
     }
   }
 }
 @media (max-width: 768px) {
-  .container{
-    p{
-      font-size: .875rem;
+  .container {
+    p {
+      font-size: 0.875rem;
     }
-    h2{
+    h2 {
       font-size: 1.25rem;
+    }
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    grid-template-columns: 1fr;
+    img {
+      display: none;
     }
   }
 }
