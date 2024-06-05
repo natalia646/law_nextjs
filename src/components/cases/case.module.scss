@@ -22,14 +22,24 @@
   font-size: 1.4rem;
   color: var(--dark-blue);
   font-weight: 600;
-  padding-right: 1% ;
+  padding-right: 1%;
 }
 
 @media (max-width: 1024px) {
   .h4 {
     font-size: 1rem;
   }
-  .image{
-    max-width: 180px;
+  .image {
+    max-width: 160px;
+  }
+}
+@media (max-width: 768px) {
+  
+
+
+
+  .h4{
+    position: relative;
+    bottom: 0;
   }
 }
