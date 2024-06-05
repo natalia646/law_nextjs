@@ -34,12 +34,22 @@
   }
 }
 @media (max-width: 768px) {
-  
+  .wrapper {
+    height: 196px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+  }
+  .image {
+    max-width: 350px;
+    object-fit: cover;
+    object-position: top;
+    margin: auto;
+  }
 
-
-
-  .h4{
+  .h4 {
     position: relative;
     bottom: 0;
+    margin: 3% 0;
   }
 }
