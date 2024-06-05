@@ -100,7 +100,9 @@
         "position": "Описание",
         "description": "Описание",
         "networks": "Социальные сети",
-        "certificates": "Сертификати"
+        "certificates": "Сертификати",
+        "our-team": "Наша команда"
+
     },
     "CasePage": {
         "client": "Клиент",
