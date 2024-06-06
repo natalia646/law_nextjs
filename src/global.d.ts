@@ -2,14 +2,14 @@
 export interface ServiceType {
   id:       number;
   title:    string;
-  offer:    Offer[];
-  result:   Offer[];
+  offer:    ServiceOfferType[];
+  result:   ServiceOfferType[];
   receives: string[];
 }
 
-export interface Offer {
+export interface ServiceOfferType {
   bolt: string;
-  desc: string;
+  desc: string | string[];
 }
 
 export interface MemberType {
