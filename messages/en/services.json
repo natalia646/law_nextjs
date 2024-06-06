@@ -286,18 +286,13 @@
             "title": "Opening bank accounts, company registration: the UK, Cyprus, UAE",
             "offer": [
                 {
-                    "bolt": "",
+                    "bolt": "⁠⁠Preparing a package of documents and business plans.",
                     "desc": ""
                 }
             ],
-            "result": [
-                {
-                    "bolt": "",
-                    "desc": ""
-                }
-            ],
+            "result": [],
             "receives": [
-                ""
+                "Bank account"
             ]
         },
         {
@@ -494,8 +489,8 @@
             "title": "Financial analysis and business planning",
             "offer": [
                 {
-                    "bolt": "Business planning and investment assessment of the project, including SWOT/PEST analysis, research of legislative regulation in the industry, technical analysis",
-                    "desc": ""
+                    "bolt": "Business planning and investment assessment of the project",
+                    "desc": " including SWOT/PEST analysis, research of legislative regulation in the industry, technical analysis"
                 }
             ],
             "result": [
@@ -514,14 +509,22 @@
             "title": "Marketing research",
             "offer": [
                 {
-                    "bolt": "Marketing research, including research on market capacity, the level of competition and analysis of competitors, the attractiveness of a selected market segment, projected sales volumes, a portrait of a potential consumer and appropriate types of marketing communications with him.",
-                    "desc": "Development of product marketing strategy, benchmarking"
+                    "bolt": "Marketing research",
+                    "desc": "including research on market capacity, the level of competition and analysis of competitors, the attractiveness of a selected market segment, projected sales volumes, a portrait of a potential consumer and appropriate types of marketing communications with him"
                 }
             ],
             "result": [
                 {
                     "bolt": "Marketing research report",
-                    "desc": "Marketing strategy, benchmarking report"
+                    "desc": ""
+                },
+                {
+                    "bolt": "Marketing strategy",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Benchmarking report",
+                    "desc": ""
                 }
             ],
             "receives": [
@@ -535,14 +538,26 @@
             "title": "Support for startups in Cyprus",
             "offer": [
                 {
-                    "bolt": "A complete set of works on the design, creation and implementation of a turnkey startup",
-                    "desc": "Analysis of the existing business model for its viability and investment attractiveness, consultations on the optimization of business taxation (including the IP-Вох regime)"
+                    "bolt": "A complete set of works on the design ",
+                    "desc": "creation and implementation of a turnkey startup"
+                },
+                {
+                    "bolt": "Analysis of the existing business model",
+                    "desc": "for its viability and investment attractiveness"
+                },
+                {
+                    "bolt": "Consultations",
+                    "desc": " on the optimization of business taxation (including the IР-Вох regime)"
                 }
             ],
             "result": [
                 {
-                    "bolt": "Consultations on startup implementation, tax optimization, visa regime and investment search",
-                    "desc": "Business plan and startup implementation plan"
+                    "bolt": "Consultations",
+                    "desc": "on startup implementation, tax optimization, visa regime and investment search"
+                },
+                {
+                    "bolt": "Business plan",
+                    "desc": "and startup implementation plan"
                 }
             ],
             "receives": [
