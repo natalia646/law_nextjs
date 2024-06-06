@@ -394,38 +394,38 @@
             "title": "Project management",
             "offer": [
                 {
-                    "bolt": "Project audits, including verification of the project concept, progress of project work and costs",
-                    "desc": ""
+                    "bolt": "Project audits",
+                    "desc": "including verification of the project concept, progress of project work and costs"
                 },
                 {
-                    "bolt": "Performing the function of the project management office (PMO) of all its types",
-                    "desc": ""
+                    "bolt": "Performing the function ",
+                    "desc": "of the project management office (PMO) of all its types"
                 },
                 {
-                    "bolt": "Monitoring and control of project works",
-                    "desc": ""
+                    "bolt": "Monitoring and control ",
+                    "desc": "of project works"
                 },
                 {
-                    "bolt": "Provision of project and financial managers for outstaffing for the client's project",
-                    "desc": ""
+                    "bolt": "Provision ",
+                    "desc": "of project and financial managers for outstaffing for the client's project"
                 }
             ],
             "result": [
                 {
-                    "bolt": "Consulting on project processes and implementation of adaptive management",
-                    "desc": ""
+                    "bolt": "Consulting ",
+                    "desc": "on project processes and implementation of adaptive management"
                 },
                 {
-                    "bolt": "Coaching and training in the field of project management",
-                    "desc": ""
+                    "bolt": "Coaching and training ",
+                    "desc": "in the field of project management"
                 },
                 {
-                    "bolt": "Full reporting on the progress of project work and the effectiveness of the team's work",
-                    "desc": ""
+                    "bolt": "Full reporting ",
+                    "desc": "on the progress of project work and the effectiveness of the team's work"
                 },
                 {
-                    "bolt": "Management of deviations and changes during the implementation of project works",
-                    "desc": ""
+                    "bolt": "Management ",
+                    "desc": "of deviations and changes during the implementation of project works"
                 }
             ],
             "receives": [
@@ -439,20 +439,20 @@
             "title": "Legal assistance",
             "offer": [
                 {
-                    "bolt": "Consultations on legal issues",
-                    "desc": ""
+                    "bolt": "Consultations ",
+                    "desc": "on legal issues"
                 },
                 {
-                    "bolt": "Analysis of legal acts on the organization and conduct of business",
-                    "desc": ""
+                    "bolt": "Analysis of legal acts ",
+                    "desc": "on the organization and conduct of business"
                 },
                 {
-                    "bolt": "Drafting of legal and procedural documents",
-                    "desc": ""
+                    "bolt": "Drafting ",
+                    "desc": "of legal and procedural documents"
                 },
                 {
-                    "bolt": "Representation of business interests in court and other authorities",
-                    "desc": ""
+                    "bolt": "Representation of business interests ",
+                    "desc": "in court and other authorities"
                 },
                 {
                     "bolt": "Participation in negotiations",
@@ -463,8 +463,8 @@
                     "desc": ""
                 },
                 {
-                    "bolt": "Development and analysis of internal documentation",
-                    "desc": ""
+                    "bolt": "Development and analysis ",
+                    "desc": "of internal documentation"
                 },
                 {
                     "bolt": "Legal support of labor relations",
