@@ -2,75 +2,511 @@
     "Services": [
         {
             "id": 0,
-            "title": "Legal support for business owners"
+            "title": "Legal support for business owners",
+            "offer": [
+                {
+                    "bolt": "Legal examination",
+                    "desc": "(Due diligence) of the security of ownership"
+                },
+                {
+                    "bolt": "Development of a strategy",
+                    "desc": "to protect the rights of business owners"
+                },
+                {
+                    "bolt": "Development of internal company documents",
+                    "desc": "to protect the rights of business owners"
+                },
+                {
+                    "bolt": "Development of models",
+                    "desc": "of relations between the business owner and the governing body"
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Conclusion",
+                    "desc": "about the security of ownership, about the presence of specific problematic points, conclusions and recommendations for eliminating identified violations"
+                },
+                {
+                    "bolt": "Package of ready documents",
+                    "desc": "of the company or participant (shareholder)"
+                }
+            ],
+            "receives": [
+                "Knowledge of possible threats to the security of his business ownership",
+                "Information about ways to ensure his interests",
+                "A package necessary to ensure the protection of his rights",
+                "Representative assistance in corporate relations"
+            ]
         },
         {
             "id": 1,
-            "title": "Contracts, Shareholders agreements, joint ventures"
+            "title": "Contracts, Shareholders agreements, joint ventures",
+            "offer": [
+                {
+                    "bolt": "Legal examination",
+                    "desc": "(Due diligence) of the security of ownership"
+                },
+                {
+                    "bolt": "Development of a strategy",
+                    "desc": "to protect the rights of business owners"
+                },
+                {
+                    "bolt": "Development of internal company documents",
+                    "desc": "to protect the rights of business owners"
+                },
+                {
+                    "bolt": "Development of models",
+                    "desc": "of relations between the business owner and the governing body"
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Conclusion",
+                    "desc": "about the security of ownership, about the presence of specific problematic points, conclusions and recommendations for eliminating identified violations"
+                },
+                {
+                    "bolt": "Package of ready documents",
+                    "desc": "of the company or participant (shareholder)"
+                }
+            ],
+            "receives": [
+                "Knowledge of possible threats to the security of his business ownership",
+                "Information about ways to ensure his interests",
+                "A package necessary to ensure the protection of his rights",
+                "Representative assistance in corporate relations"
+            ]
         },
         {
             "id": 2,
-            "title": "Real estate transactions abroad support"
+            "title": "Real estate transactions abroad support",
+            "offer": [
+                {
+                    "bolt": "Сопровождение сделок с недвижимостью",
+                    "desc": ""
+                }
+            ],
+            "result": [],
+            "receives": [
+                "безопасное приобретение в собственность объекта недвижимости"
+            ]
         },
         {
             "id": 3,
-            "title": "Legal due diligence of companies"
+            "title": "Legal due diligence of companies",
+            "offer": [
+                {
+                    "bolt": "Legal examination of documents",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Preparation of permit and registration documents",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Legal examination of the project",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Due Diligence",
+                    "desc": ""
+                }
+            ],
+            "result": [],
+            "receives": []
         },
         {
             "id": 4,
-            "title": "FinTech and investment companies"
+            "title": "FinTech and investment companies",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         },
         {
             "id": 5,
-            "title": "Protection of client interests in corporate conflicts"
+            "title": "Protection of client interests in corporate conflicts",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         },
         {
             "id": 6,
-            "title": "Business restructuring support. Acquisition of companies, assets. M&A"
+            "title": "Business restructuring support. Acquisition of companies, assets. M&A",
+            "offer": [
+                {
+                    "bolt": "Corporate governance audit",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Legal consulting",
+                    "desc": "on mergers, acquisitions, separations, separations of organizations, creation of holdings"
+                },
+                {
+                    "bolt": "Development of the concept and plan of measures",
+                    "desc": "for business reorganization"
+                },
+                {
+                    "bolt": "Preparation, implementation and legal registration",
+                    "desc": "of all reorganization processes"
+                },
+                {
+                    "bolt": "Registration of founding documents",
+                    "desc": "creation/liquidation of legal entities"
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Consultations",
+                    "desc": "are oral and written"
+                },
+                {
+                    "bolt": "Drafting of documents",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Representation of the client's interests",
+                    "desc": "in state bodies"
+                }
+            ],
+            "receives": [
+                "Information about the goals, methods and procedure of business reorganization",
+                "Information about ways to ensure his interests during the reorganization",
+                "A package of necessary documents for reorganization",
+                "Assistance of the representative in the implementation of measures"
+            ]
         },
         {
             "id": 7,
-            "title": "Legal support for protecting business owner's rights"
+            "title": "Legal support for protecting business owner's rights",
+            "offer": [
+                {
+                    "bolt": "Анализ информации и действий компании агрессора",
+                    "desc": "выявление способов недружественного поглощения"
+                },
+                {
+                    "bolt": "Разработка юридической стратегии",
+                    "desc": "по защите от недружественного поглощения"
+                },
+                {
+                    "bolt": "Юридические услуги по судебной защите права собственности",
+                    "desc": "на акции (доли), истребование их с чужого незаконного владения, признание недействительной записи по лицевому счету в реестре акционеров"
+                },
+                {
+                    "bolt": "Разработка мер",
+                    "desc": "блокировки акций (долей)"
+                }
+            ],
+            "result": [],
+            "receives": [
+                "Защита от создания параллельных органов управления, перехват управления, созыв внеочередного собрания акционеров (участников)",
+                "Создание условий, препятствующих массовой скупке акций, контрскупка акций",
+                "Создание системы контроля за кредиторской и дебиторской задолженностью, управление активами в период корпоративного конфликта"
+            ]
         },
         {
             "id": 8,
-            "title": "Opening bank accounts, company registration: the UK, Cyprus, UAE"
+            "title": "Opening bank accounts, company registration: the UK, Cyprus, UAE",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         },
         {
             "id": 9,
-            "title": "Tax disputes in Cyprus"
+            "title": "Tax disputes in Cyprus",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         },
         {
             "id": 10,
-            "title": "IT project support"
+            "title": "IT project support",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         },
         {
             "id": 11,
-            "title": "Project development"
+            "title": "Project development",
+            "offer": [
+                {
+                    "bolt": "Бізнес-планування та інвестиційна оцінка проєкту",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Розробка продуктової стратегії проєкту",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Розробка плану управління проєктом, включаючи бюджетне планування та розклад",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Оцінка проєктних ризиків",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Звіт з маркетингових досліджень проєкту",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Бізнес-план проєкту",
+                    "desc": ""
+                },
+                {
+                    "bolt": "User Stories та технічне завдання на розробку",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Бюджет та графік робіт проєкту",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Реєстр ризиків",
+                    "desc": ""
+                }
+            ],
+            "receives": []
         },
         {
             "id": 12,
-            "title": "Project management"
+            "title": "Project management",
+            "offer": [
+                {
+                    "bolt": "Project audits, including verification of the project concept, progress of project work and costs",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Performing the function of the project management office (PMO) of all its types",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Monitoring and control of project works",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Provision of project and financial managers for outstaffing for the client's project",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Consulting on project processes and implementation of adaptive management",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Coaching and training in the field of project management",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Full reporting on the progress of project work and the effectiveness of the team's work",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Management of deviations and changes during the implementation of project works",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                "Understanding of the effectiveness of the project and the feasibility of continuing its further implementation, including the forecast of the budget and deadlines for the completion of the project",
+                "Motivated evaluation of the effectiveness of the current project team",
+                "Growth and development of the project team."
+            ]
         },
         {
             "id": 13,
-            "title": "Legal assistance"
+            "title": "Legal assistance",
+            "offer": [
+                {
+                    "bolt": "Consultations on legal issues",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Analysis of legal acts on the organization and conduct of business",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Drafting of legal and procedural documents",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Representation of business interests in court and other authorities",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Participation in negotiations",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Preparation and maintenance of contracts",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Development and analysis of internal documentation",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Legal support of labor relations",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Oral and written consultations",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Drafting of documents",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Representation of the client's interests in state bodies",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                "Full legal support for opening and running a business"
+            ]
         },
         {
             "id": 14,
-            "title": "Financial analysis and business planning"
+            "title": "Financial analysis and business planning",
+            "offer": [
+                {
+                    "bolt": "Business planning and investment assessment of the project, including SWOT/PEST analysis, research of legislative regulation in the industry, technical analysis",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Business plan of the project",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                "Assessment of feasibility and investment attractiveness of the project",
+                "Identification of the main sources of project risk and their impact on the project"
+            ]
         },
         {
             "id": 15,
-            "title": "Marketing research"
+            "title": "Marketing research",
+            "offer": [
+                {
+                    "bolt": "Marketing research, including research on market capacity, the level of competition and analysis of competitors, the attractiveness of a selected market segment, projected sales volumes, a portrait of a potential consumer and appropriate types of marketing communications with him.",
+                    "desc": "Development of product marketing strategy, benchmarking"
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Marketing research report",
+                    "desc": "Marketing strategy, benchmarking report"
+                }
+            ],
+            "receives": [
+                "Understanding the prospects of introducing one's own product to the chosen market",
+                "Understanding your consumer and product promotion strategy",
+                "Seeing the strengths and weaknesses of your competitors"
+            ]
         },
         {
             "id": 16,
-            "title": "Support for startups in Cyprus"
+            "title": "Support for startups in Cyprus",
+            "offer": [
+                {
+                    "bolt": "A complete set of works on the design, creation and implementation of a turnkey startup",
+                    "desc": "Analysis of the existing business model for its viability and investment attractiveness, consultations on the optimization of business taxation (including the IP-Вох regime)"
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "Consultations on startup implementation, tax optimization, visa regime and investment search",
+                    "desc": "Business plan and startup implementation plan"
+                }
+            ],
+            "receives": [
+                "Understanding the prospects of implementing your idea in Cyprus",
+                "Understanding the steps required to implement a startup, the amount of investment and business strategy"
+            ]
         },
         {
             "id": 17,
-            "title": "Bank account opening, company registration: Great Britain, USA, Cyprus (including IP Box mode), UAE, African countries"
+            "title": "Bank account opening, company registration: Great Britain, USA, Cyprus (including IP Box mode), UAE, African countries",
+            "offer": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "result": [
+                {
+                    "bolt": "",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                ""
+            ]
         }
     ]
 }
