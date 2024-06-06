@@ -1,12 +1,12 @@
 import getServerList from "@/functions/getServicesList";
 import style from "./servicePage.module.scss";
 import getCorrectNumber from "@/functions/getCorrectNumberOfServices";
-import TopBlocks from "@/components/services/servicePage/TopBlocks";
+// import TopBlocks from "@/components/services/servicePage/TopBlocks";
 
 export default function ServicePage({ params }: { params: { id: number } }) {
   const services = getServerList();
   const { id } = params;
-  const { title, offer } = services[id];
+  const { title} = services[id];
 
   return (
     <section className={style.container}>
@@ -16,7 +16,7 @@ export default function ServicePage({ params }: { params: { id: number } }) {
           <p>{getCorrectNumber({ id })}</p>
         </div>
       </div>
-      <TopBlocks offer = {offer} />
+      {/* <TopBlocks offer = {offer} /> */}
     </section>
   );
 }
