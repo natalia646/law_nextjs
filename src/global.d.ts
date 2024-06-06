@@ -1,6 +1,15 @@
+
 export interface ServiceType {
-  id: number;
-  title: string;
+  id:       number;
+  title:    string;
+  offer:    Offer[];
+  result:   Offer[];
+  receives: string[];
+}
+
+export interface Offer {
+  bolt: string;
+  desc: string;
 }
 
 export interface MemberType {
