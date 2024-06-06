@@ -1,6 +1,6 @@
 export default function getCorrectNumber({ id }:  {id: number} ) {
 
-  const correctNumber = id + 1;
+  const correctNumber = Number(id) + 1;
 
   if (String(correctNumber).length === 1) {
     return "0" + correctNumber;
