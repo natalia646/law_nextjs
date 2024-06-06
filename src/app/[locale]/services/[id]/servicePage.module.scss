@@ -1,0 +1,28 @@
+.container {
+    width: 95%;
+    margin: auto;
+  }
+  .title_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+  }
+  .color {
+    display: block;
+    background: url("/icons/gray-backgr.svg") no-repeat left;
+    background-size: contain;
+    max-width: 19rem;
+    height: 8rem;
+    width: 100%;
+    margin: 2% 0;
+    position: relative;
+  
+    p {
+      position: absolute;
+      font-size: 4.5rem;
+      color: var(--blue);
+      top: 28%;
+      left: 6%;
+    }
+  }
