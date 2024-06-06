@@ -1,6 +1,13 @@
 export interface ServiceType {
   id: number;
   title: string;
+  offer: ServiceOfferType[];
+  result: ServiceOfferType[];
+  receives: string[]
+}
+export interface ServiceOfferType {
+  bolt: string;
+  desc: string | string[];
 }
 
 export interface MemberType {
@@ -19,7 +26,7 @@ export interface NetworsType {
 }
 
 export interface BloksType {
-  title:       string;
+  title: string;
   description: string;
 }
 export interface NavigationType {
@@ -27,15 +34,15 @@ export interface NavigationType {
   link: string;
 }
 export interface CaseType {
-  id:       number;
-  title:    string;
-  client:   string;
-  task:     string;
+  id: number;
+  title: string;
+  client: string;
+  task: string;
   decision: string;
-  result:   string;
-  summary:  string;
+  result: string;
+  summary: string;
 }
-export interface QAType{
-  q: string,
-  a: string
+export interface QAType {
+  q: string;
+  a: string;
 }
