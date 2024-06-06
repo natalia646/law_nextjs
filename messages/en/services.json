@@ -81,13 +81,13 @@
             "title": "Real estate transactions abroad support",
             "offer": [
                 {
-                    "bolt": "Сопровождение сделок с недвижимостью",
+                    "bolt": "Support of real estate transactions",
                     "desc": ""
                 }
             ],
             "result": [],
             "receives": [
-                "безопасное приобретение в собственность объекта недвижимости"
+                "Safe acquisition of property ownership"
             ]
         },
         {
@@ -111,26 +111,42 @@
                     "desc": ""
                 }
             ],
-            "result": [],
-            "receives": []
+            "result": [
+                {
+                    "bolt": "Oral and written consultations ",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Report",
+                    "desc": "on the results of legal review and due diligence"
+                },
+                {
+                    "bolt": "Authorization and registration documents",
+                    "desc": ""
+                }
+            ],
+            "receives": [
+                "Understanding the degree of business compliance with the requirements of current legislation",
+                "Understanding of possible problems and risks in the legislative field",
+                "Permits have been obtained and registration procedures have been completed"
+            ]
         },
         {
             "id": 4,
             "title": "FinTech and investment companies",
             "offer": [
                 {
-                    "bolt": "",
+                    "bolt": "Preparation of documents for submission",
                     "desc": ""
-                }
-            ],
-            "result": [
+                },
                 {
-                    "bolt": "",
-                    "desc": ""
+                    "bolt": "PPreparation of a business plan",
+                    "desc": "necessary for obtaining a license"
                 }
             ],
+            "result": [],
             "receives": [
-                ""
+                "Licenses and activity support"
             ]
         },
         {
@@ -138,18 +154,57 @@
             "title": "Protection of client interests in corporate conflicts",
             "offer": [
                 {
-                    "bolt": "",
-                    "desc": ""
+                    "bolt": "Consultancy:",
+                    "desc": [
+                        "Development, correction of organizational documents in order to prevent corporate conflicts",
+                        "Development of a strategy for the behavior of a participant in a corporate conflict",
+                        "Prospects for corporate conflict resolution"
+                    ]
+                },
+                {
+                    "bolt": "Legal representation in disputes:",
+                    "desc": [
+                        "About appealing decisions of management bodies of a commercial organization",
+                        "On the invalidation of founding documents",
+                        "About contesting the state registration of the company",
+                        "About the appeal of agreements on the alienation of shares, shares of participation in the company",
+                        "About contesting large agreements and agreements in the execution of which there is an interest",
+                        "About the exclusion of a member from the company",
+                        "About compensation for losses caused to the company by the actions (inaction) of the company's management bodies",
+                        "On invalidating the registrar's actions"
+                    ]
+                },
+                {
+                    "bolt": "Legal expertise:",
+                    "desc": [
+                        "Constituent documents on the possibility of corporate conflicts",
+                        "Legality of actions and decisions of the management bodies of the company"
+                    ]
                 }
             ],
             "result": [
                 {
-                    "bolt": "",
+                    "bolt": "Oral and written consultations",
                     "desc": ""
+                },
+                {
+                    "bolt": "Drafting of documents",
+                    "desc": "(contracts, founding documents, acts, etc.)"
+                },
+                {
+                    "bolt": "Representation of the client's",
+                    "desc": "interests in state bodies"
+                },
+                {
+                    "bolt": "Representation in the court ",
+                    "desc": "of first instance, appeal, cassation instance"
                 }
             ],
             "receives": [
-                ""
+                "Information on drafting organizational documents for the purpose of preventing corporate conflicts",
+                "Information about ways to ensure his interests in case of corporate conflicts",
+                "Prepared documents for protection of the client's interests",
+                "Assistance of a representative in negotiations, in court when settling corporate conflicts"
             ]
         },
         {
@@ -203,27 +258,27 @@
             "title": "Legal support for protecting business owner's rights",
             "offer": [
                 {
-                    "bolt": "Анализ информации и действий компании агрессора",
-                    "desc": "выявление способов недружественного поглощения"
+                    "bolt": "Analysis of information and actions of the aggressor's company",
+                    "desc": "detection of unfriendly takeover methods"
                 },
                 {
-                    "bolt": "Разработка юридической стратегии",
-                    "desc": "по защите от недружественного поглощения"
+                    "bolt": "Development of a legal strategy",
+                    "desc": " for protection against unfriendly takeover"
                 },
                 {
-                    "bolt": "Юридические услуги по судебной защите права собственности",
-                    "desc": "на акции (доли), истребование их с чужого незаконного владения, признание недействительной записи по лицевому счету в реестре акционеров"
+                    "bolt": "Legal services for legal protection of the right to own shares (parts), ",
+                    "desc": " claiming them from someone else's illegal possession, invalidating an entry on a personal account in the shareholders' register"
                 },
                 {
-                    "bolt": "Разработка мер",
-                    "desc": "блокировки акций (долей)"
+                    "bolt": "Development of measures",
+                    "desc": "to block shares (shares)"
                 }
             ],
             "result": [],
             "receives": [
-                "Защита от создания параллельных органов управления, перехват управления, созыв внеочередного собрания акционеров (участников)",
-                "Создание условий, препятствующих массовой скупке акций, контрскупка акций",
-                "Создание системы контроля за кредиторской и дебиторской задолженностью, управление активами в период корпоративного конфликта"
+                "Protection against the creation of parallel management bodies, interception of management, convening of extraordinary meetings of shareholders (participants)",
+                "Creation of conditions that prevent the mass purchase of shares, counter-purchase of shares",
+                "Creation of a system of control over payables and receivables, asset management during the period of corporate conflict"
             ]
         },
         {
@@ -269,64 +324,70 @@
             "title": "IT project support",
             "offer": [
                 {
-                    "bolt": "",
+                    "bolt": "Acquisition of IT/IP assets",
                     "desc": ""
-                }
-            ],
-            "result": [
+                },
                 {
-                    "bolt": "",
+                    "bolt": "Contracts with developers",
+                    "desc": ""
+                },
+                {
+                    "bolt": "Software due diligence",
                     "desc": ""
                 }
             ],
-            "receives": [
-                ""
-            ]
+            "result": [],
+            "receives": []
         },
         {
             "id": 11,
             "title": "Project development",
             "offer": [
                 {
-                    "bolt": "Бізнес-планування та інвестиційна оцінка проєкту",
-                    "desc": ""
+                    "bolt": "Business planning ",
+                    "desc": "and investment evaluation of the project"
                 },
                 {
-                    "bolt": "Розробка продуктової стратегії проєкту",
-                    "desc": ""
+                    "bolt": "Development ",
+                    "desc": "of the product strategy of the project"
                 },
                 {
-                    "bolt": "Розробка плану управління проєктом, включаючи бюджетне планування та розклад",
-                    "desc": ""
+                    "bolt": "Development ",
+                    "desc": "of a project management plan, including budget planning and scheduling"
                 },
                 {
-                    "bolt": "Оцінка проєктних ризиків",
+                    "bolt": "Assessment of project risks",
                     "desc": ""
                 }
             ],
             "result": [
                 {
-                    "bolt": "Звіт з маркетингових досліджень проєкту",
+                    "bolt": "Project ",
+                    "desc": "marketing research report"
+                },
+                {
+                    "bolt": "Business plan of the project",
                     "desc": ""
                 },
                 {
-                    "bolt": "Бізнес-план проєкту",
+                    "bolt": "User Stories ",
+                    "desc": "and Development Terms of Reference"
+                },
+                {
+                    "bolt": "Project budget and schedule",
                     "desc": ""
                 },
                 {
-                    "bolt": "User Stories та технічне завдання на розробку",
-                    "desc": ""
-                },
-                {
-                    "bolt": "Бюджет та графік робіт проєкту",
-                    "desc": ""
-                },
-                {
-                    "bolt": "Реєстр ризиків",
+                    "bolt": "Register of risks",
                     "desc": ""
                 }
             ],
-            "receives": []
+            "receives": [
+                " Assessment of the attractiveness of the selected market segment for the successful implementation of the project",
+                "A product offer that meets the client's and the market's demand",
+                "A project management plan that ensures successful achievement of goals",
+                "Assessment of the possible impact of uncertainty on the project"
+            ]
         },
         {
             "id": 12,
@@ -494,18 +555,13 @@
             "title": "Bank account opening, company registration: Great Britain, USA, Cyprus (including IP Box mode), UAE, African countries",
             "offer": [
                 {
-                    "bolt": "",
-                    "desc": ""
+                    "bolt": "⁠Preparing",
+                    "desc": "a package of documents and business plans"
                 }
             ],
-            "result": [
-                {
-                    "bolt": "",
-                    "desc": ""
-                }
-            ],
+            "result": [],
             "receives": [
-                ""
+                "Bank account"
             ]
         }
     ]
