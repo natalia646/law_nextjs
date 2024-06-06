@@ -8,8 +8,8 @@ export default function RunText() {
   return (
     <div className={style.container}>
       <div className={style.scroll}>
-        {services.map((service) => (
-          <div className={style.right}>
+        {services.map((service, i) => (
+          <div className={style.right} key={i}>
             <p key={service.id}>{service.title}</p>
             <Image
               src={"/icons/point.svg"}
@@ -22,8 +22,8 @@ export default function RunText() {
       </div>
 
       <div className={style.scroll}>
-        {services.map((service) => (
-          <div className={style.right}>
+        {services.map((service, i) => (
+          <div className={style.right} key={i}>
             <p key={service.id}>{service.title}</p>
             <Image
               src={"/icons/point.svg"}

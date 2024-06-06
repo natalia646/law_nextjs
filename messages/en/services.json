@@ -286,7 +286,7 @@
             "title": "Opening bank accounts, company registration: the UK, Cyprus, UAE",
             "offer": [
                 {
-                    "bolt": "⁠⁠Preparing a package of documents and business plans.",
+                    "bolt": "⁠ ⁠Preparing a package of documents and business plans.",
                     "desc": ""
                 }
             ],
@@ -300,18 +300,37 @@
             "title": "Tax disputes in Cyprus",
             "offer": [
                 {
-                    "bolt": "",
-                    "desc": ""
+                    "bolt": "Client consultations",
+                    "desc": "oral, written"
+                },
+                {
+                    "bolt": "Lawyer participation",
+                    "desc": "in pre-audit analysis of the client"
+                },
+                {
+                    "bolt": "Assistance",
+                    "desc": "in formulating responses to tax authorities' requests"
+                },
+                {
+                    "bolt": "Appeals",
+                    "desc": "against actions and decisions regarding the client's audit"
                 }
             ],
             "result": [
                 {
-                    "bolt": "",
-                    "desc": ""
+                    "bolt": "Representation",
+                    "desc": "by a lawyer of the client's interests during the tax audit (preparation of procedural requests related to the subject of the audit, formulation of objections to the audit report, and submission to the controlling authority)"
+                },
+                {
+                    "bolt": "Appeal of audit results",
+                    "desc": "submission of complaints against the tax authority's decision administratively to a higher-level controlling authority; use of court procedures to protect the client's rights"
                 }
             ],
             "receives": [
-                ""
+                "Filing a lawsuit to cancel the tax authority's decisions to refuse the registration of tax invoices and obligate their registration",
+                "Filing a lawsuit regarding the non-consideration of the VAT DATA TABLE and obligating the tax authority to accept it",
+                "Ensuring the restoration of the client's rights regarding the non-implementation of the court's decision on the registration of tax invoices and the data table",
+                "Supporting court cases regarding the blocking of tax credit"
             ]
         },
         {

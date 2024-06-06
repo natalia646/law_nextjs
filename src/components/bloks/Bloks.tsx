@@ -21,7 +21,6 @@ export default function Bloks() {
       {bloks.map((item, i) => (
         <section className={style.block} key={i}>
           <Image
-            key={i}
             src={icons[i]}
             alt="icon"
             width={64}
