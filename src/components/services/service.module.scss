@@ -13,7 +13,8 @@
   &:hover {
     background-color: var(--blue);
     .h5,
-    .h6 {
+    .h6,
+    .link {
       color: var(--white-color);
     }
     .arrow {
@@ -29,7 +30,7 @@
     color: var(--blue);
   }
   .h6 {
-    margin: .8rem;
+    margin: 0.8rem;
     display: inline-block;
     position: absolute;
     bottom: 0;
@@ -44,6 +45,16 @@
     background-size: contain;
     margin-left: auto;
     margin-top: 1.25rem;
+  }
+  .link {
+    text-align: left;
+    margin: 1.2rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--blue);
   }
 }
 
