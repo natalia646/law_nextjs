@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5%;
   margin: 2rem auto;
+  
 }
 .block {
   display: flex;
@@ -15,6 +16,7 @@
   width: 100%;
   min-height: 178px;
   padding: 6% 4%;
+  margin: 0 auto;
 
   .bolt {
     color: var(--dark-blue);
