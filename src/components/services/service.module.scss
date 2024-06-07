@@ -20,6 +20,7 @@
       background-image: url("/icons/white-arrow.svg");
     }
   }
+
   .h5 {
     margin: 1.2rem;
     text-align: end;
@@ -28,7 +29,7 @@
     color: var(--blue);
   }
   .h6 {
-    margin: 1.2rem;
+    margin: .8rem;
     display: inline-block;
     position: absolute;
     bottom: 0;
@@ -36,39 +37,40 @@
     font-size: 1.25rem;
     font-weight: 400;
   }
+  .arrow {
+    width: 60px;
+    height: 20px;
+    background: url("/icons/blue-arrow.svg") no-repeat top;
+    background-size: contain;
+    margin-left: auto;
+    margin-top: 1.25rem;
+  }
 }
-.arrow {
-  width: 60px;
-  height: 20px;
-  background: url("/icons/blue-arrow.svg") no-repeat top;
-  background-size: contain;
-  margin-left: auto;
-  margin-top: 1.25rem;
-}
+
 @media (max-width: 1024px) {
   .block {
     height: 230px;
-  }
-  .h6 {
-    font-size: 1rem;
+    .h6 {
+      font-size: 1rem;
+    }
   }
 }
 @media (max-width: 768px) {
   .block {
     height: 190px;
-  }
-  .h6 {
-    font-size: 0.875rem;
+    .h6 {
+      font-size: 0.875rem;
+    }
   }
 }
 @media (max-width: 580px) {
   .block {
     height: 171px;
-  }
-  .h5 {
-    font-size: 1rem;
-  }
-  .h6 {
-    font-size: 0.8rem;
+    .h5 {
+      font-size: 1rem;
+    }
+    .h6 {
+      font-size: 0.8rem;
+    }
   }
 }
