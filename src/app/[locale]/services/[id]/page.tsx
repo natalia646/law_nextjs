@@ -1,11 +1,41 @@
-import getServerList from "@/functions/getServicesList";
-import style from './servicePage.module.scss'
+"use client";
+import style from "./servicePage.module.scss";
 import getCorrectNumber from "@/functions/getCorrectNumberOfServices";
 
-export default function ServicePage({ params }: { params: { id: number } }) {
-  const services = getServerList();
+import { useEffect, useState } from "react";
+import fetchServ from "@/functions/fetchServ";
+import { ServiceFetshType } from "@/global";
+
+export default function ServicePage({
+  params,
+}: {
+  params: { id: number; locale: string };
+}) {
+  const [data, setData] = useState<ServiceFetshType[]>([]);
+  const [loading, setLoading] = useState(true);
+  const { locale } = params;
+
+  useEffect(() => {
+    fetchServ().then((data) => {
+      if (!data) {
+        setData([]), setLoading(true);
+      }
+      setData(data), setLoading(false);
+    });
+  }, []);
+
+  if (loading) {
+    return <p>Louding</p>;
+  }
+
+  const correctLocal = data.find((item) => item.lang === locale);
+
+  if (!correctLocal?.data) {
+    return "Loading";
+  }
+
   const { id } = params;
-  const { title } = services[id];
+  const { title, offer, result, receives } = correctLocal?.data[id];
 
   return (
     <section className={style.container}>
