@@ -27,7 +27,7 @@ export default function ResultBlock({
             <div className={style.block} key={i}>
               <p className={style.bolt}>{item.bolt}</p>
               {Array.isArray(item.desc) ? (
-                item.desc.map((val, i) => <p key={i}>{"-" + val}</p>)
+                item.desc.map((val, i) => <p key={i}>{"- " + val}</p>)
               ) : (
                 <p>{item.desc}</p>
               )}
