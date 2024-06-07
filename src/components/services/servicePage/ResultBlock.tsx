@@ -8,10 +8,13 @@ export default function ResultBlock({
 }: {
   result: ServiceOfferType[];
 }) {
-    const t = useTranslations('ServicePage')
+  const t = useTranslations("ServicePage");
+  if (!result) {
+    return <></>;
+  }
   return (
     <>
-    <h2>{t("result")}</h2>
+      <h2>{t("result")}</h2>
       <section className={style.container}>
         <Image
           src={"/icons/servise-page.svg"}
