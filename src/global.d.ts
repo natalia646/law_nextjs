@@ -1,3 +1,8 @@
+export interface ServiceFetshType{
+  lang: string;
+  data : ServiceType[]
+
+}
 export interface ServiceType {
   id: number;
   title: string;
