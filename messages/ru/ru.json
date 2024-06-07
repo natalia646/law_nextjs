@@ -102,7 +102,6 @@
         "networks": "Социальные сети",
         "certificates": "Сертификати",
         "our-team": "Наша команда"
-
     },
     "CasePage": {
         "client": "Клиент",
@@ -122,5 +121,6 @@
     "ServicePage": {
         "result": "Оформление результата",
         "receives": "Клиент получает"
-    }
+    },
+    "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms."
 }

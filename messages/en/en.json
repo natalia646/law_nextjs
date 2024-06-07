@@ -121,5 +121,6 @@
     "ServicePage": {
         "result": "Forming the result",
         "receives": "The client receives"
-    }
+    },
+    "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms."
 }
