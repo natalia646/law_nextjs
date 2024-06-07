@@ -7,6 +7,7 @@ import fetchServ from "@/functions/fetchServ";
 import { ServiceFetshType } from "@/global";
 import TopBlocks from "@/components/services/servicePage/TopBlocks";
 import ResultBlock from "@/components/services/servicePage/ResultBlock";
+import ClientReceivesBlock from "@/components/services/servicePage/ClientReceivesBlock";
 
 export default function ServicePage({
   params,
@@ -47,8 +48,9 @@ export default function ServicePage({
           <p>{getCorrectNumber({ id })}</p>
         </div>
       </div>
-      <TopBlocks offer={offer}/>
-      <ResultBlock result = {result}/>
+      <TopBlocks offer={offer} />
+      <ResultBlock result={result} />
+      <ClientReceivesBlock receives={receives} />
     </section>
   );
 }
