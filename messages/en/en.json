@@ -118,5 +118,8 @@
         "our": "Our achievements",
         "certificates":"Certificates",
         "link" : "View all"
+    },
+    "ServicePage": {
+        "result": "Forming the result"
     }
 }
