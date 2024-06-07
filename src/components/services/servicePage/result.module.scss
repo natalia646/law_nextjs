@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% auto 10% auto;
+
+  img {
+    max-width: 429px;
+    width: 100%;
+    height: auto;
+  }
+}
+.wrapper {
+  background: linear-gradient(var(--backgr-color), var(--white-color));
+}
+.block {
+    width: 80%;
+    margin: auto;
+    .bolt{
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: var(--dark-blue);
+        margin-top: 3rem;
+    }
+    p{
+        color: var(--gray-color);
+        font-size: 1.25rem;
+    }
+}
