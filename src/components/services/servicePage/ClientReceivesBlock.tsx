@@ -16,7 +16,7 @@ export default function ClientReceivesBlock({
       <h2>{t("receives")}</h2>
       <section className={style.container}>
         {receives.map((item, i) => (
-          <div className={style.block}>
+          <div className={style.block} key={i}>
             <p className={style.number}>{i + 1}</p>
             <p>{item}</p>
           </div>

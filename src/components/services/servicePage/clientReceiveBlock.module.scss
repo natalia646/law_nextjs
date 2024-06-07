@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   background-color: var(--white-color);
   box-shadow: 0px 16px 46px 0px rgba(179, 179, 184, 0.527);
   max-width: 500px;
@@ -20,10 +20,34 @@
     color: var(--gray-color);
     font-size: 1.25rem;
     text-align: center;
+    margin-bottom: 3%;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .number {
     color: var(--blue);
     font-size: 2rem;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 }
