@@ -12,14 +12,6 @@ export default function Header() {
 
   return (
     <header className={styled.header}>
-      <Link href={`/`}>
-        <Image
-          src={"/icons/logo/tedalini.svg"}
-          alt="tedalini_logo"
-          width={145}
-          height={36}
-        ></Image>
-      </Link>
       <Navigation navigation={navigation} />
       <Link href={`/contacts`} className={styled.button}>
         {t("ContactPage")}

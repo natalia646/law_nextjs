@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { NavigationType } from "@/global";
 import { useState } from "react";
 import BurgerMenu from "./burgerMenu";
+import Image from "next/image";
 
 export default function Navigation({
   navigation,
@@ -17,6 +18,14 @@ export default function Navigation({
 
   return (
     <>
+      <Link href={`/`} onClick={() => setOpenMobile(false)}>
+        <Image
+          src={"/icons/logo/tedalini.svg"}
+          alt="tedalini_logo"
+          width={145}
+          height={36}
+        ></Image>
+      </Link>
       <nav
         className={`${openMobileMenu ? styled.mobile_menu : styled.navigation}`}
       >
