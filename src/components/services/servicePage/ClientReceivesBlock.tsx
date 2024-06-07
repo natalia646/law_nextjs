@@ -7,7 +7,7 @@ export default function ClientReceivesBlock({
   receives: string[];
 }) {
   const t = useTranslations("ServicePage");
-  if (!receives) {
+  if (receives.length === 0) {
     return <></>;
   }
 
