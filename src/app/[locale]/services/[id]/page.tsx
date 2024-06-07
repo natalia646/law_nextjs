@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import fetchServ from "@/functions/fetchServ";
 import { ServiceFetshType } from "@/global";
 import TopBlocks from "@/components/services/servicePage/TopBlocks";
+import ResultBlock from "@/components/services/servicePage/ResultBlock";
 
 export default function ServicePage({
   params,
@@ -47,6 +48,7 @@ export default function ServicePage({
         </div>
       </div>
       <TopBlocks offer={offer}/>
+      <ResultBlock result = {result}/>
     </section>
   );
 }
