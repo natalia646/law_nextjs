@@ -64,7 +64,7 @@ export default function Form({ locale }: { locale: string }) {
         type="hidden"
         name="_next"
         // http://localhost:3000/uk/thanks
-        value={`http://localhost:3000/${locale}/thanks`}
+        value={`http://tedalini.com/${locale}/thanks`}
       ></input>
       <input type="hidden" name="_captcha" value="false"></input>
       <input type="hidden" name="_template" value="table"></input>
