@@ -6,5 +6,5 @@ import { Link } from "@/navigation";
 export default function ContactButton() {
   const t = useTranslations();
 
-  return <Link href={`/contacts`} className={styled.button}>{t("ContactPage")}</Link>;
+  return <Link href={`/contacts`} className={styled.button}>{t("ContactPage.connect")}</Link>;
 }
