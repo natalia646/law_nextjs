@@ -1,14 +1,13 @@
-export interface ServiceFetshType{
+export interface ServiceFetshType {
   lang: string;
-  data : ServiceType[]
-
+  data: ServiceType[];
 }
 export interface ServiceType {
   id: number;
   title: string;
   offer: ServiceOfferType[];
   result: ServiceOfferType[];
-  receives: string[]
+  receives: string[];
 }
 export interface ServiceOfferType {
   bolt: string;
@@ -38,6 +37,12 @@ export interface NavigationType {
   path: string;
   link: string;
 }
+export interface QAType {
+  q: string;
+  a: string;
+}
+
+
 export interface CaseType {
   id: number;
   title: string;
@@ -47,7 +52,21 @@ export interface CaseType {
   result: string;
   summary: string;
 }
-export interface QAType {
-  q: string;
-  a: string;
+
+export interface NewsType {
+  id: number;
+  title: string;
+}
+export interface FetchCaseType{
+  lang: string,
+  data: CaseType[]
+}
+export interface FetchNewsType{
+  lang: string,
+  data: NewsType[]
+}
+
+export interface CasesNewsFetchType {
+  Cases: FetchCaseType[],
+  News: FetchNewsType[]
 }

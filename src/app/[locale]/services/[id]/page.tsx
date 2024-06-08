@@ -1,9 +1,8 @@
 "use client";
 import style from "./servicePage.module.scss";
 import getCorrectNumber from "@/functions/getCorrectNumberOfServices";
-
 import { useEffect, useState } from "react";
-import fetchServ from "@/functions/fetchServ";
+import fetchServices from "@/functions/fetchServices";
 import { ServiceFetshType } from "@/global";
 import TopBlocks from "@/components/services/servicePage/TopBlocks";
 import ResultBlock from "@/components/services/servicePage/ResultBlock";
@@ -19,7 +18,7 @@ export default function ServicePage({
   const { locale } = params;
 
   useEffect(() => {
-    fetchServ().then((data) => {
+    fetchServices().then((data) => {
       if (!data) {
         setData([]), setLoading(true);
       }

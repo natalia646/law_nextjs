@@ -4,9 +4,13 @@ import { useTranslations } from "next-intl";
 import { CaseType } from "@/global";
 import Image from "next/image";
 
-export default function CaseDescription({ sCase }: { sCase: CaseType }) {
+export default function CaseDescription({
+  concretCase,
+}: {
+  concretCase: CaseType;
+}) {
   const t = useTranslations("CasePage");
-  const { id, client, task, decision, result, summary } = sCase;
+  const { id, client, task, decision, result, summary } = concretCase;
 
   return (
     <div className={style.wrapper}>
