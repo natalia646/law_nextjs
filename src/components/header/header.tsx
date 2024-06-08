@@ -14,7 +14,7 @@ export default function Header() {
     <header className={styled.header}>
       <Navigation navigation={navigation} />
       <Link href={`/contacts`} className={styled.button}>
-        {t("ContactPage")}
+        {t("ContactPage.connect")}
       </Link>
       <LangSwitcher />
     </header>
