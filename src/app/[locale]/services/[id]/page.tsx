@@ -1,7 +1,6 @@
 "use client";
 import style from "./servicePage.module.scss";
 import getCorrectNumber from "@/functions/getCorrectNumberOfServices";
-
 import { useEffect, useState } from "react";
 import fetchServ from "@/functions/fetchServ";
 import { ServiceFetshType } from "@/global";
