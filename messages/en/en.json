@@ -96,7 +96,8 @@
             "phone": "Phone number",
             "service": "Select service",
             "message": "Message",
-            "message-placeholder": "Please enter your message here..."
+            "message-placeholder": "Please enter your message here...",
+            "other": "Other"
         }
     },
     "TeamPage": {

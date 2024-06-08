@@ -43,7 +43,9 @@ export default function Form({ locale }: { locale: string }) {
             {item.title}
           </option>
         ))}
-        <option value="other">{t("form.other")}</option>
+        <option key={services.length} value="other">
+          {t("form.other")}
+        </option>
       </select>
 
       <label htmlFor="message">{t("form.message")}:</label>
