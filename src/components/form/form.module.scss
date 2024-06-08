@@ -1,0 +1,38 @@
+.form {
+  width: 35%;
+  margin: 3% 3% 3% auto;
+  background-color: var(--white-color);
+  box-shadow: 2px 2px 8px rgba(97, 96, 97, 0.621);
+  padding: 2%;
+  border-radius: 1%;
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 12px 0;
+    display: inline-block;
+    border-radius: 0.5rem;
+    border: 2px solid #e5edff;
+  }
+  textarea {
+    height: 150px;
+  }
+  label {
+    font-weight: 500;
+  }
+  .button {
+    width: 40%;
+    padding: 14px 20px;
+    background-color: var(--dark-blue);
+    color: var(--white-color);
+    border-radius: 0;
+    margin-right: 1%;
+
+    &:active {
+      transform: scale(0.9);
+      background-color: #0a3f63;
+    }
+  }
+}
