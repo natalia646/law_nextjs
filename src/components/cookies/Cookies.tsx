@@ -22,6 +22,7 @@ export default function Cookies() {
         width={30}
         height={30}
         onClick={() => setCkick(false)}
+        className={style.close}
       ></Image>
     </div>
   );
