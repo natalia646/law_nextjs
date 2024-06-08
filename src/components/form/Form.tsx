@@ -16,22 +16,26 @@ export default function Form({ locale }: { locale: string }) {
       <input
         type="text"
         name="name"
+        id="name"
         required
-        placeholder="John Carter|"
+        placeholder="John Carter"
+      
       ></input>
 
       <label htmlFor="email">Email:</label>
       <input
         type="email"
         name="email"
+        id="email"
         required
         placeholder="example@email.com"
       ></input>
 
-      <label htmlFor="number">{t("form.phone")}:</label>
+      <label htmlFor="phone">{t("form.phone")}:</label>
       <input
         type="tel"
         name="phone"
+        id="phone"
         required
         placeholder="(123) 456 - 789"
       ></input>
@@ -43,7 +47,7 @@ export default function Form({ locale }: { locale: string }) {
             {item.title}
           </option>
         ))}
-        <option key={services.length} value="other">
+        <option key={services.length}  value="other">
           {t("form.other")}
         </option>
       </select>
@@ -60,6 +64,7 @@ export default function Form({ locale }: { locale: string }) {
         type="submit"
         value={t("connect")}
         className={style.button}
+        id="submit"
       ></input>
 
       <input

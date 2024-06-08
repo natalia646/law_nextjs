@@ -17,7 +17,7 @@ export default function LangSwitcher() {
   };
 
   return (
-   <label>
+   <label htmlFor="language">
       <select
         id="language"
         defaultValue={localActive}
