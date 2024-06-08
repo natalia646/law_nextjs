@@ -1,0 +1,21 @@
+.container{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(212, 226, 247, 0.962);
+    display: flex;
+    max-width: 500px;
+    z-index: 1;
+    p{
+        color: var(--black-color);
+        margin: 2%;
+    }
+    img{
+        margin: auto;
+    }
+    .close{
+        margin: 0 2% auto 2%;
+    }
+}
+.none{
+    display: none;
+}

@@ -9,7 +9,7 @@ export default function ResultBlock({
   result: ServiceOfferType[];
 }) {
   const t = useTranslations("ServicePage");
-  if (!result) {
+  if (result.length === 0) {
     return <></>;
   }
   return (

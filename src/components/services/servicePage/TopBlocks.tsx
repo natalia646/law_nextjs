@@ -2,7 +2,7 @@ import { ServiceOfferType } from "@/global";
 import style from "./topBlocks.module.scss";
 
 export default function TopBlocks({ offer }: { offer: ServiceOfferType[] }) {
-  if (!offer) {
+  if (offer.length === 0) {
     return <></>;
   }
 

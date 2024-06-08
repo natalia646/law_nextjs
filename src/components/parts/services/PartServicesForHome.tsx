@@ -21,7 +21,7 @@ export default function PartServicesForHome() {
         <ServiceScreen />
         <Link href={`/services`} className={styleLink.block}>
           <div className={styleLink.arrow}></div>
-          <p className={styled.link}>{t("all-services")}</p>
+          <p className={styleLink.link}>{t("all-services")}</p>
         </Link>
       </section>
     </article>

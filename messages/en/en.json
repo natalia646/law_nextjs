@@ -52,20 +52,20 @@
     },
     "Questions": [
         {
-            "q": "Які послуги ви надаєте для IT стартапів ?",
-            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+            "q": "Can you be helpful for entrepreneurs?",
+            "a": "Yes, we can be helpful to entrepreneurs by providing legal support, deal support, interest protection, HR services, business reorganization support, real estate assistance, tax disputes, IT project support, financial modeling, market research, and startup support. More details can be found in the \"Services\" section or by contacting us."
         },
         {
-            "q": "Які послуги ви надаєте для IT стартапів ?",
-            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+            "q": "What services do you provide for IT startups?",
+            "a": "We provide support to IT startups with services such as \"IT project support\" as well as other services like \"Contract development and support: including agreements with partners and clients\", \"Company registration: opening bank accounts\", and many other services which can be found in the \"Services\" section or by contacting us."
         },
         {
-            "q": "Які послуги ви надаєте для IT стартапів ?",
-            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+            "q": "Is it possible to engage your specialists in our project in outstaff mode?",
+            "a": "Yes, we have the capability to provide our clients' projects with qualified project managers, financial analysts, and managers."
         },
         {
-            "q": "Які послуги ви надаєте для IT стартапів ?",
-            "a": "Ми надаємо підтримку IT стартапам з такими послугами як “Супровід IT проектів” а також інші послуги, такі як"
+            "q": "Could you conduct a full audit of our project and provide recommendations on what can be improved to increase our profits?",
+            "a": "Yes, after reviewing your project documentation and communicating with your team, we will provide a report with audit results and a list of suggestions that can improve project outcomes."
         }
     ],
     "HomePage": {
@@ -102,7 +102,6 @@
         "networks": "Networks",
         "certificates": "Certificates",
         "our-team": "Our team"
-
     },
     "CasePage": {
         "client": "Client",
@@ -116,11 +115,12 @@
     },
     "CertificatesPage": {
         "our": "Our achievements",
-        "certificates":"Certificates",
-        "link" : "View all"
+        "certificates": "Certificates",
+        "link": "View all"
     },
     "ServicePage": {
         "result": "Forming the result",
         "receives": "The client receives"
-    }
+    },
+    "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms."
 }

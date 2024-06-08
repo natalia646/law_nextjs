@@ -5,6 +5,7 @@ import "../../app/globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import ContactsPage from "./contacts/page";
+import Cookies from "@/components/cookies/Cookies";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function LocaleLayout({
         <Header />
         <main>
           <NextIntlClientProvider messages={messages}>
+            <Cookies/>
             {children}
           </NextIntlClientProvider>
         </main>
