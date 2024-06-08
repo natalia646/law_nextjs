@@ -7,6 +7,7 @@ import { ServiceFetshType } from "@/global";
 import TopBlocks from "@/components/services/servicePage/TopBlocks";
 import ResultBlock from "@/components/services/servicePage/ResultBlock";
 import ClientReceivesBlock from "@/components/services/servicePage/ClientReceivesBlock";
+import Sceleton from "@/components/services/servicePage/Sceleton";
 
 export default function ServicePage({
   params,
@@ -27,7 +28,7 @@ export default function ServicePage({
   }, []);
 
   if (loading) {
-    return <p>Louding</p>;
+    return <Sceleton />;
   }
 
   const correctLocal = data.find((item) => item.lang === locale);
