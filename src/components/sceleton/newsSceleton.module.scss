@@ -1,21 +1,36 @@
 .container {
   width: 95%;
-  margin: 4% auto;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4%;
+  grid-template-columns: 3fr 1fr;
+  gap: 5%;
   section {
-    max-width: 630px;
-    width: 100%;
-    min-height: 326px;
     background-color: rgba(158, 158, 158, 0.149);
+    width: 100%;
+    // margin: 3%;
+  }
+
+  .section1 {
+    grid-area: 1 / 1 / 2 / 3;
+    max-width: 1400px;
+    min-height: 150px;
+  }
+  .section2 {
+    grid-area: 2 / 1 / 4 / 2;
+    max-width: 840px;
+    min-height: 450px;
+    background-position: left;
+  }
+  .section3 {
+    margin-top: 2%;
+    grid-area: 2 / 2 / 3 / 3;
+    max-width: 300px;
+    min-height: 450px;
+    background-position: right;
   }
 }
 @media (max-width: 580px) {
   .container {
-    grid-template-columns:1fr;
-    section{
-        min-height: 260px;
-    }
+    grid-template-columns: 1fr;
   }
 }

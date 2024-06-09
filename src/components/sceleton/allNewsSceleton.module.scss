@@ -1,0 +1,21 @@
+.container {
+  width: 95%;
+  margin: 4% auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4%;
+  section {
+    max-width: 630px;
+    width: 100%;
+    min-height: 326px;
+    background-color: rgba(158, 158, 158, 0.149);
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    grid-template-columns:1fr;
+    section{
+        min-height: 260px;
+    }
+  }
+}

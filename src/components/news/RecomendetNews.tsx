@@ -13,12 +13,11 @@ export default function RecomendetNews({
   const randomNews = data[id];
 
   return (
-    
-      <Link href={`/news/${id}`} className={style.link}>
-        <div className={style.container}>
-          <Image src={randomNews.img} alt="news" width={256} height={240}></Image>
-          <p>{randomNews.title}</p>
-        </div>
-      </Link>
+    <Link href={`/news/${id}`} className={style.link}>
+      <div className={style.container}>
+        <Image src={randomNews.img} alt="news" width={256} height={240}></Image>
+        <p>{randomNews.title}</p>
+      </div>
+    </Link>
   );
 }

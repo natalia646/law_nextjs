@@ -5,7 +5,7 @@ import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
 import { CasesNewsFetchType } from "@/global";
 import News from "@/components/news/News";
 import style from './newsPage.module.scss'
-import NewsSceleton from "@/components/sceleton/NewsSceleton";
+import NewsSceleton from "@/components/sceleton/AllNewsSceleton";
 
 
 export default function NewsPage({ params }: { params: { locale: string } }) {

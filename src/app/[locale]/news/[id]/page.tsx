@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
 import { CasesNewsFetchType } from "@/global";
 import RecomendetNews from "@/components/news/RecomendetNews";
+import NewsSceleton from "@/components/sceleton/NewsSceleton";
 
 export default function NewsPage({
   params,
@@ -27,7 +28,7 @@ export default function NewsPage({
   }, []);
 
   if (loading) {
-    return <p>Louding</p>;
+    return <NewsSceleton />;
   }
   if (!data) {
     return [];
