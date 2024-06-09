@@ -27,11 +27,25 @@
   font-weight: 600;
   margin-bottom: 1%;
 }
-.desc{
+.desc {
   margin-bottom: 3%;
 }
-@media (max-width:768px) {
-  .text{
-    font-size: 1rem;
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 0.875rem;
   }
+  .wrapper {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  
+  .wrapper {
+    grid-template-columns:  1fr;
+    gap: 1%;
+  }
+  // .aside{
+  //   display: flex;
+  // }
 }

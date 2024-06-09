@@ -2,7 +2,7 @@
   max-width: 305px;
   width: 100%;
   height: auto;
-  min-height: 458px;
+  min-height: 358px;
   background-color: var(--white-color);
   box-shadow: 2px 2px 8px rgba(125, 124, 127, 0.621);
   margin: 5% 0;
@@ -22,10 +22,24 @@
 .link {
   text-decoration: none;
 }
-@media (max-width:768px) {
-  .container{
-    p{
+@media (max-width: 768px) {
+  .container {
+    p {
       font-size: 1.25rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-height: 278px;
+    max-width: 580px;
+    img {
+      max-width: 580px;
+    }
+    p {
+      font-size: 1rem;
+      margin: auto;
     }
   }
 }
