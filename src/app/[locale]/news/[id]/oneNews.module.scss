@@ -1,0 +1,37 @@
+.container {
+  width: 95%;
+  margin: auto;
+
+  h2 {
+    margin: 3% 0;
+  }
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10%;
+}
+.image {
+  max-width: 847px;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  margin-bottom: 5%;
+  object-fit: cover;
+}
+
+.text {
+  font-size: 1.25rem;
+}
+.bolt {
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.desc{
+  margin-bottom: 3%;
+}
+@media (max-width:768px) {
+  .text{
+    font-size: 1rem;
+  }
+}
