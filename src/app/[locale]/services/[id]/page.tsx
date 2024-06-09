@@ -28,7 +28,7 @@ export default function ServicePage({
   }, []);
 
   if (loading) {
-    return <Sceleton />;
+    return <p>Louding...</p>;
   }
 
   const correctLocal = data.find((item) => item.lang === locale);
