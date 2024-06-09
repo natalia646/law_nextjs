@@ -1,0 +1,31 @@
+.container {
+  max-width: 305px;
+  width: 100%;
+  height: auto;
+  min-height: 458px;
+  background-color: var(--white-color);
+  box-shadow: 2px 2px 8px rgba(125, 124, 127, 0.621);
+  margin: 5% 0;
+  img {
+    width: 100%;
+    object-fit: cover;
+    padding: 3%;
+    max-width: 316px;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    margin: 3% 2%;
+  }
+}
+.link {
+  text-decoration: none;
+}
+@media (max-width:768px) {
+  .container{
+    p{
+      font-size: 1.25rem;
+    }
+  }
+}
