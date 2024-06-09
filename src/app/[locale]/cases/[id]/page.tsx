@@ -26,7 +26,7 @@ export default function CasePage({
   }, []);
 
   if (loading) {
-    return <p>Louding</p>;
+    return  <DescTopPart title={''} />;
   }
   if (!data[0]) {
     return {};

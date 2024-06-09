@@ -2,6 +2,7 @@ import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import style from "./descTopPart.module.scss";
 import Image from "next/image";
+import CaseSceleton from "../sceleton/CaseSceleton";
 
 export default function DescTopPart({ title }: { title: string }) {
 
@@ -10,7 +11,7 @@ export default function DescTopPart({ title }: { title: string }) {
   return (
     <section className={style.container}>
       <div>
-        <h2>{title}</h2>
+        {title? <h2>{title}</h2> : <CaseSceleton/>}
         <p>{t("desc1")}</p>
         <p>{t("desc2")}</p>
         <Link href="/cases" className={style.link}>
