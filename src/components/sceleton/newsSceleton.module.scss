@@ -5,9 +5,9 @@
   grid-template-columns: 3fr 1fr;
   gap: 5%;
   section {
-    background-color: rgba(158, 158, 158, 0.149);
+    background-color: var(--sceleton-color);
     width: 100%;
-    // margin: 3%;
+   
   }
 
   .section1 {
