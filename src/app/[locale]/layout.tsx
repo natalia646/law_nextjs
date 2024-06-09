@@ -7,6 +7,7 @@ import Footer from "@/components/footer/Footer";
 import ContactsPage from "./contacts/page";
 import Cookies from "@/components/cookies/Cookies";
 import Form from "@/components/form/Form";
+import Contacts from "@/components/form/Contacts";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,7 +38,8 @@ export default function LocaleLayout({
             {children}
           </NextIntlClientProvider>
         </main>
-        <Form locale = {locale}/>
+        {/* <Form locale = {locale}/> */}
+        <Contacts locale = {locale}/>
         <Footer />
       </body>
     </html>

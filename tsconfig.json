@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/[locale]/services/page.tsx", "src/app/[locale]/services/page.tsx", "src/components/googleMap/GoogleMap.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/[locale]/services/page.tsx", "src/app/[locale]/services/page.tsx", "src/components/form/GoogleMap.tsx"],
   "exclude": ["node_modules"]
 }
