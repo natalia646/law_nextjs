@@ -11,10 +11,10 @@
 }
 .image {
   max-width: 212px;
-  // width: 100%;
+  width: 100%;
   width: auto;
-  height: auto;
   margin-right: 1rem;
+  object-fit: cover;
 }
 .h4 {
   display: inline-block;
@@ -43,7 +43,7 @@
   }
   .image {
     max-width: 100%;
-    object-fit: cover;
+    // object-fit: cover;
     object-position: top;
     margin: auto;
   }
