@@ -5,6 +5,7 @@ import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
 import { CasesNewsFetchType } from "@/global";
 import News from "@/components/news/News";
 import style from './newsPage.module.scss'
+import NewsSceleton from "@/components/sceleton/NewsSceleton";
 
 
 export default function NewsPage({ params }: { params: { locale: string } }) {
@@ -24,7 +25,7 @@ export default function NewsPage({ params }: { params: { locale: string } }) {
   }, []);
 
   if (loading) {
-    return <p>Louding</p>;
+    return <NewsSceleton/>;
   }
   if (!data) {
     return [];
