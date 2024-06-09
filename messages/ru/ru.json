@@ -132,5 +132,11 @@
         "result": "Оформление результата",
         "receives": "Клиент получает"
     },
-    "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms."
+    "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms.",
+    "ThankPage": {
+        "thanks": "Спасибо за заполнение формы!",
+        "desc1": "Ваши данные успешно отправлены. Мы свяжемся с вами в ближайшее время для дальнейшей обработки вашего запроса.",
+        "desc2": "Если у вас есть дополнительные вопросы или вам нужна немедленная помощь, пожалуйста, свяжитесь с нашей службой поддержки по телефону [ваш номер телефона] или отправьте электронное письмо на",
+        "back": "Вернуться на главную страницу"
+    }
 }
