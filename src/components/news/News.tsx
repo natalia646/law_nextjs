@@ -1,8 +1,17 @@
 import { Link } from "@/navigation";
-import style from '../cases/case.module.scss';
+import style from "../cases/case.module.scss";
 import Image from "next/image";
+import { ImageLoaderProps } from "next/image";
 
-export default function News({ id, title,img }: { id: number; title: string , img: string}) {
+export default function News({
+  id,
+  title,
+  img,
+}: {
+  id: number;
+  title: string;
+  img: string;
+}) {
   return (
     <Link href={`/news/${id}`} className={style.block}>
       <span className={style.wrapper}>

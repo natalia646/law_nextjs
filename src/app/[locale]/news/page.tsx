@@ -6,11 +6,13 @@ import { CasesNewsFetchType } from "@/global";
 import News from "@/components/news/News";
 import style from './newsPage.module.scss'
 
+
 export default function NewsPage({ params }: { params: { locale: string } }) {
   const { locale } = params;
 
   const [data, setData] = useState<CasesNewsFetchType[]>([]);
   const [loading, setLoading] = useState(true);
+ 
 
   useEffect(() => {
     fetchCaseAndNews().then((data) => {
