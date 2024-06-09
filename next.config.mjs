@@ -1,10 +1,14 @@
-import createNextIntlPlugin from 'next-intl/plugin';
- 
+import createNextIntlPlugin from "next-intl/plugin";
+
 const withNextIntl = createNextIntlPlugin();
- 
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
+  reactStrictMode: true,
+
+  images: {
+    domains: ["i.ibb.co"],
+  },
 };
- 
+
 export default withNextIntl(nextConfig);
