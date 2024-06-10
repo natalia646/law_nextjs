@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
+import Contacts from "./Contacts";
 
 export default function Form({ locale }: { locale: string }) {
   const t = useTranslations("ContactPage");
@@ -8,6 +9,7 @@ export default function Form({ locale }: { locale: string }) {
 
   return (
     <section className={style.container}>
+      <Contacts/>
       <form
         action="https://formsubmit.co/tedalini.cy@gmail.com"
         method="POST"
