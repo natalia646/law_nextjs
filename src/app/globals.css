@@ -23,7 +23,7 @@ main {
   --blue: #286ac6;
   --black-color: #000;
   --backgr-color: #f5f8ff;
-  --sceleton-color: rgba(182, 182, 182, 0.101);
+  --sceleton-color: rgba(172, 172, 172, 0.068);
 }
 h1 {
   font-size: 4vw;
