@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@googlemaps/js-api-loader": "^1.16.6",
     "@types/google.maps": "^3.55.9",
     "axios": "^1.7.2",
