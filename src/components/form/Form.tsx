@@ -2,10 +2,20 @@ import { useTranslations } from "next-intl";
 import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
 import Contacts from "./Contacts";
+import axios from "axios";
 
 export default function Form({ locale }: { locale: string }) {
   const t = useTranslations("ContactPage");
   const services = getServicesList();
+
+  axios.defaults.headers.post['Content-Type'] = 'application/json';
+  axios.post('https://formsubmit.co/ajax/tedalini.cy@gmail.com', {
+      name: "Tedalini",
+      message: "I'm"
+  })
+      .then(response => console.log(response.status))
+      .catch(error => console.log(error));
+
 
   return (
     <section className={style.container}>
@@ -73,8 +83,7 @@ export default function Form({ locale }: { locale: string }) {
         <input
           type="hidden"
           name="_next"
-          // http://localhost:3000/uk/thanks
-          value={`http://tedalini.com/${locale}/thanks`}
+          value={`https://tedalini.com/${locale}/thanks`}
         ></input>
         <input type="hidden" name="_captcha" value="false"></input>
         <input type="hidden" name="_template" value="table"></input>
