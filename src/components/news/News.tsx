@@ -1,7 +1,7 @@
 import { Link } from "@/navigation";
 import style from "../cases/case.module.scss";
 import Image from "next/image";
-import { ImageLoaderProps } from "next/image";
+
 
 export default function News({
   id,
