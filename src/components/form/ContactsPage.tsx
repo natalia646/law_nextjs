@@ -1,5 +1,5 @@
 import Contacts from "./Contacts";
-import Form from "./Form";
+import Form from './FormResevd'
 import style from "./contacts.module.scss";
 
 export default function ContactsPage() {

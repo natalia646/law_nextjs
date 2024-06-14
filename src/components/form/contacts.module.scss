@@ -1,6 +1,7 @@
 .container_page {
   background-color: var(--backgr-color);
   display: flex;
+  
 
   @media (max-width: 580px) {
     flex-direction: column-reverse;
