@@ -13,7 +13,7 @@ export default function Footer() {
       <div className={style.wrapper}>
         <section>
           <p className={style.title}>{t("contacts")}</p>
-          <p className={style.email}>tedalini.cy@gmail.com</p>
+          <p className={style.email}>info@tedalini.com</p>
           <p>+357 99 964 508</p>
           <p>+357 25 108 384</p>
           <p>
@@ -57,7 +57,7 @@ export default function Footer() {
           ></Image>
         </Link>
         <p className={style.copiright}>
-          Copyright © 2023 BRIX Templates 
+          TEDALINI CINSALTING LTD © 2024
         </p>
       </section>
     </footer>

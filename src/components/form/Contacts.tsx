@@ -10,7 +10,7 @@ export default function Contacts() {
     <div className={style.container}>
       <h2>{t("Header.contacts")}</h2>
       <section>
-        <p className={style.email}>tedalini.cy@gmail.com</p>
+        <p className={style.email}>info@tedalini.com</p>
         <p>+357 99 964 508</p>
         <p>+357 25 108 384</p>
         <p>
