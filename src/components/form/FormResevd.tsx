@@ -1,9 +1,27 @@
 "use client";
-
+import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
-import Contacts from "./Contacts";
+import { sendEmail } from "@/actions"
+import { useEffect } from "react"
+import { useFormState } from "react-dom"
 
 export default function Form() {
+  const services = getServicesList();
+
+  const [sendEmailState, sendEmailAction] = useFormState(sendEmail, {
+    error: null,
+    success: false
+  })
+  useEffect(() => {
+    if (sendEmailState.success) {
+      alert("Email sent!")
+    }
+    if (sendEmailState.error) {
+      alert("Error sending email!")
+    }
+  }, [sendEmailState])
+
+
   return (
     <form className={style.form}>
       <label htmlFor="name">Name:</label>
@@ -33,7 +51,7 @@ export default function Form() {
         placeholder="(123) 456 - 789"
       ></input>
 
-      {/* <label htmlFor="action">Select service:</label>
+     <label htmlFor="action">Select service:</label>
       <select id="action" name="action" required>
           {services.map((item) => (
             <option value={item.title} key={item.id}>
@@ -43,7 +61,7 @@ export default function Form() {
           <option key={services.length} value="other">
             Other
           </option>
-        </select> */}
+        </select>
 
       <label htmlFor="message">Message:</label>
       <textarea
