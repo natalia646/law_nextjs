@@ -8,13 +8,13 @@ export default function Form({ locale }: { locale: string }) {
   const t = useTranslations("ContactPage");
   const services = getServicesList();
 
-  axios.defaults.headers.post['Content-Type'] = 'application/json';
-  axios.post('https://formsubmit.co/ajax/tedalini.cy@gmail.com', {
-      name: "Tedalini",
-      message: "I'm"
-  })
-      .then(response => console.log(response.status))
-      .catch(error => console.log(error));
+  // axios.defaults.headers.post['Content-Type'] = 'application/json';
+  // axios.post('https://formsubmit.co/ajax/tedalini.cy@gmail.com', {
+  //     name: "Tedalini",
+  //     message: "I'm"
+  // })
+  //     .then(response => console.log(response.status))
+  //     .catch(error => console.log(error));
 
 
   return (

@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Cookies from "@/components/cookies/Cookies";
 import Form from "@/components/form/Form";
-
+import ButtonTop from "@/components/buttonTop/ButtonTop";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,9 +35,10 @@ export default function LocaleLayout({
           <NextIntlClientProvider messages={messages}>
             <Cookies />
             {children}
+            <ButtonTop />
           </NextIntlClientProvider>
         </main>
-        <Form locale = {locale}/>
+        <Form locale={locale} />
         <Footer />
       </body>
     </html>

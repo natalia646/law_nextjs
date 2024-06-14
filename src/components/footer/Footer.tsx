@@ -52,11 +52,12 @@ export default function Footer() {
             alt="tedalini_logo"
             width={235}
             height={32}
+            quality={90}
+            className={style.logo}
           ></Image>
         </Link>
         <p className={style.copiright}>
-          Copyright © 2023 BRIX Templates | All Rights Reserved | Terms and
-          Conditions | Privacy Policy
+          Copyright © 2023 BRIX Templates 
         </p>
       </section>
     </footer>

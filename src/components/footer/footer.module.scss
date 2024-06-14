@@ -50,6 +50,11 @@
   color: rgba(242, 242, 242, 0.72);
   font-size: 0.875;
 }
+.logo{
+  max-width: 235px;
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 1024px) {
   .container {
     section {

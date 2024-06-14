@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { MemberType, NetworsType } from "@/global";
-import CopyClick from "../copyClick/CopyClick";
+import CopyClick from "../showWhatsapp/CopyClick";
 
 interface Props {
   item: MemberType;
