@@ -1,4 +1,4 @@
-.container_page {
+.container {
   background-color: var(--backgr-color);
   display: flex;
   
@@ -8,7 +8,7 @@
   }
 }
 
-.container {
+.wrapper {
   margin: 4% 7%;
   h2 {
     margin: 5% 0;
