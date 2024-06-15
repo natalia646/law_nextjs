@@ -15,6 +15,7 @@ const EmailTemplate = ({
   return (
     <div>
       <h1>{name}, Thank you for filling out the form! We will contact you soon!</h1>
+      <p><b>We will contact you soon!</b></p>
       <p>Here are the details of your submitted form:</p>
       <p>Name: {name}</p>
       <p>Email: {email}</p>
