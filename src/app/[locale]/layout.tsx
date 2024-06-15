@@ -5,9 +5,9 @@ import "../../app/globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Cookies from "@/components/cookies/Cookies";
-import Form from "@/components/form/Form";
 import ButtonTop from "@/components/buttonTop/ButtonTop";
 import ContactsPage from "@/components/form/ContactsPage";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +31,7 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className={inter.className}>
       <body>
+        <Toaster position="bottom-right" toastOptions={{duration: 3000}} />
         <Header />
         <main>
           <NextIntlClientProvider messages={messages}>
