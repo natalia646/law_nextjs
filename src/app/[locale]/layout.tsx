@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Cookies from "@/components/cookies/Cookies";
 import ButtonTop from "@/components/buttonTop/ButtonTop";
-import ContactsPage from "@/components/form/ContactsPage";
+import Contacts from "@/components/form/Contacts";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({
@@ -31,14 +31,14 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className={inter.className}>
       <body>
-        <Toaster position="bottom-right" toastOptions={{duration: 3000}} />
+        <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
         <Header />
         <main>
           <NextIntlClientProvider messages={messages}>
             <Cookies />
             {children}
             <ButtonTop />
-            <ContactsPage />
+            <Contacts />
           </NextIntlClientProvider>
         </main>
         <Footer />
