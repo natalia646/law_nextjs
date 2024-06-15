@@ -9,7 +9,7 @@ export default function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [action, setAction] = useState("");
+  const [action, setAction] = useState(services[0]?.title);
   const [message, setMessage] = useState("");
   const [isSending, setIsSending] = useState<boolean>(false);
 
