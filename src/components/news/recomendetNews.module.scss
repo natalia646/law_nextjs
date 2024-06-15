@@ -5,7 +5,7 @@
   min-height: 358px;
   background-color: var(--white-color);
   box-shadow: 2px 2px 8px rgba(125, 124, 127, 0.621);
-  margin: 5% 0;
+  margin: 2rem 0;
   img {
     width: 100%;
     object-fit: cover;
@@ -16,12 +16,14 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--dark-blue);
-    margin: 3% 2%;
+    padding: 3%;
   }
 }
 .link {
   text-decoration: none;
+  margin-bottom: 2rem;
 }
+
 @media (max-width: 768px) {
   .container {
     p {
@@ -30,8 +32,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 580px) {
   .container {
+    margin-bottom: 5rem;
     min-height: 278px;
     max-width: 580px;
     img {
@@ -39,7 +42,7 @@
     }
     p {
       font-size: 1rem;
-      margin: auto;
+     
     }
   }
 }
