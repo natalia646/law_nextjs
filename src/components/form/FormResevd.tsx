@@ -1,29 +1,52 @@
 "use client";
 import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
-import { sendEmail } from "@/actions"
-import { useEffect } from "react"
-import { useFormState } from "react-dom"
+import { FormEvent, useState } from "react";
+import { toast } from "react-hot-toast";
 
 export default function Form() {
   const services = getServicesList();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [action, setAction] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSending, setIsSending] = useState<boolean>(false);
 
-  const [sendEmailState, sendEmailAction] = useFormState(sendEmail, {
-    error: null,
-    success: false
-  })
-  useEffect(() => {
-    if (sendEmailState.success) {
-      alert("Email sent!")
-    }
-    if (sendEmailState.error) {
-      alert("Error sending email!")
-    }
-  }, [sendEmailState])
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
+    try {
+      setIsSending(true);
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          phone,
+          email,
+          action,
+          message,
+        }),
+      });
+      if (response.ok) {
+        toast.success("Email Sent Successfully!");
+        
+      } else {
+        toast.error("There was a problem sending email. Pls try again!");
+      }
+    } catch (error) {
+      console.log("Error sending email:", error);
+      toast.error("There was a problem sending email. Pls try again!");
+    } finally {
+      setIsSending(false);
+    }
+  };
 
   return (
-    <form className={style.form}>
+    <form className={style.form} onSubmit={handleSubmit}>
       <label htmlFor="name">Name:</label>
       <input
         type="text"
@@ -31,6 +54,10 @@ export default function Form() {
         id="name"
         required
         placeholder="John Carter"
+        value={name}
+        onChange={(e) => {
+          setName(e.target.value);
+        }}
       ></input>
 
       <label htmlFor="email">Email:</label>
@@ -40,6 +67,10 @@ export default function Form() {
         id="email"
         required
         placeholder="example@email.com"
+        value={email}
+        onChange={(e) => {
+          setEmail(e.target.value);
+        }}
       ></input>
 
       <label htmlFor="phone">Phone number:</label>
@@ -49,25 +80,41 @@ export default function Form() {
         id="phone"
         required
         placeholder="(123) 456 - 789"
+        value={phone}
+        onChange={(e) => {
+          setPhone(e.target.value);
+        }}
       ></input>
 
-     <label htmlFor="action">Select service:</label>
-      <select id="action" name="action" required>
-          {services.map((item) => (
-            <option value={item.title} key={item.id}>
-              {item.title}
-            </option>
-          ))}
-          <option key={services.length} value="other">
-            Other
+      <label htmlFor="action">Select service:</label>
+      <select
+        id="action"
+        name="action"
+        required
+        value={action}
+        onChange={(e) => {
+          setAction(e.target.value);
+        }}
+      >
+        {services.map((item) => (
+          <option value={item.title} key={item.id}>
+            {item.title}
           </option>
-        </select>
+        ))}
+        <option key={services.length} value="other">
+          Other
+        </option>
+      </select>
 
       <label htmlFor="message">Message:</label>
       <textarea
         id="message"
         name="message"
         placeholder="Please enter your message here..."
+        value={message}
+        onChange={(e) => {
+          setMessage(e.target.value);
+        }}
       ></textarea>
 
       <label htmlFor="submit"></label>
