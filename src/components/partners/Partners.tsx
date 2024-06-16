@@ -1,14 +1,20 @@
-'use client'
+"use client";
 import style from "./partners.module.scss";
 import Image from "next/image";
 
 export default function Partners() {
-  const partners = ["kta.svg", "rm.svg", "fin-serv.svg", "exalty.svg"];
+  const partners = [
+    "kta.svg",
+    "rm.svg",
+    "fin-serv.svg",
+    "exalty.svg",
+    "gospl.svg",
+  ];
 
   return (
     <div className={style.container}>
       {partners.map((partner, i) => (
-            <Image
+        <Image
           src={`/icons/logo/${partner}`}
           alt="partner"
           width={94}
