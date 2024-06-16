@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Tedalini Consalting LTD",
   description: "Support: from business idea to full implementation",
+  verification: {
+    google: process.env.GOOGLE_VERIFICATION
+  }
 };
 
 export default function LocaleLayout({
