@@ -71,7 +71,8 @@
     "HomePage": {
         "MainScreen": {
             "title": "Make your business better together with us",
-            "description": "Our team focuses on expert assistance in legal matters and project management."
+            "description": "Our team focuses on expert assistance in legal matters and project management",
+            "descBlue": "Support: from business idea to full implementation"
         },
         "OurServices": {
             "title": "Our services",
