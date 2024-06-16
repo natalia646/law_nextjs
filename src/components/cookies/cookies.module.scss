@@ -22,11 +22,3 @@
 .none{
     display: none;
 }
-@media (max-width: 357px) {
-    .container{
-        flex-wrap: wrap-reverse;
-       p{
-        font-size: .8rem;
-       }
-    }
-}
