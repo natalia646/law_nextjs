@@ -134,10 +134,10 @@
         "receives": "The client receives"
     },
     "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms.",
-    "ThankPage": {
-        "thanks": "Thank you for filling out the form!",
-        "desc1": "Your data has been successfully sent. We will contact you soon to further process your request.",
-        "desc2": "If you have any additional questions or need immediate assistance, please contact our support service at +357 99 964 508 or send an email to",
-        "back": "Return to the main page"
+    "MetaData": {
+        "MainPage": {
+         "title":"Qualified legal assistance for business",
+         "description": ""
+        }
     }
 }
