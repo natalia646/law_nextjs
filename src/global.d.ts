@@ -45,6 +45,7 @@ export interface QAType {
 export interface CaseType {
   id: number;
   title: string;
+  img: string;
   client: string;
   task: string;
   decision: string;
@@ -71,9 +72,4 @@ export interface FetchCaseType {
 export interface FetchNewsType {
   lang: string;
   data: NewsType[];
-}
-
-export interface CasesNewsFetchType {
-  Cases: FetchCaseType[];
-  News: FetchNewsType[];
 }
