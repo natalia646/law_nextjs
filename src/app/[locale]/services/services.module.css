@@ -17,6 +17,6 @@
 }
 @media (max-width: 580px) {
     .links {
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     }
   }
