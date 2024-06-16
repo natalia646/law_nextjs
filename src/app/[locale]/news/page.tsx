@@ -1,22 +1,19 @@
 "use client";
-
 import { useEffect, useState } from "react";
-import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
-import { CasesNewsFetchType } from "@/global";
+import fetchNews from "@/functions/fetchNews";
+import { FetchNewsType } from "@/global";
 import News from "@/components/news/News";
-import style from './newsPage.module.scss'
+import style from "./newsPage.module.scss";
 import NewsSceleton from "@/components/sceleton/AllNewsSceleton";
-
 
 export default function NewsPage({ params }: { params: { locale: string } }) {
   const { locale } = params;
 
-  const [data, setData] = useState<CasesNewsFetchType[]>([]);
+  const [data, setData] = useState<FetchNewsType[]>([]);
   const [loading, setLoading] = useState(true);
- 
 
   useEffect(() => {
-    fetchCaseAndNews().then((data) => {
+    fetchNews().then((data) => {
       if (!data) {
         setData([]), setLoading(true);
       }
@@ -25,25 +22,22 @@ export default function NewsPage({ params }: { params: { locale: string } }) {
   }, []);
 
   if (loading) {
-    return <NewsSceleton/>;
+    return <NewsSceleton />;
   }
   if (!data) {
     return [];
   }
-  const newsList = data[1].News;
-  const correctLocal = newsList.find((item) => item.lang === locale);
+  const correctLocal = data.find((item) => item.lang === locale);
 
   if (!correctLocal?.data) {
     return "Loading";
   }
   const concretNews = correctLocal?.data;
 
-
-
   return (
     <div className={style.container}>
       {concretNews.map((item) => (
-        <News id={item.id} title={item.title} key={item.id} img = {item.img}/>
+        <News id={item.id} title={item.title} key={item.id} img={item.img} />
       ))}
     </div>
   );

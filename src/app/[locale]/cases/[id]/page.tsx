@@ -2,8 +2,8 @@
 import CaseDescription from "@/components/cases/CaseDescription";
 import DescTopPart from "@/components/cases/DescTopPart";
 import { useEffect, useState } from "react";
-import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
-import { CasesNewsFetchType} from "@/global";
+import fetchCases from "@/functions/fetchCases";
+import { FetchCaseType} from "@/global";
 
 export default function CasePage({
   params,
@@ -13,11 +13,11 @@ export default function CasePage({
   const { id } = params;
   const { locale } = params;
 
-  const [data, setData] = useState<CasesNewsFetchType[]>([]);
+  const [data, setData] = useState<FetchCaseType[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchCaseAndNews().then((data) => {
+    fetchCases().then((data) => {
       if (!data) {
         setData([]), setLoading(true);
       }
@@ -28,11 +28,11 @@ export default function CasePage({
   if (loading) {
     return  <DescTopPart title={''} />;
   }
-  if (!data[0]) {
+  if (!data) {
     return {};
   }
-  const caseList = data[0].Cases;
-  const correctLocal = caseList.find((item) => item.lang === locale);
+
+  const correctLocal = data.find((item) => item.lang === locale);
 
   if (!correctLocal?.data) {
     return "Loading";
