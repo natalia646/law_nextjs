@@ -4,10 +4,12 @@
     background-color: rgba(212, 226, 247, 0.962);
     display: flex;
     max-width: 500px;
+    width: 100%;
     z-index: 3;
     p{
         color: var(--black-color);
         margin: 2%;
+        flex-grow: 1
     }
     img{
         margin: auto;
@@ -19,4 +21,12 @@
 }
 .none{
     display: none;
+}
+@media (max-width: 357px) {
+    .container{
+        flex-wrap: wrap-reverse;
+       p{
+        font-size: .8rem;
+       }
+    }
 }
