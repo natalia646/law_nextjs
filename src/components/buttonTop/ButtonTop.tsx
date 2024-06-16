@@ -12,8 +12,8 @@ export default function ButtonTop() {
           borderRadius: "50%",
           backgroundColor: "#083554",
           boxShadow: '1px 1px 8px white',
-          width: '3.5%',
-          height: '7%'
+          width: '3.5rem',
+          height: '3.5rem'
         }}
       />
     </>
