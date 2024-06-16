@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     const { data, error } = await resend.emails.send({
       from: `Tedalini <info@tedalini.com>`, 
       to: email,
-      subject: "For Tedalini Message",
+      subject: "Tedalini Consalting LTD",
       react: EmailTemplate({ name, email, phone, action, message })
     });
 
