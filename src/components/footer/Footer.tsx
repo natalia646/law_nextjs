@@ -50,9 +50,9 @@ export default function Footer() {
           <Image
             src={"/icons/logo/tedalini-white.svg"}
             alt="tedalini_logo"
-            width={235}
-            height={32}
-            quality={90}
+            width={265}
+            height={52}
+            quality={99}
             className={style.logo}
           ></Image>
         </Link>
