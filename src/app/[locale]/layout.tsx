@@ -11,14 +11,16 @@ import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 import Head from "next/head";
 
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
 
+
 export const metadata: Metadata = {
-  title: "Tedalini Consalting LTD",
-  description: "Support: from business idea to full implementation",
+  title: "TEDALINI - кваліфікована юридична допомога для бізнесу",
+  description: "Надійний юридичний партнер вашого бізнесу. Пропонуємо комплексний спектр правової допомоги, включаючи: розробку та укладення договорів, міжнародний юридичний супровід, корпоративний консалтинг, захист інтересів ✔️ Отримайте консультацію вже сьогодні",
   verification: {
     google: process.env.GOOGLE_VERIFICATION,
   },
@@ -53,7 +55,6 @@ export default function LocaleLayout({
           }}
         />
       </Head>
-
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-H3XE7VK0Z3"
         strategy="afterInteractive"

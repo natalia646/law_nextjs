@@ -17,7 +17,7 @@ export default function HomePage() {
       <Bloks />
       <PartServicesForHome />
       <Partners />
-      <Questions/>
+      <Questions />
     </>
   );
 }
