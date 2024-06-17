@@ -18,11 +18,28 @@ const inter = Inter({
   display: "swap",
 });
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
+export const metaData: Metadata = {
+  applicationName: "Tedalini Consalting LTD",
+  verification: {
+    google: process.env.GOOGLE_VERIFICATION,
+  },
+  icons: "/icons/logo/tedalini.svg",
+  openGraph: {
+    type: "website",
+    url: "https://tedalini.com",
+    title: "Tedalini Consalting LTD",
+    description:
+      "A reliable legal partner for your business. We offer a comprehensive range of legal assistance, including contract development and execution, international legal support, corporate consulting, and interest protection. ✔️ Get a consultation today",
+    siteName: "TEDALINI",
+    images: [
+      {
+        url: "/icons/logo/tedalini.svg",
+      },
+    ],
+  },
+};
+
+export async function generateMetadata(): Promise<Metadata> {
   const messages = await getMessages();
   if (!Array.isArray(messages.MetaData)) {
     return {};
@@ -38,24 +55,6 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
-    applicationName: "Tedalini Consalting LTD",
-    verification: {
-      google: process.env.GOOGLE_VERIFICATION,
-    },
-    icons: "/icons/logo/tedalini.svg",
-    openGraph: {
-      type: "website",
-      url: "https://tedalini.com",
-      title: "Tedalini Consalting LTD",
-      description:
-        "A reliable legal partner for your business. We offer a comprehensive range of legal assistance, including contract development and execution, international legal support, corporate consulting, and interest protection. ✔️ Get a consultation today",
-      siteName: "TEDALINI",
-      images: [
-        {
-          url: "/icons/logo/tedalini.svg",
-        },
-      ],
-    }
   };
 }
 
