@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metaData: Metadata = {
-  applicationName: "Tedalini Consalting LTD",
+  applicationName: "Tedalini Consulting LTD",
   verification: {
     google: process.env.GOOGLE_VERIFICATION,
   },
@@ -27,7 +27,7 @@ export const metaData: Metadata = {
   openGraph: {
     type: "website",
     url: "https://tedalini.com",
-    title: "Tedalini Consalting LTD",
+    title: "Tedalini Consulting LTD",
     description:
       "A reliable legal partner for your business. We offer a comprehensive range of legal assistance, including contract development and execution, international legal support, corporate consulting, and interest protection. ✔️ Get a consultation today",
     siteName: "TEDALINI",
@@ -49,7 +49,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
   if (!meta?.title) {
     return {
-      title: "Tedalini Consalting LTD",
+      title: "Tedalini Consulting LTD",
     };
   }
   return {

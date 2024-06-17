@@ -57,7 +57,7 @@ export default function Footer() {
           ></Image>
         </Link> */}
         <p className={style.copiright}>
-          TEDALINI CONSALTING LTD © 2024
+          TEDALINI CONSULTING LTD © 2024
         </p>
       </section>
     </footer>

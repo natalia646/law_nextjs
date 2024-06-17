@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   
     if (!meta?.title) {
       return {
-        title: "Tedalini Consalting LTD",
+        title: "Tedalini Consulting LTD",
       };
     }
     return {
