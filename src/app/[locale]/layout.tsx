@@ -10,21 +10,39 @@ import Contacts from "@/components/form/Contacts";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 import Head from "next/head";
-
+import { getMessages } from "next-intl/server";
+import { MetaDataType } from "@/global";
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const messages = await getMessages();
+  if (!Array.isArray(messages.MetaData)) {
+    return {};
+  }
+  const metaData: MetaDataType[] = messages.MetaData;
+  const meta = metaData.find((item) => item.page === 'home');
 
-export const metadata: Metadata = {
-  title: "Tedalini Consalting LTD",
-  description: "Надійний юридичний партнер вашого бізнесу. Пропонуємо комплексний спектр правової допомоги, включаючи: розробку та укладення договорів, міжнародний юридичний супровід, корпоративний консалтинг, захист інтересів ✔️ Отримайте консультацію вже сьогодні",
-  verification: {
-    google: process.env.GOOGLE_VERIFICATION,
-  },
-};
+  if (!meta?.title) {
+    return {
+      title: "Tedalini Consalting LTD",
+    };
+  }
+  return {
+    title: meta.title,
+    description: meta.description,
+    verification: {
+      google: process.env.GOOGLE_VERIFICATION,
+    },
+  };
+}
 
 export default function LocaleLayout({
   children,
