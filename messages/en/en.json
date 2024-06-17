@@ -31,7 +31,7 @@
     "Bloks": [
         {
             "title": "Legal services",
-            "description": "Оffer new approach to business development"
+            "description": "Legal support for your business"
         },
         {
             "title": "Contracts",
@@ -80,7 +80,7 @@
             "all-services": "All services"
         },
         "DetailsPart": {
-            "title": "An innovative company that promotes business development",
+            "title": "An innovative company that offers new approach to business development",
             "description": "To find an individual approach to each client, our company has brought together specialists who are narrowly specialized in the fields of law and business.",
             "details": "More details"
         }
@@ -134,10 +134,36 @@
         "receives": "The client receives"
     },
     "CookiesMessage": "Our website uses cookies to improve security and ensure the proper functioning of some features. By continuing to use our site, you agree to these terms.",
-    "MetaData": {
-        "MainPage": {
-         "title":"Qualified legal assistance for business",
-         "description": ""
+    "MetaData": [
+        {
+            "page": "home",
+            "title": "Qualified Legal Assistance for Business",
+            "description": "A reliable legal partner for your business. We offer a comprehensive range of legal assistance, including contract development and execution, international legal support, corporate consulting, and interest protection. ✔️ Get a consultation today."
+        },
+        {
+            "page": "about",
+            "title": "Leading Law Firm TEDALINI - Your Trusted Partner in Legal Matters",
+            "description": "TEDALINI is an innovative team of specialists providing a wide range of services in the field of law and business. We offer individual solutions for each client, ensuring professionalism. Learn more about our team of experts and how we can help your business."
+        },
+        {
+            "page": "contacts",
+            "title": "Contact TEDALINI CONSULTING LTD",
+            "description": "Tedalini is located at Avlidos St. 4, Mesa Geitonia, 4002, Limassol, Cyprus. Contact us by phone at +357 99 964 508 or +357 25 108 384, or email us at info@tedalini.com."
+        },
+        {
+            "page": "services",
+            "title": "Legal Services | TEDALINI",
+            "description": "Explore Tedalini's services: IT consulting, tax disputes, support, business process automation, and other solutions for your business. Experienced professionals, personalized approach, and modern technologies for the successful development of your company."
+        },
+        {
+            "page": "cases",
+            "title": "Successful Cases | TEDALINI - Experience and Results",
+            "description": "Learn about Tedalini's successful cases: from resolving complex legal disputes to protecting clients' interests in court. Real examples of our work that have helped clients achieve justice and success. Professional approach and effective solutions."
+        },
+        {
+            "page": "news",
+            "title": "Latest Legal News | TEDALINI",
+            "description": "Stay up to date with the latest legal news from Tedalini: current updates, analytics, expert opinions, and events in the field of law. Learn about new laws, court precedents, and useful advice from our lawyers now."
         }
-    }
+    ]
 }
