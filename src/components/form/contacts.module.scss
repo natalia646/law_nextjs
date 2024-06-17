@@ -1,7 +1,10 @@
 .container {
-  background-color: var(--backgr-color);
+
+  background-image: url("/icons/map.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
   display: flex;
-  
 
   @media (max-width: 580px) {
     flex-direction: column-reverse;
