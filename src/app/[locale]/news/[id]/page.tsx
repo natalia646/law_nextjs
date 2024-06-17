@@ -2,8 +2,8 @@
 import Image from "next/image";
 import style from "./oneNews.module.scss";
 import { useEffect, useState } from "react";
-import fetchCaseAndNews from "@/functions/fetchCasesAndNews";
-import { CasesNewsFetchType } from "@/global";
+import fetchNews from "@/functions/fetchNews";
+import { FetchNewsType } from "@/global";
 import RecomendetNews from "@/components/news/RecomendetNews";
 import NewsSceleton from "@/components/sceleton/NewsSceleton";
 
@@ -15,11 +15,11 @@ export default function NewsPage({
   const { id } = params;
   const { locale } = params;
 
-  const [data, setData] = useState<CasesNewsFetchType[]>([]);
+  const [data, setData] = useState<FetchNewsType[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchCaseAndNews().then((data) => {
+    fetchNews().then((data) => {
       if (!data) {
         setData([]), setLoading(true);
       }
@@ -33,8 +33,8 @@ export default function NewsPage({
   if (!data) {
     return [];
   }
-  const newsList = data[1].News;
-  const correctLocal = newsList.find((item) => item.lang === locale);
+
+  const correctLocal = data.find((item) => item.lang === locale);
 
   if (!correctLocal?.data) {
     return "Loading";
