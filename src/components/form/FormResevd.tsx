@@ -3,6 +3,7 @@ import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
 import { FormEvent, useState } from "react";
 import { toast } from "react-hot-toast";
+import getLabel from "./getLabel";
 
 export default function Form() {
   const services = getServicesList();
@@ -47,7 +48,7 @@ export default function Form() {
 
   return (
     <form className={style.form} onSubmit={handleSubmit}>
-      <label htmlFor="name">Name:</label>
+      <label htmlFor="name">{getLabel('name')}:</label>
       <input
         type="text"
         name="name"
@@ -73,7 +74,7 @@ export default function Form() {
         }}
       ></input>
 
-      <label htmlFor="phone">Phone number:</label>
+      <label htmlFor="phone">{getLabel('phone')}:</label>
       <input
         type="tel"
         name="phone"
@@ -86,7 +87,7 @@ export default function Form() {
         }}
       ></input>
 
-      <label htmlFor="action">Select service:</label>
+      <label htmlFor="action">{getLabel('service')}:</label>
       <select
         id="action"
         name="action"
@@ -102,15 +103,15 @@ export default function Form() {
           </option>
         ))}
         <option key={services.length} value="other">
-          Other
+        {getLabel('other')}
         </option>
       </select>
 
-      <label htmlFor="message">Message:</label>
+      <label htmlFor="message">{getLabel('message')}:</label>
       <textarea
         id="message"
         name="message"
-        placeholder="Please enter your message here..."
+        placeholder={getLabel('message-placeholder')}
         value={message}
         onChange={(e) => {
           setMessage(e.target.value);
@@ -120,7 +121,7 @@ export default function Form() {
       <label htmlFor="submit"></label>
       <input
         type="submit"
-        value="Send"
+        value={getLabel('connect')}
         className={style.button}
         id="submit"
       ></input>

@@ -92,13 +92,14 @@
     },
     "ContactPage": {
         "connect": "Contact",
-        "form": {
+        "form": { 
             "name": "Name",
             "phone": "Phone number",
             "service": "Select service",
             "message": "Message",
             "message-placeholder": "Please enter your message here...",
-            "other": "Other"
+            "other": "Other",
+            "connect": "Contact"
         }
     },
     "TeamPage": {
