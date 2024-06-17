@@ -73,3 +73,8 @@ export interface FetchNewsType {
   lang: string;
   data: NewsType[];
 }
+export interface MetaDataType{
+  page: string
+  title: string
+  description: string
+}
