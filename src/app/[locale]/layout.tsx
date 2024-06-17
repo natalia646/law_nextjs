@@ -11,16 +11,30 @@ import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 import Head from "next/head";
 
-
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
 
+// export async function generateMetadata({
+//   params,
+// }: {
+//   params: { id: number };
+// }): Promise<Metadata> {
+//   const messages = await getMessages();
+//   const { id } = params;
+//   if (!Array.isArray(messages.Services)) {
+//     return {};
+//   }
+//   const servicesList: ServiceType[] = messages.Services;
+  
+//   return {
+//     title: "Tedalini - " +  servicesList[id].title,
+//     description: servicesList[id].title,
+//   };
+// }
 
 export const metadata: Metadata = {
-  title: "TEDALINI - кваліфікована юридична допомога для бізнесу",
-  description: "Надійний юридичний партнер вашого бізнесу. Пропонуємо комплексний спектр правової допомоги, включаючи: розробку та укладення договорів, міжнародний юридичний супровід, корпоративний консалтинг, захист інтересів ✔️ Отримайте консультацію вже сьогодні",
   verification: {
     google: process.env.GOOGLE_VERIFICATION,
   },
