@@ -28,7 +28,7 @@ export async function generateMetadata({
     return {};
   }
   const metaData: MetaDataType[] = messages.MetaData;
-  const meta = metaData.find((item) => item.page === 'home');
+  const meta = metaData.find((item) => item.page === "home");
 
   if (!meta?.title) {
     return {
@@ -38,9 +38,24 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
+    applicationName: "Tedalini Consalting LTD",
     verification: {
       google: process.env.GOOGLE_VERIFICATION,
     },
+    icons: "/icons/logo/tedalini.svg",
+    openGraph: {
+      type: "website",
+      url: "https://tedalini.com",
+      title: "Tedalini Consalting LTD",
+      description:
+        "A reliable legal partner for your business. We offer a comprehensive range of legal assistance, including contract development and execution, international legal support, corporate consulting, and interest protection. ✔️ Get a consultation today",
+      siteName: "TEDALINI",
+      images: [
+        {
+          url: "/icons/logo/tedalini.svg",
+        },
+      ],
+    }
   };
 }
 
