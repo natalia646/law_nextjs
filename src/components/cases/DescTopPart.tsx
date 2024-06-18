@@ -19,7 +19,7 @@ export default function DescTopPart({ title }: { title: string }) {
         </Link>
       </div>
       <Image
-        src={"/cases/main-fon.webp"}
+        src={"/images/case-fon.webp"}
         alt="fon"
         width={455}
         height={611}
