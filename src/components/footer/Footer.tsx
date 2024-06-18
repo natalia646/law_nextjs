@@ -46,16 +46,6 @@ export default function Footer() {
         </section>
       </div>
       <section className={style.bottom_wrraper}>
-        {/* <Link href={`/`}>
-          <Image
-            src={"/icons/logo/tedalini-white.svg"}
-            alt="tedalini_logo"
-            width={265}
-            height={52}
-            quality={99}
-            className={style.logo}
-          ></Image>
-        </Link> */}
         <p className={style.copiright}>
           TEDALINI CONSULTING LTD © 2024
         </p>
