@@ -2,19 +2,16 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5%;
-  margin: 5% auto 10% auto;
+  margin: 5% auto;
 }
 .block {
-  display: flex;
-  flex-direction: column;
   background-color: var(--white-color);
   box-shadow: 0px 16px 46px 0px rgba(179, 179, 184, 0.527);
   max-width: 500px;
   width: 100%;
   min-height: 178px;
-
+  height: auto;
   padding: 6% 4%;
-  // margin: 0 auto;
 
   .bolt {
     color: var(--dark-blue);
@@ -62,10 +59,10 @@
   }
   .block {
     .bolt {
-      font-size: 0.8rem;
+      font-size: 0.975rem;
     }
     p {
-      font-size: 0.7rem;
+      font-size: 0.875rem;
       overflow: hidden;
       text-overflow: ellipsis;
     }

@@ -14,7 +14,7 @@ export default function ResultBlock({
   }
   return (
     <>
-      <h2>{t("result")}</h2>
+      <h2 style={{marginTop: '5rem'}}>{t("result")}</h2>
       <section className={style.container}>
         <Image
           src={"/icons/servise-page.svg"}
