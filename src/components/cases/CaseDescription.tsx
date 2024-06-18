@@ -10,13 +10,13 @@ export default function CaseDescription({
   concretCase: CaseType;
 }) {
   const t = useTranslations("CasePage");
-  const { id, client, task, decision, result, summary } = concretCase;
+  const { id, client, task, decision, result, summary, img } = concretCase;
 
   return (
     <div className={style.wrapper}>
       <span>
         <Image
-          src={`/cases/case${id}.webp`}
+          src={img}
           alt="case"
           width={433}
           height={541}
