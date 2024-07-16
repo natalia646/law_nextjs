@@ -3,8 +3,8 @@ import { useTranslations } from "next-intl";
 import style from "./contacts.module.scss";
 import { Link } from "@/navigation";
 import Image from "next/image";
-// import Form from "./FormResevd";
-import Form from './Form'
+import Form from "./FormResevd";
+// import Form from './Form'
 
 export default function Contacts() {
   const t = useTranslations();
