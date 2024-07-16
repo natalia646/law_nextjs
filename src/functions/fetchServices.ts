@@ -1,6 +1,6 @@
 async function getData() {
   const res = await fetch(
-    "https://64ca66e8700d50e3c704da5c.mockapi.io/api/va/services", {
+    "https://64ca66e8700d50e3c704da5c.mockapi.io/api/va/serv", {
       cache: 'force-cache'
     }
   );

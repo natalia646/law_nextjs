@@ -4,6 +4,7 @@ import style from "./contacts.module.scss";
 import { Link } from "@/navigation";
 import Image from "next/image";
 import Form from "./FormResevd";
+// import Form from './Form'
 
 export default function Contacts() {
   const t = useTranslations();
@@ -11,7 +12,7 @@ export default function Contacts() {
     <section className={style.container}>
       <div className={style.wrapper}>
         <h2>{t("Header.contacts")}</h2>
-        <section>
+        <address>
           <p className={style.email}>info@tedalini.com</p>
           <p>+357 99 964 508</p>
           <p>+357 25 108 384</p>
@@ -28,7 +29,7 @@ export default function Contacts() {
               height={30}
             ></Image>
           </Link>
-        </section>
+        </address>
       </div>
       <Form/>
     </section>

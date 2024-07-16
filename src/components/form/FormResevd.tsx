@@ -34,6 +34,10 @@ export default function Form() {
       });
       if (response.ok) {
         toast.success("Email Sent Successfully!");
+        setName(''),
+        setEmail(''),
+        setPhone(''),
+        setMessage('')
         
       } else {
         toast.error("There was a problem sending email. Pls try again!");

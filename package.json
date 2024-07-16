@@ -12,6 +12,8 @@
     "@emailjs/browser": "^4.3.3",
     "@react-email/components": "^0.0.19",
     "@react-email/render": "^0.0.15",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "axios": "^1.7.2",
     "next": "^14.2.2",
     "next-intl": "^3.11.1",
     "react": "^18",
