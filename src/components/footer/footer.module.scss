@@ -12,18 +12,21 @@
   border-bottom: 0.6px solid rgba(255, 255, 255, 0.32);
 
   .link,
+  a,
   p {
     color: var(--white-color);
     margin-bottom: 0.5rem;
     font-size: 0.875rem;
     font-weight: 400;
     text-decoration: none;
+    display: block;
   }
 
-  .title {
+  h2 {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: white;
   }
 }
 
