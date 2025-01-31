@@ -1,12 +1,25 @@
-[DEMO](https://www.tedalini.com/en)
+# Tedalini Consalting LTD
 
-Technologies: Next.js, Typescript, React Router, next-intl, CSS modules, SCSS,  fetch API;
+Deployment: [Tedalini](https://www.tedalini.com/en)
 
-Description: 
- - Developed a web application using Next.js and TypeScript, ensuring high performance and code safety.
- - Employed semantic HTML to improve accessibility and SEO of the website.
- - Created styles using CSS Modules for isolated and maintainable component styles.
- - Applied CSS and JavaScript animations to enhance the visual appearance and user interaction of the interface.
- - Used the fetch API for asynchronous data fetching from the server, allowing dynamic content updates on the site.
- - Implemented multilingual support using the next-intl library, broadening the user audience.
- - Managed the entire site deployment process, including purchasing and setting up a VPS server, installing necessary software, and configuring the server environment. 
+## Project Description
+** **
+
+### Main Pages:
+- **Home Page**: .
+- **Contacts**: A page with contact information.
+
+## Technologies Used
+
+### Core Stack
+
+- **Next.js**: For building components and rendering.
+
+### Additional Libraries
+
+- **i18next**: For multilingual support.
+- **Axios**: For API interactions.
+
+### Development Tools
+
+- **TypeScript**: For type safety.
