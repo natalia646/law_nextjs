@@ -27,7 +27,7 @@
 
 ### Additional Libraries
 
-- **i18next**: For multilingual support.
+- **next-intl**: For multilingual support.
 - **Email.js**: For contact form functionality.
 - **Resend**: For sending transactional emails via API, often used for notifications, confirmations, and automated emails.
 - **Scaleton**: For loading content.
