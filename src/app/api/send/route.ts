@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: `Tedalini <info@tedalini.com>`, 
+      from: `Tedalini <info@tedalini.com>`,
       to: email,
       subject: "Tedalini Consulting LTD",
       react: EmailTemplate({ name, email, phone, action, message })
@@ -36,3 +36,5 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
+

@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tedalini Consalting LTD
 
-## Getting Started
+### Deployment: [Tedalini](https://www.tedalini.com/en)
+### Dising: [Figma](https://www.figma.com/design/xVosLDk5LGhzgIWs8IVfZ0/%D0%A0%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%83?node-id=2-2&p=f&t=IyJThKcq1U6UN7pG-0)
 
-First, run the development server:
+## Project Description
+** Commercial project for a client, developed in collaboration with a project manager (PM), SEO specialist, and designerIt describes the client's company, his team, qualification, services that his company gives, news in that field and cases that the company done**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Main Pages:
+- **Home Page**: A page with main information and links to other pages;
+- **About Page**: A page with information about the company and team;
+- **Certificates Page**: A page with certificates;
+- **Team Page**: A page describes the entire team;
+- **Member of team Page**: A dynamic page for each team member;
+- **News Page**: A page with news in that field;
+- **News Article Page**: A dynamic page for a specific news article;
+- **Services Page**: A page with a list of all services the company provides;
+- **Service Page**: A dynamic page for a specific service with conditional rendering blocks;
+- **Cases Page**: A page with all the company's cases;
+- **Case Page**: A dynamic page for a specific case;
+- **Contacts**: A page with contact information;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+### Core Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: For building components and rendering.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Additional Libraries
 
-## Learn More
+- **next-intl**: For multilingual support.
+- **Email.js**: For contact form functionality.
+- **Resend**: For sending transactional emails via API, often used for notifications, confirmations, and automated emails.
+- **Scaleton**: For loading content.
+- **React Content Loader**: Skeleton loader for better UX.
+- **React scroll to top**: A floating button to quickly scroll back to the top of the page.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development Tools
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **TypeScript**: For type safety.
