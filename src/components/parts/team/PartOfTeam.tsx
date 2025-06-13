@@ -7,7 +7,6 @@ import styleLink from './partOfTeam.module.scss'
 
 export default function PartOfTeam() {
   const team = getMembersList();
-  const [m1, m2, m3, m4] = team;
   const t = useTranslations("TeamPage");
   return (
     <article className={style.container}>
@@ -19,7 +18,7 @@ export default function PartOfTeam() {
             {t("view-all") + " >"}
           </Link>
         </div>
-        {[m1, m2, m3, m4].map((item) => (
+        {team.map((item) => (
           <MemberOfTeam item={item} key={item.id} />
         ))}
       </div>

@@ -59,23 +59,6 @@
                 "linetsky_3.webp",
                 "linetsky_4.webp"
             ]
-        },
-        {
-            "id": 3,
-            "name": "Kuznetsov Yevhen",
-            "position": "CEO, Financial Consultant, Lawyer",
-            "description": "Dynamic specialist in law and finance with extensive experience in commercial law, corporate law, and financial services. Proven track record of successfully managing complex financial organizations, developing operational processes, and promoting financial initiatives. Skilled in ensuring compliance with legislation and optimizing financial performance.",
-            "image": "kuznetsov.webp",
-            "networks": [
-                {
-                    "link": "https://t.me/EvgenKuznecov",
-                    "icon": "telegram"
-                }
-            ],
-            "whatsapp": "+380 67 559 0562",
-            "certificates": [
-                "kuznetsov_1.webp"
-            ]
         }
     ]
 }
