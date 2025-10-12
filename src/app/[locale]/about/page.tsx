@@ -11,7 +11,6 @@ export default function AboutPage() {
       <Bloks />
       <PartOfTeam />
       <PartCertificates/>
-   
     </>
   );
 }
