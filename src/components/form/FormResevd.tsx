@@ -46,19 +46,21 @@ export default function Form() {
   });
 
   const onSubmit = async (data: FormValues) => {
-    try {
-      toast("Sending", { customProgressBar: isSubmitting });
-      await fetch("/api/sendMessage", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data }),
-      });
+    const sendPromise = fetch("/api/sendMessage", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    }).then(async (res) => {
+      if (!res.ok) throw new Error("Server error");
       reset();
-      toast("Success sending! We connecto to you soon!");
-    } catch (err) {
-      toast("Cannot sand data. Try again");
-      console.error("Error sending message:", err);
-    }
+      return res.json();
+    });
+
+    toast.promise(sendPromise, {
+      pending: 'Sending...',
+      success: "Success! We’ll contact you soon.",
+      error: "Something went wrong. Please try again.",
+    });
   };
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
