@@ -99,7 +99,8 @@
             "message": "Message",
             "message-placeholder": "Please enter your message here...",
             "other": "Other",
-            "connect": "Contact"
+            "connect": "Contact",
+            "sending": "Sending"
         }
     },
     "TeamPage": {

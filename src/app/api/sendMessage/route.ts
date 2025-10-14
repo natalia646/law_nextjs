@@ -7,8 +7,7 @@ export async function POST(req: Request) {
   const TELEGRAM_ID = process.env.TELEGRAM_ID!;
   const BASE_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
 
-  const telegramMessage = `
-  Name: ${name}
+  const telegramMessage = `Name: ${name}
   Email: ${email}
   Phone: ${phone}
   Service: ${action}
