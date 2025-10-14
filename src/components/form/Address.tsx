@@ -1,5 +1,6 @@
 import { Link } from "@/navigation";
 import Image from "next/image";
+import style from "./contacts.module.scss";
 
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -19,13 +20,22 @@ export const Address = () => {
         <br />
         4002, Limassol, Cyprus
       </p>
-      <Link href={"https://www.linkedin.com/in/tedalini-llc-342775312/"}>
-        <Image
-          src="/icons/networks/linkedin.svg"
-          alt="linkedin"
-          width={30}
-          height={30}></Image>
-      </Link>
+      <div className={style.addres_links}>
+        <Link href={"https://www.linkedin.com/in/tedalini-llc-342775312/"}>
+          <Image
+            src="/icons/networks/linkedin.svg"
+            alt="linkedin"
+            width={30}
+            height={30}></Image>
+        </Link>
+        <Link href={"https://t.me/tedalini"}>
+          <Image
+            src="/icons/networks/telegram.svg"
+            alt="linkedin"
+            width={30}
+            height={30}></Image>
+        </Link>
+      </div>
     </address>
   );
 };
