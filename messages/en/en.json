@@ -92,7 +92,7 @@
     },
     "ContactPage": {
         "connect": "Contact",
-        "form": { 
+        "form": {
             "name": "Name",
             "phone": "Phone number",
             "service": "Select service",
@@ -100,7 +100,9 @@
             "message-placeholder": "Please enter your message here...",
             "other": "Other",
             "connect": "Contact",
-            "sending": "Sending"
+            "pending": "Sending...",
+            "success": "Success! We’ll contact you soon.",
+            "error": "Something went wrong. Please try again."
         }
     },
     "TeamPage": {

@@ -1,21 +1,22 @@
 "use client";
 import getServicesList from "@/functions/getServicesList";
 import style from "./form.module.scss";
-import { FormEvent, useState } from "react";
 import getLabel from "./getLabel";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ToastContainer, toast } from "react-toastify";
+import { useTranslations } from "next-intl";
 
 export default function Form() {
   const services = getServicesList();
+  const t = useTranslations("ContactPage.form");
 
   const formSchema = z.object({
     name: z
       .string()
       .min(2, "Name must contain at least 2 characters")
-      .max(20, "Name is too long")
+      .max(40, "Name is too long")
       .regex(/^[A-Za-zА-Яа-яІіЇїЄєҐґ\s'-]+$/, "Name can contain only letters"),
     email: z.string().email("Invalid email format"),
     phone: z
@@ -57,9 +58,9 @@ export default function Form() {
     });
 
     toast.promise(sendPromise, {
-      pending: 'Sending...',
-      success: "Success! We’ll contact you soon.",
-      error: "Something went wrong. Please try again.",
+      pending: t("pending"),
+      success: t("success"),
+      error: t("error"),
     });
   };
 
@@ -133,9 +134,7 @@ export default function Form() {
         <label htmlFor="submit"></label>
         <input
           type="submit"
-          value={
-            isSubmitting ? getLabel("sending") + "..." : getLabel("connect")
-          }
+          value={isSubmitting ? getLabel("pending") : getLabel("connect")}
           className={style.button}
           id="submit"
           disabled={isSubmitting}
