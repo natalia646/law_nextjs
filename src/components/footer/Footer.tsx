@@ -1,8 +1,8 @@
 import getServicesList from "@/functions/getServicesList";
 import { useTranslations } from "next-intl";
 import style from "./footer.module.scss";
-import { Link } from "@/navigation";
 import {Address} from "../form/Address";
+import { Link } from "@/navigation";
 
 export default function Footer() {
   const services = getServicesList();
