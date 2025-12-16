@@ -29,7 +29,7 @@ export default function Footer() {
       </div>
       <section className={style.bottom_wrraper}>
         <p className={style.copiright}>
-          TEDALINI CONSULTING LTD © 2024
+          TEDALINI CONSULTING LTD © {new Date().getFullYear()}
         </p>
       </section>
     </footer>
