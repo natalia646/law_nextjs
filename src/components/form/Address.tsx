@@ -13,8 +13,6 @@ export const Address = () => {
       <h2>{t("contacts")}</h2>
       <p>info@tedalini.com</p>
       <a href="tel:+357 99 243 024">+357 99 243 024</a>
-      <a href="tel:+357 99 964 508">+357 99 964 508</a>
-      <a href="tel:+357 25 108 384">+357 25 108 384</a>
       <p>
         Avlidos St. 4, Mesa Geitonia,
         <br />
