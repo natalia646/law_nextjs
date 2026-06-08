@@ -12,6 +12,7 @@ import Script from "next/script";
 import Head from "next/head";
 import { getMessages } from "next-intl/server";
 import { MetaDataType } from "@/global";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -120,6 +121,7 @@ export default function LocaleLayout({
           </NextIntlClientProvider>
         </main>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
