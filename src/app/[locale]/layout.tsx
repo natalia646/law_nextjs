@@ -1,6 +1,6 @@
 import Header from "@/components/header/header";
 import { Metadata } from "next";
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import "../../app/globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
@@ -10,7 +10,7 @@ import Contacts from "@/components/form/Contacts";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 import Head from "next/head";
-import { getMessages } from "next-intl/server";
+import { getMessages, unstable_setRequestLocale } from "next-intl/server";
 import { MetaDataType } from "@/global";
 
 const inter = Inter({
@@ -39,7 +39,16 @@ export const metaData: Metadata = {
   },
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "uk" }, { locale: "ru" }];
+}
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  unstable_setRequestLocale(locale);
   const messages = await getMessages();
   if (!Array.isArray(messages.MetaData)) {
     return {};
@@ -58,14 +67,15 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = useMessages();
+  unstable_setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <html lang={locale} className={inter.className}>

@@ -1,10 +1,20 @@
 import getMembersList from "@/functions/getMembersList";
 import style from "./member.module.scss";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 import Certificates from "@/components/certificates/Certificates";
 import MemberDescription from "@/components/team/MemberDescription";
 
-export default function MemberPage({ params }: { params: { id: number } }) {
+export function generateStaticParams() {
+  return [{ id: "0" }, { id: "1" }, { id: "2" }];
+}
+
+export default function MemberPage({
+  params,
+}: {
+  params: { id: number; locale: string };
+}) {
+  unstable_setRequestLocale(params.locale);
   const team = getMembersList();
   const t = useTranslations("MemberPage");
   const { id } = params;
@@ -24,7 +34,7 @@ export default function MemberPage({ params }: { params: { id: number } }) {
           className={style.photo}
         ></section>
         <h2>{t("certificates")}</h2>
-      </div >
+      </div>
 
       <div className={style.certificates}>
         <Certificates certificates={certificates} />

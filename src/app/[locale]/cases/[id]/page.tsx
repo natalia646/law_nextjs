@@ -1,49 +1,20 @@
-"use client";
-import CaseDescription from "@/components/cases/CaseDescription";
-import DescTopPart from "@/components/cases/DescTopPart";
-import { useEffect, useState } from "react";
-import fetchCases from "@/functions/fetchCases";
-import { FetchCaseType} from "@/global";
+import CasePageContent from "./CasePageContent";
+import { unstable_setRequestLocale } from "next-intl/server";
+
+export async function generateStaticParams() {
+  const data = await fetch(
+    "https://666d735d7a3738f7cacc677f.mockapi.io/api/cases",
+    { cache: "force-cache" }
+  ).then((r) => r.json());
+  const count = data[0]?.data?.length ?? 0;
+  return Array.from({ length: count }, (_, i) => ({ id: String(i) }));
+}
 
 export default function CasePage({
   params,
 }: {
   params: { id: number; locale: string };
 }) {
-  const { id } = params;
-  const { locale } = params;
-
-  const [data, setData] = useState<FetchCaseType[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchCases().then((data) => {
-      if (!data) {
-        setData([]), setLoading(true);
-      }
-      setData(data), setLoading(false);
-    });
-  }, []);
-
-  if (loading) {
-    return  <DescTopPart title={''} />;
-  }
-  if (!data) {
-    return {};
-  }
-
-  const correctLocal = data.find((item) => item.lang === locale);
-
-  if (!correctLocal?.data) {
-    return "Loading";
-  }
-  const concretCase = correctLocal?.data[id];
-  const { title } = concretCase;
-
-  return (
-    <article>
-      <DescTopPart title={title} />
-      <CaseDescription concretCase={concretCase} />
-    </article>
-  );
+  unstable_setRequestLocale(params.locale);
+  return <CasePageContent params={params} />;
 }

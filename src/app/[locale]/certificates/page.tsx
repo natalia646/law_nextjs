@@ -2,8 +2,14 @@ import Certificates from "@/components/certificates/Certificates";
 import getMembersList from "@/functions/getMembersList";
 import style from "./certificates.module.css";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function CertificatesPage() {
+export default function CertificatesPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  unstable_setRequestLocale(locale);
   const team = getMembersList();
   const t = useTranslations("CertificatesPage");
   return (

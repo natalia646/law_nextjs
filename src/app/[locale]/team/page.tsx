@@ -2,8 +2,14 @@ import MemberOfTeam from "@/components/team/MemberOfTeam";
 import getMembersList from "../../../functions/getMembersList";
 import style from "./teamPage.module.scss";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function TeamPage() {
+export default function TeamPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  unstable_setRequestLocale(locale);
   const team = getMembersList();
   const t = useTranslations("TeamPage");
   return (
